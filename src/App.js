@@ -7,6 +7,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
+          Hello Yen!! I've succeeded in deploying my React application online!! :D
+        </p>
+        <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
