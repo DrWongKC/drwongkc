@@ -15,4 +15,4 @@ React, Redux, TypeScript, JavaScript & other related front-end technologies.
 
 ~
 
-I'm a mental health advocate, and am also extremely geeky in that I play with lots of consumer technologies in my daily life. 🤓
+I'm a mental health advocate, and am also extremely geeky in that I play with lots of consumer technologies in my daily life.
