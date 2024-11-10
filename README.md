@@ -1,6 +1,6 @@
-Specialises in React.js Front-end Development | Data Science and Artificial Intelligence | CyberSecurity
+React.js Front-end Development | Artificial Intelligence | CyberSecurity
 
-I'm someone with multiple specialisations in web technologies but am looking to focus on front-end and break into Artificial Intelligence.
+I'm someone with multiple specialisations in web technologies but am looking to focus on front-end while breaking into Artificial Intelligence (that could include Data Science).
 
 Aspiration:
 - Front-end Development with React.js, Vue.js, Angular.js
@@ -13,6 +13,6 @@ Mid-level for front-end. Has strong foundation in front-end & back-end.
 Skills:
 React, Redux, TypeScript, JavaScript & other related front-end technologies.
 
-~
+*
 
-I'm a mental health advocate, and am also extremely geeky in that I play with lots of consumer technologies in my daily life.
+I'm a gentle mental health advocate, and am extremely geeky in that I play with lots of consumer technology in my daily life. I'm someone who loves reading and integrating different kinds of (consumer) technology to facilitate my living.
