@@ -1,6 +1,6 @@
 ReactJS Front-end Development | Artificial Intelligence | CyberSecurity | ReactJS HackerRank of 5413
 
-Highest difficulty level solved on hackerRank: Medium, React (Intermediate)
+Highest difficulty level solved on HackerRank: Medium, React (Intermediate)
 
 I'm someone with multiple specialisations in web technology but am looking to focus on front-end while breaking into Artificial Intelligence.
 
