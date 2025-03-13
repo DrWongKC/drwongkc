@@ -1,5 +1,7 @@
 React.js Front-end Development | Artificial Intelligence | CyberSecurity
 
+ReactJS HackerRank rank of 5413.
+
 I'm someone with multiple specialisations in web technology but am looking to focus on front-end while breaking into Artificial Intelligence.
 
 Aspiration (github.com/DrWongKC):
