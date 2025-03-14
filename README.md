@@ -14,5 +14,3 @@ Mid-level for front-end. Has strong foundation in both front-end & back-end.
 
 Skills:
 ReactJS, Ant Design, Material UI, MobX, Redux, TypeScript, JavaScript & other related front-end technologies.
-
-I'm a gentle mental health advocate, and am extremely geeky in that I play with lots of consumer technology in my daily life. I'm also a writer with my own personal pursuit and a voracious reader of any textual medium.
