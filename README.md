@@ -8,8 +8,8 @@ I'm someone with multiple specialisations in web technology but am looking to fo
 
 Aspiration (github.com/DrWongKC):
 - Front-end Development with React.js, Vue.js, Angular.js
-- Machine Learning, Data Analysis, and Deep Learning using Python, R, NumPy, and Pandas
 - Full-stack Development with React.js, Spring, Spring Boot, and MySQL
+- Machine Learning, Data Analysis, and Deep Learning using Python, R, NumPy, and Pandas
 
 Competency: Mid-level for front-end. Has strong foundation in both front-end & back-end.
 
