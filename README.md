@@ -14,3 +14,7 @@ Aspiration (github.com/DrWongKC):
 Competency: Mid-level for front-end. Has strong foundation in both front-end & back-end.
 
 Skills: ReactJS, Ant Design, Material UI, MobX, Redux, TypeScript, JavaScript & other related front-end technologies.
+
+~
+
+Supplementary note: I affirm my HackerRank scores reflect my abilities and were achieved without resorting to any form of cheating or unethical practices.
