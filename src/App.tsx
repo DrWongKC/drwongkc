@@ -1,13 +1,14 @@
 import './App.css'
+import './styles/main.css';
+import './styles/theme-switcher.css';
 
 function App() {
 
   return (
     <>
         <div id="container--main">
-
             <section id="wrapper--hero" className="section--page">
-                <img id="profile-pic" src="./assets/images/profile_pic.png" />
+                <img id="profile-pic" src="./assets/images/kaichong-141.jpg" />
 
                 <div>
                     <h1 id="user-name">Dennis Ivy</h1>
@@ -150,6 +151,7 @@ function App() {
             <div className="theme" id="theme-light" data-theme="light"></div>
             <div className="theme" id="theme-dark" data-theme="dark"></div>
         </div>
+        <script src="js/theme-switcher.js"></script>
         </>
   )
 }
