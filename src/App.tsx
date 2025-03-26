@@ -11,7 +11,7 @@ function App() {
                 <img id="profile-pic" src="./assets/images/kaichong-141.jpg" />
 
                 <div>
-                    <h1 id="user-name">Dennis Ivy</h1>
+                    <h1 id="user-name">Wong, Kai Chong</h1>
                     <p id="bio">Software developer, developer advocate at <a href="https://www.appwrite.io/" target="_blank">Appwrite</a>, Udemy <a href="https://www.udemy.com/user/dennis-ivanov-5/" target="_blank">instructor</a>, <a href="https://www.youtube.com/c/dennisivy" target="_blank">YouTuber</a> and contributor at <a href="https://youtu.be/PtQiiknWUcI?t=6" target="_blank">Traversy Media</a>.</p>
                     <p id="email">👉 dennis@dennisivy.com</p>
                 </div>  
