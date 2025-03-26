@@ -42,7 +42,6 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: #0000EE !important;
 }
 
 li {
@@ -50,7 +49,7 @@ li {
 }
 
 #container--main {
-  max-width: 900px;
+  max-width: 875px;
   margin: 0 auto;
   padding: 1em;
 }
