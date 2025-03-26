@@ -30,13 +30,14 @@ function App() {
 
           <div>
             <h1 id="user-name">Wong Kai Chong (黄恺聪)</h1>
-            <span id="bio">🧑‍💻 Front-end Software Engineer</span>
-            <span> | </span>
+            {/* <span id="bio">🧑‍💻 Front-end Software Engineer</span> */}
+            <span>🧑‍💻 Front-end Software Engineer</span>
+            <span> • </span>
             <span id="email">
-              📧 kai_wong<b>[at]</b>outlook.com
+              📧 kai_wong[at]outlook.com
             </span>
-            <span> | </span>
-            <span>{calculateAge("1995-09-11")}</span>
+            <span> • </span>
+            <span>🎂 {calculateAge("1995-09-11")} years old</span>
           </div>
         </section>
         <section className="section--page">
