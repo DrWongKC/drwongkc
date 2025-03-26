@@ -1,78 +1,35 @@
-import './App.css';
-import { LaptopOutlined, NotificationOutlined, UserOutlined } from '@ant-design/icons';
-import type { MenuProps } from 'antd';
-import { Breadcrumb, Layout, Menu, theme } from 'antd';
-import React from 'react';
-
-const { Header, Content, Sider } = Layout;
-
-const items1: MenuProps['items'] = ['1', '2', '3'].map((key) => ({
-  key,
-  label: `nav ${key}`,
-}));
-
-const items2: MenuProps['items'] = [UserOutlined, LaptopOutlined, NotificationOutlined].map(
-  (icon, index) => {
-    const key = String(index + 1);
-
-    return {
-      key: `sub${key}`,
-      icon: React.createElement(icon),
-      label: `subnav ${key}`,
-
-      children: new Array(4).fill(null).map((_, j) => {
-        const subKey = index * 4 + j + 1;
-        return {
-          key: subKey,
-          label: `option${subKey}`,
-        };
-      }),
-    };
-  },
-);
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
 
 function App() {
-
-  const {
-    token: { colorBgContainer },
-  } = theme.useToken();
+  const [count, setCount] = useState(0)
 
   return (
-    <Layout>
-      <Header style={{ display: 'flex', alignItems: 'center' }}>
-        <div className="demo-logo" />
-        <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['2']} items={items1} />
-      </Header>
-      <Layout>
-        <Sider width={200} style={{ background: colorBgContainer }}>
-          <Menu
-            mode="inline"
-            defaultSelectedKeys={['1']}
-            defaultOpenKeys={['sub1']}
-            style={{ height: '100%', borderRight: 0 }}
-            items={items2}
-          />
-        </Sider>
-        <Layout style={{ padding: '0 24px 24px' }}>
-          <Breadcrumb style={{ margin: '16px 0' }}>
-            <Breadcrumb.Item>Home</Breadcrumb.Item>
-            <Breadcrumb.Item>List</Breadcrumb.Item>
-            <Breadcrumb.Item>App</Breadcrumb.Item>
-          </Breadcrumb>
-          <Content
-            style={{
-              padding: 24,
-              margin: 0,
-              minHeight: 280,
-              background: colorBgContainer,
-            }}
-          >
-            Hello! This page is under progress :)
-          </Content>
-        </Layout>
-      </Layout>
-    </Layout>
-  );
+    <>
+      <div>
+        <a href="https://vite.dev" target="_blank">
+          <img src={viteLogo} className="logo" alt="Vite logo" />
+        </a>
+        <a href="https://react.dev" target="_blank">
+          <img src={reactLogo} className="logo react" alt="React logo" />
+        </a>
+      </div>
+      <h1>Vite + React</h1>
+      <div className="card">
+        <button onClick={() => setCount((count) => count + 1)}>
+          count is {count}
+        </button>
+        <p>
+          Edit <code>src/App.tsx</code> and save to test HMR
+        </p>
+      </div>
+      <p className="read-the-docs">
+        Click on the Vite and React logos to learn more
+      </p>
+    </>
+  )
 }
 
-export default App;
+export default App
