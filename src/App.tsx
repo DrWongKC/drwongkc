@@ -336,14 +336,14 @@ function App() {
             </ul>
           </div>
         </section>
-        <section className="section--page">
+        {/* <section className="section--page">
           <h2>Projects & Accomplishments</h2>
           <div className="card--project">
             <a href="project1.html">
               <span>🏆 </span>*to be filled-in.
             </a>
           </div>
-        </section>
+        </section> */}
       </div>
     </>
   );
