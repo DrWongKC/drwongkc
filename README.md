@@ -1,54 +1,20 @@
-# React + TypeScript + Vite
+ReactJS Front-end Development | Artificial Intelligence | CyberSecurity | ReactJS HackerRank of 3909
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ReactJS HackerRank:
+- Highest difficulty level solved on HackerRank: Medium, React (Advanced), 6/6 Test Passed
+- Highest difficulty level partially solved on HackerRank: Hard, React (Advanced), 3/4 Test Passed
 
-Currently, two official plugins are available:
+I'm someone with multiple specialisations in web technology but am looking to focus on front-end while breaking into Artificial Intelligence.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Aspiration (github.com/DrWongKC):
+- Front-end Development with React.js, Vue.js, Angular.js
+- Full-stack Development with React.js, Spring, Spring Boot, and MySQL
+- Machine Learning, Data Analysis, and Deep Learning using Python, R, NumPy, and Pandas
 
-## Expanding the ESLint configuration
+Competency: Mid-level for front-end. Has strong foundation in both front-end & back-end.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Skills: ReactJS, Ant Design, Material UI, MobX, Redux, TypeScript, JavaScript & other related front-end technologies.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+~
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+Supplementary note: I affirm my HackerRank scores reflect my abilities and were achieved without resorting to any form of cheating or unethical practices.
