@@ -3,6 +3,22 @@ import "./styles/main.css";
 import "./styles/theme-switcher.css";
 
 function App() {
+  const calculateAge = (birthdate: string) => {
+    const today = new Date();
+    const birthDate = new Date(birthdate);
+    let age = today.getFullYear() - birthDate.getFullYear();
+    const monthDifference = today.getMonth() - birthDate.getMonth();
+
+    if (
+      monthDifference < 0 ||
+      (monthDifference === 0 && today.getDate() < birthDate.getDate())
+    ) {
+      age--;
+    }
+
+    return age;
+  };
+
   return (
     <>
       <div id="container--main">
@@ -13,11 +29,14 @@ function App() {
           />
 
           <div>
-            <h1 id="user-name">Kai Chong (黄恺聪) W</h1>
-            <p id="email">
-              👉 kai_wong<b>[at]</b>outlook.com
-            </p>
-            <p id="bio"></p>
+            <h1 id="user-name">Wong Kai Chong (黄恺聪)</h1>
+            <span id="bio">🧑‍💻 Front-end Software Engineer</span>
+            <span> | </span>
+            <span id="email">
+              📧 kai_wong<b>[at]</b>outlook.com
+            </span>
+            <span> | </span>
+            <span>{calculateAge("1995-09-11")}</span>
           </div>
         </section>
         <section className="section--page">
@@ -30,12 +49,12 @@ function App() {
             </a>
             <a href="https://github.com/DrWongKC" target="_blank">
               GitHub
-            </a>            
+            </a>
             <a href="https://homeworkforlife.tumblr.com/" target="_blank">
               Homework for Life
             </a>
             <a href="https://www.instagram.com/drwongkc.y2k/" target="_blank">
-              Instagram (HiFi Hobby)
+              HiFi Hobby
             </a>
           </div>
         </section>
@@ -89,7 +108,7 @@ function App() {
           unethical practices.
         </section>
         <section className="section--page">
-          <h2>Skills & Qualifications</h2>
+          <h2>Summary</h2>
           <ul id="qualifications--list">
             <li>
               ✔️ 5+ Years experience in software engineering from Accenture,
@@ -97,8 +116,8 @@ function App() {
             </li>
             <li>
               ✔️ Global Technology Challenge Event Co-organiser & Photographer,
-              Certified Professional Scrum Master™ I (PSM I) & ex-Cofounder &
-              Project Coordinator of KAI Studio.
+              Certified Professional Scrum Master™ I (PSM I) & former Co-Founder
+              of KAI Studio and Startup Singapore Google+.
             </li>
             <li>
               ✔️ ex-Tech educator in Springdale Primary School, UWCSEA East
@@ -111,7 +130,7 @@ function App() {
           </ul>
         </section>
         <section className="section--page">
-          <h2>Tech Stack</h2>
+          <h2>Specialisations</h2>
 
           <div id="wrapper--techstack__items">
             <div className="card--techstack">
@@ -125,9 +144,6 @@ function App() {
             </div>
             <div className="card--techstack">
               <span>TypeScript, JavaScript</span>
-            </div>
-            <div className="card--techstack">
-              <span>Java, Spring, SpringBoot</span>
             </div>
           </div>
         </section>
