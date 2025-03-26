@@ -8,15 +8,13 @@
     --mainBgColor-light:rgb(249, 250,251);
 }
 
-[data-theme="dark"]{
+/* [data-theme="dark"]{
     --mainTextColor:#fff;
     --secondaryTextColor:#adb0b1;
     --mainLinkColor:rgb(30, 190,214);
     --mainBorderColor:#2b3031;
     --mainBgColor:#131415;
-}
-
-
+} */
 
 *{
     font-family: 'Readex Pro';
