@@ -9,7 +9,7 @@ function App() {
         <section id="wrapper--hero" className="section--page">
           <img
             id="profile-pic"
-            src="https://media.licdn.com/dms/image/v2/D5603AQG4IeSRnteEqQ/profile-displayphoto-shrink_800_800/B56ZVp023dGQAc-/0/1741237219303?e=1748476800&v=beta&t=AQa7Crd7gB3ancKuHWB1hzQY6W1fi4GeREnVDnV8Em4"
+            src="https://scontent.fsin15-1.fna.fbcdn.net/v/t39.30808-6/361924310_10223865922860021_6700395073320067175_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=abBfvgCLRJUQ7kNvgENjI0u&_nc_oc=AdkRnJ-53gUv-37L8TUPSFrsylS0q2-EqIIKbY0wlx700wnKd-X2N0Snsf8WmfAwHEA&_nc_zt=23&_nc_ht=scontent.fsin15-1.fna&_nc_gid=UeK7Fbdx8DOyzNZaBe630w&oh=00_AYGPM6D4lDgtmblfIqrJqjfALaa83d8hUz8G5jqcl_bujA&oe=67E97D6E"
           />
 
           <div>
