@@ -22,7 +22,7 @@ function App() {
         </section>
         <section className="section--page">
           <div id="socials--list">
-            <a href="wa.link/m8rkci" target="_blank">
+            <a href="https://www.wa.link/m8rkci/" target="_blank">
               Contact Me! on WhatsApp
             </a>
             <a href="https://www.linkedin.com/in/kaichongwong/" target="_blank">
