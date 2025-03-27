@@ -1,3 +1,5 @@
+import PhotoGrid from "./PhotoGrid"
+
 const Summary = () => {
   return (
     <section className="summary--page">
@@ -23,6 +25,7 @@ const Summary = () => {
               ✔️ I am proficient in writing, managing projects, and delivering effective presentations.
             </li>
           </ul>
+          <PhotoGrid />
         </section>
   )
 }

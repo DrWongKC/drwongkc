@@ -7,7 +7,7 @@ const WorkHistory = () => {
             <strong>🚧 Software Engineer | Accenture</strong>
             <p>9/2020 - present</p>
             <p>
-              <strong>Responsibilities:</strong>
+              <span>Responsibilities:</span>
               <ul>
                 <li>
                   Engineered highly secure and scalable software features and
@@ -28,7 +28,7 @@ const WorkHistory = () => {
                   roadmaps.
                 </li>
               </ul>
-              <strong>Skills:</strong>
+              <span>Skills:</span>
               <ul>
                 <li>React.js</li>
                 <li>TypeScript</li>
@@ -38,7 +38,7 @@ const WorkHistory = () => {
                 <li>Visual Studio Code</li>
               </ul>
             </p>
-            <strong>[Progress]</strong>
+            <span>[Progress]</span>
             <ul>
               <li>Completed course for React.js on FreeCodeCamp.</li>
               <li>
@@ -50,8 +50,8 @@ const WorkHistory = () => {
                 Edge Computing, Enterprise Platforms, Agile & DevOps, Cloud,
                 Blockchain, Automation, AI, Generative AI, Gen AI 2.0.
               </li>
+              <li>Completed A Cloud Guru's AWS Certified Cloud Practitioner (CLF-C01)</li>
               <li>Completed A Cloud Guru's Introduction to AWS</li>
-              <li>Completed AWS Certified Cloud Practitioner (CLF-C01)</li>
             </ul>
           </div>
           <div className="line-break"></div>

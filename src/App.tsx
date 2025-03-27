@@ -1,11 +1,11 @@
 import "./App.css";
-import Description from "./components/Description";
+import "./styles/main.css";
 import Hero from "./components/Hero";
 import SocialMedia from "./components/SocialMedia";
 import Summary from "./components/Summary";
+import Description from "./components/Description";
 import WorkHistory from "./components/WorkHistory";
-import "./styles/main.css";
-import "./styles/theme-switcher.css";
+import Recommendations from "./components/Recommendations";
 
 function App() {
   return (
@@ -13,9 +13,10 @@ function App() {
       <div id="container--main">
         <Hero />
         <SocialMedia />
-        <Description />
         <Summary />
+        <Description />
         <WorkHistory />
+        <Recommendations />
         {/* <section className="section--page">
           <h2>Projects & Accomplishments</h2>
           <div className="card--project">

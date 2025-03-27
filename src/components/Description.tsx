@@ -21,7 +21,7 @@ const Description = () => {
       to focus on front-end while breaking into Artificial Intelligence.
       <br />
       <br />
-      Aspiration (github.com/DrWongKC):
+      Aspiration (<a href="https://github.com/DrWongKC">github.com/DrWongKC</a>):
       <br />
       <ul>
         <li>Front-end Development with React.js, Vue.js, Angular.js</li>
