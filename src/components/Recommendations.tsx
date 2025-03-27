@@ -71,7 +71,7 @@ const Recommendations = () => {
           </div>
           <div>March 27, 2025</div>
           <i>
-            Norraine is Kai Chong's life companion and should know him best
+            Norraine Grace is Kai Chong's life companion and should know him best
           </i>
           <div>
             <p>
