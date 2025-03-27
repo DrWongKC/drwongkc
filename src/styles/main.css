@@ -112,6 +112,10 @@ li {
   gap: 4em;
 }
 
+#wrapper--footer {
+  text-align: center;
+}
+
 #bio,
 a {
   font-weight: 300;

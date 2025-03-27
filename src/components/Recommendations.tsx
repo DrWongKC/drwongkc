@@ -5,7 +5,7 @@ const Recommendations = () => {
       <p>
         While Britta and Adele offered genuine recommendations, I couldn't
         resist playfully including one from my other half, who should know me
-        best, right? 😄 (recommendations updated: 27th March 2025)
+        best, right? 😆 (recommendations updated: 27th March 2025)
       </p>
       <div className="content">
         <div className="image-box">

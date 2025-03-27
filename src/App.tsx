@@ -6,6 +6,7 @@ import Summary from "./components/Summary";
 import Description from "./components/Description";
 import WorkHistory from "./components/WorkHistory";
 import Recommendations from "./components/Recommendations";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             </a>
           </div>
         </section> */}
+        <Footer />
       </div>
     </>
   );
