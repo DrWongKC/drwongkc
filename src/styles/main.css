@@ -106,7 +106,12 @@ a {
   font-size: 0.9em;
 }
 
-#qualifications--list {
+#social--link {
+  display: flex;
+  align-items: center;
+}
+
+#summary--list {
   list-style: none;
 }
 
