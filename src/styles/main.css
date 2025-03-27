@@ -10,7 +10,7 @@
 
 .content {
   display: flex;
-  width: 100%;
+  width: 92.5%;
   padding: 15px;
   background: #fff;
   border-radius: 12px;
@@ -32,7 +32,7 @@
   border-radius: 12px;
 }
 .content .details {
-  width: 68%;
+  width: 65%;
   margin: 10px 0 20px 20px;
   color: #092c3e;
 }
