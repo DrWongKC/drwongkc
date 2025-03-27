@@ -2,17 +2,30 @@ const Recommendations = () => {
   return (
     <section className="section--page">
       <h2>Recommendations</h2>
-      <p>While Britta and Adele offered genuine recommendations, I couldn't resist playfully including one from my other half, who should know me best, right? 😄 (recommendations updated: 27th March 2025)</p>
+      <p>
+        While Britta and Adele offered genuine recommendations, I couldn't
+        resist playfully including one from my other half, who should know me
+        best, right? 😄 (recommendations updated: 27th March 2025)
+      </p>
       <div className="content">
         <div className="image-box">
           <img src="https://media.licdn.com/dms/image/v2/D5603AQHZwaOLvo7odQ/profile-displayphoto-shrink_800_800/B56ZWmjQiCHoAc-/0/1742256016037?e=1748476800&v=beta&t=xya131CuCiNCcp4pSr6_VnB1AtNStA0YpoqobvZFnbM" />
         </div>
         <div className="details">
-          <div className="name">Britta Mary Oblan</div>
-          <div className="job">Front-end Developer</div>
-          <div>
-            June 28, 2024
+          <div className="name" id="social--link">
+            <img
+              height="30"
+              width="30"
+              src="https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000"
+              alt="LinkedIn"
+            />
+            &nbsp;
+            <a href="https://www.linkedin.com/in/brittaoblan/" target="_blank">
+              Britta Mary Oblan
+            </a>
           </div>
+          <div className="job">Front-end Developer</div>
+          <div>June 28, 2024</div>
           <i>Britta Mary worked with Kai Chong on the same team</i>
           <div>
             <p>
@@ -39,15 +52,24 @@ const Recommendations = () => {
           <img src="https://media.licdn.com/dms/image/v2/D4E03AQES8MhVD0UpuA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1680847559670?e=1748476800&v=beta&t=vJJQDXV6gkFJIEzXrK_8o5tVwPTQ_CWngthCW9E2DS8" />
         </div>
         <div className="details">
-          <div className="name">Adele Valeria</div>
+          <div className="name" id="social--link">
+            <img
+              height="30"
+              width="30"
+              src="https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000"
+              alt="LinkedIn"
+            />
+            &nbsp;
+            <a href="https://www.linkedin.com/in/adelevaleria/" target="_blank">
+              Adele Valeria
+            </a>
+          </div>
           <div className="job">
             Computational Immunology PhD Student at Johns Hopkins Computer
             Science
           </div>
           <div>March 15, 2018</div>
-          <i>
-            Adele worked with Kai Chong on the same team
-          </i>
+          <i>Adele worked with Kai Chong on the same team</i>
           <div>
             <p>
               I worked collaboratively with Kai to develop KAI Studio, a game
@@ -66,17 +88,28 @@ const Recommendations = () => {
           <img src="https://media.licdn.com/dms/image/v2/D5603AQFl4SvxmPZUNw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1694957568753?e=1748476800&v=beta&t=F2MqSm4R7Y8Hg21_svXczatIIAzjzCoQAyJwAYzTteM" />
         </div>
         <div className="details">
-          <div className="name">Norraine Grace N. Diolola</div>
-          <div className="job">Chemical Technician at Treasure Island Industrial Corporation
+          <div className="name" id="social--link">
+            <img
+              height="30"
+              width="30"
+              src="https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000"
+              alt="LinkedIn"
+            />
+            &nbsp;
+            <a href="https://www.linkedin.com/in/norraine-grace-diolola-1b2b92220/" target="_blank">
+              Norraine Grace N. Diolola
+            </a>
+          </div>
+          <div className="job">
+            Chemical Technician at Treasure Island Industrial Corporation
           </div>
           <div>March 27, 2025</div>
           <i>
-            Norraine Grace is Kai Chong's life companion and should know him best
+            Norraine Grace is Kai Chong's life companion and should know him
+            best
           </i>
           <div>
-            <p>
-              To be written...
-            </p>
+            <p>To be written...</p>
           </div>
         </div>
       </div>
