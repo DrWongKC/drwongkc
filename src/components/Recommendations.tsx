@@ -85,7 +85,7 @@ const Recommendations = () => {
       </div>
       <div className="content">
         <div className="image-box">
-          <img src="https://media.licdn.com/dms/image/v2/D5603AQFl4SvxmPZUNw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1694957568753?e=1748476800&v=beta&t=F2MqSm4R7Y8Hg21_svXczatIIAzjzCoQAyJwAYzTteM" />
+          <img src="https://media.licdn.com/dms/image/v2/D5603AQHlDxVpapawyA/profile-displayphoto-shrink_800_800/B56ZXc6UbmHoAc-/0/1743168031273?e=1748476800&v=beta&t=K3npzSbeuLEnKJRNNlwlzdE5b4U0_1euqat82RDxD_E" />
         </div>
         <div className="details">
           <div className="name" id="social--link">
