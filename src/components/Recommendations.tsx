@@ -103,13 +103,13 @@ const Recommendations = () => {
           <div className="job">
             Chemical Technician at Treasure Island Industrial Corporation
           </div>
-          <div>March 27, 2025</div>
+          <div>March 31, 2025</div>
           <i>
             Norraine Grace is Kai Chong's life companion and should know him
             best
           </i>
           <div>
-            <p>To be written...</p>
+            <p>I have had the privilege of knowing Kai for three years. I can proudly say he is a reliable and skilled individual with valuable expertise. He is not only intelligent but also one of the kindest and most genuine people I know. Kai is always eager to learn, take on new challenges, and strive for excellence in everything he does. His strong communication skills and dedication make him a valuable team player. I am confident that he will be a great asset to any organization he joins, bringing commitment, adaptability, and a positive attitude to his work.</p>
           </div>
         </div>
       </div>
