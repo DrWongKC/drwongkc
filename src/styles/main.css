@@ -116,6 +116,10 @@ li {
   text-align: center;
 }
 
+#wrapper--footer--project--name {
+  color: #F46036;
+}
+
 #bio,
 a {
   font-weight: 300;

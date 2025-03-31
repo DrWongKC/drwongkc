@@ -4,7 +4,7 @@ const Footer = () => {
 
   return (
     <section id="wrapper--footer" className="section--page">
-        © {currentYear} custom theme made with ♥️ by KAI
+        © {currentYear} <a href="." id="wrapper--footer--project--name">myDigitalResumeProject(📄)™</a> made with ♥️ by KAI
     </section>
   )
 }
