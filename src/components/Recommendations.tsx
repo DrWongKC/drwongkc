@@ -9,7 +9,7 @@ const Recommendations = () => {
       </p>
       <div className="content">
         <div className="image-box">
-          <img src="https://media.licdn.com/dms/image/v2/D5603AQHZwaOLvo7odQ/profile-displayphoto-shrink_800_800/B56ZWmjQiCHoAc-/0/1742256016037?e=1748476800&v=beta&t=xya131CuCiNCcp4pSr6_VnB1AtNStA0YpoqobvZFnbM" />
+          <img src="https://i.postimg.cc/rFXzRkf9/1742256016037.jpg" />
         </div>
         <div className="details">
           <div className="name" id="social--link">
@@ -49,7 +49,7 @@ const Recommendations = () => {
       </div>
       <div className="content">
         <div className="image-box">
-          <img src="https://media.licdn.com/dms/image/v2/D4E03AQES8MhVD0UpuA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1680847559670?e=1748476800&v=beta&t=vJJQDXV6gkFJIEzXrK_8o5tVwPTQ_CWngthCW9E2DS8" />
+          <img src="https://i.postimg.cc/2jBV5676/1680847559670.jpg" />
         </div>
         <div className="details">
           <div className="name" id="social--link">
@@ -85,7 +85,7 @@ const Recommendations = () => {
       </div>
       <div className="content">
         <div className="image-box">
-          <img src="https://media.licdn.com/dms/image/v2/D5603AQELwavrYZ3bOQ/profile-displayphoto-shrink_800_800/B56ZXmGoPzHEAc-/0/1743322254429?e=1749081600&v=beta&t=Q29tJEo0pWjfndBfmYn93Wwf7dWq9DZXTQqYpImw5ps" />
+          <img src="https://i.postimg.cc/fTcyxrFQ/1743322254429.jpg" />
         </div>
         <div className="details">
           <div className="name" id="social--link">

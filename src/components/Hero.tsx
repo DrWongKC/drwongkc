@@ -20,7 +20,7 @@ const Hero = () => {
     <section id="wrapper--hero" className="section--page">
           <img
             id="profile-pic"
-            src="https://media.licdn.com/dms/image/v2/D5603AQG4IeSRnteEqQ/profile-displayphoto-shrink_800_800/B56ZVp023dGQAc-/0/1741237219303?e=1748476800&v=beta&t=AQa7Crd7gB3ancKuHWB1hzQY6W1fi4GeREnVDnV8Em4"
+            src="https://i.postimg.cc/g06fZfSv/1741237219303.jpg"
           />
 
           <div>
