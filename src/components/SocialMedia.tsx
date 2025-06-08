@@ -38,7 +38,7 @@ const SocialMedia = () => {
             GitHub
           </a>
         </div>
-        <div id="social--link">
+        {/* <div id="social--link">
           <img
             height="15"
             width="15"
@@ -49,7 +49,7 @@ const SocialMedia = () => {
           <a href="https://homeworkforlife.tumblr.com/" target="_blank">
             Homework for Life
           </a>
-        </div>
+        </div> */}
         <div id="social--link">
           <img
             height="21"
