@@ -1,10 +1,6 @@
 const Description = () => {
   return (
     <section className="section--page">
-      ReactJS Front-end Development | Artificial Intelligence | CyberSecurity |
-      ReactJS HackerRank of 3909
-      <br />
-      <br />
       ReactJS HackerRank:
       <br />
       <ul>
@@ -17,10 +13,6 @@ const Description = () => {
           (Advanced), 3/4 Test Passed
         </li>
       </ul>
-      I'm someone with multiple specialisations in web technology but am looking
-      to focus on front-end while breaking into Artificial Intelligence.
-      <br />
-      <br />
       Aspiration (<a href="https://github.com/DrWongKC">github.com/DrWongKC</a>):
       <br />
       <ul>
@@ -33,12 +25,7 @@ const Description = () => {
           NumPy, and Pandas
         </li>
       </ul>
-      Competency: Mid-level for front-end. Has strong foundation in both
-      front-end & back-end.
-      <br />
-      <br />
-      Skills: ReactJS, Ant Design, Material UI, MobX, Redux, TypeScript,
-      JavaScript & other related front-end technologies.
+      Skills: ReactJS, Ant Design, Material UI, MobX, Redux, TypeScript, JavaScript & other related front-end technology.
       <br />
       <br />
       ~<br />
