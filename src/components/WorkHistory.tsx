@@ -68,7 +68,7 @@ const WorkHistory = () => {
       </div>
       <div className="line-break"></div>
       <div className="card--work-history">
-        <strong>🚧 Web Development Intern | GrabJobs</strong>
+        <strong>🚧 Full-stack Software Engineering Intern | GrabJobs</strong>
         <p>01/2020 - 04/2020</p>
         <ul>
           <li>
@@ -155,7 +155,10 @@ const WorkHistory = () => {
       </div>
       <div className="line-break"></div>
       <div className="card--work-history">
-        <strong>🚧 Student Intern | United Overseas Bank Limited (UOB)</strong>
+        <strong>
+          🚧 React Native Mobile App Development Intern | United Overseas Bank
+          Limited (UOB)
+        </strong>
         <p>10/2017 - 02/2018</p>
         <ul>
           <li>
