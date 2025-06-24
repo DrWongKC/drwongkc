@@ -16,13 +16,9 @@ const Description = () => {
       Aspiration (<a href="https://github.com/DrWongKC">github.com/DrWongKC</a>):
       <br />
       <ul>
-        <li>Front-end Development with React.js, Vue.js, Angular.js</li>
+        <li>Front-end Development with React.js, Redux, TypeScript, JavaScript</li>
         <li>
-          Full-stack Development with React.js, Spring, Spring Boot, and MySQL
-        </li>
-        <li>
-          Machine Learning, Data Analysis, and Deep Learning using Python, R,
-          NumPy, and Pandas
+          Full-stack Development with React.js, Redux, TypeScript, JavaScript, Spring, Spring Boot, MySQL
         </li>
       </ul>
       Skills: ReactJS, Ant Design, Material UI, MobX, Redux, TypeScript, JavaScript & other related front-end technology.
