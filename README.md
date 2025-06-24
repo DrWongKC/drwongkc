@@ -3,9 +3,8 @@ ReactJS HackerRank:
 - Highest difficulty level partially solved on HackerRank: Hard, React (Advanced), 3/4 Test Passed
 
 Aspiration (github.com/DrWongKC):
-- Front-end Development with React.js, Vue.js, Angular.js
-- Full-stack Development with React.js, Spring, Spring Boot, and MySQL
-- Machine Learning, Data Analysis, and Deep Learning using Python, R, NumPy, and Pandas
+- Front-end Development with React.js, Redux, TypeScript, JavaScript
+- Full-stack Development with React.js, Redux, TypeScript, JavaScript, Spring, Spring Boot, MySQL
 
 Skills: ReactJS, Ant Design, Material UI, MobX, Redux, TypeScript, JavaScript & other related front-end technology.
 
