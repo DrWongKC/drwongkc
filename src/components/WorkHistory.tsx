@@ -72,7 +72,7 @@ const WorkHistory = () => {
         <p>01/2020 - 04/2020</p>
         <ul>
           <li>
-            Engineered sophisticated data filtering and feature enhancementsfor
+            Engineered sophisticated data filtering and feature enhancements for
             an internal web tool, streamlining data access and analysis.
           </li>
           <li>
