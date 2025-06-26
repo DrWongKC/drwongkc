@@ -5,7 +5,7 @@ const WorkHistory = () => {
 
       <div className="card--work-history">
         <strong>🚧 Software Engineer | Accenture</strong>
-        <p>9/2020 - present</p>
+        <p>September 2020 - June 2025</p>
         <p>
           <span>Responsibilities:</span>
           <ul>
@@ -69,7 +69,7 @@ const WorkHistory = () => {
       <div className="line-break"></div>
       <div className="card--work-history">
         <strong>🚧 Full-stack Software Engineering Intern | GrabJobs</strong>
-        <p>01/2020 - 04/2020</p>
+        <p>January 2020 - April 2020</p>
         <ul>
           <li>
             Engineered sophisticated data filtering and feature enhancements for
@@ -88,7 +88,7 @@ const WorkHistory = () => {
       <div className="line-break"></div>
       <div className="card--work-history">
         <strong>🚧 Program Manager | EAT Launchpad</strong>
-        <p>02/2019 - 07/2019</p>
+        <p>February 2019 - July 2019</p>
         <ul>
           <li>
             Led successful event management, significantly enhancing brand
@@ -110,7 +110,7 @@ const WorkHistory = () => {
         <strong>
           🚧 Co-Founder & Content Manager | Startup Singapore Google+
         </strong>
-        <p>01/2015 - 04/2019</p>
+        <p>January 2015 - April 2019</p>
         <ul>
           <li>
             Initiated and cultivated a thriving Singapore-based startup
@@ -134,7 +134,7 @@ const WorkHistory = () => {
       <div className="line-break"></div>
       <div className="card--work-history">
         <strong>🚧 Engineering Technician | Dell EMC</strong>
-        <p>07/2018 - 01/2019</p>
+        <p>July 2018 - January 2019</p>
         <ul>
           <li>
             Developed and distributed customer-centric hardware driver packages
@@ -159,7 +159,7 @@ const WorkHistory = () => {
           🚧 React Native Mobile App Development Intern | United Overseas Bank
           Limited (UOB)
         </strong>
-        <p>10/2017 - 02/2018</p>
+        <p>October 2017 - February 2018</p>
         <ul>
           <li>
             Developed comprehensive documentation for the UOB Mighty
@@ -174,7 +174,7 @@ const WorkHistory = () => {
       <div className="line-break"></div>
       <div className="card--work-history">
         <strong>🚧 Workshop Facilitator | Code Gakko</strong>
-        <p>07/2017 - 02/2018</p>
+        <p>July 2017 - February 2018</p>
         <ul>
           <li>
             Engaged students through hands-on lessons, fostering interactive
@@ -193,7 +193,7 @@ const WorkHistory = () => {
       <div className="line-break"></div>
       <div className="card--work-history">
         <strong>🚧 Workshop Facilitator | Witty Mitty</strong>
-        <p>07/2017 - 02/2018</p>
+        <p>July 2017 - February 2018</p>
         <ul>
           <li>
             Facilitated project-based learning to build practical coding skills
@@ -212,7 +212,7 @@ const WorkHistory = () => {
       <div className="line-break"></div>
       <div className="card--work-history">
         <strong>🚧 Co-Founder & Project Coordinator | KAI Studio</strong>
-        <p>01/2017 - 07/2017</p>
+        <p>January 2017 - July 2017</p>
         <ul>
           <li>
             Directed a multidisciplinary team of artists, developers, and
