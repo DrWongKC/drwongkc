@@ -35,9 +35,8 @@ const Description = () => {
         Supplementary note:
         <ul>
           <li>
-            I left Accenture in June of 2025 for my career sabbatical and to
-            focus on improving my technical expertise through performing
-            LeetCode full-time.
+            I'm currently on a sabbatical, using this time to significantly
+            deepen my technical expertise.
           </li>
           <li>
             I affirm my HackerRank scores reflect my abilities and were achieved
