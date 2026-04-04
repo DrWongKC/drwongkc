@@ -5,8 +5,8 @@ const WorkHistory = () => {
 
       <div className="card--work-history">
         <strong>🚧 Software Engineer | Accenture</strong>
-        <p>September 2020 - June 2025</p>
-        <p>
+        <div className="mimic-p">September 2020 - June 2025</div>
+        <div className="mimic-p">
           <span>Responsibilities:</span>
           <ul>
             <li>
@@ -47,7 +47,7 @@ const WorkHistory = () => {
               Modifying an API)
             </li>
           </ul>
-        </p>
+        </div>
         <span>[Progress]</span>
         <ul>
           <li>Completed course for React.js on FreeCodeCamp.</li>
@@ -69,7 +69,7 @@ const WorkHistory = () => {
       <div className="line-break"></div>
       <div className="card--work-history">
         <strong>🚧 Full-stack Software Engineering Intern | GrabJobs</strong>
-        <p>January 2020 - April 2020</p>
+        <div className="mimic-p">January 2020 - April 2020</div>
         <ul>
           <li>
             Engineered sophisticated data filtering and feature enhancements for
@@ -88,7 +88,7 @@ const WorkHistory = () => {
       <div className="line-break"></div>
       <div className="card--work-history">
         <strong>🚧 Program Manager | EAT Launchpad</strong>
-        <p>February 2019 - July 2019</p>
+        <div className="mimic-p">February 2019 - July 2019</div>
         <ul>
           <li>
             Led successful event management, significantly enhancing brand
@@ -110,7 +110,7 @@ const WorkHistory = () => {
         <strong>
           🚧 Co-Founder & Content Manager | Startup Singapore Google+
         </strong>
-        <p>January 2015 - April 2019</p>
+        <div className="mimic-p">January 2015 - April 2019</div>
         <ul>
           <li>
             Initiated and cultivated a thriving Singapore-based startup
@@ -126,15 +126,15 @@ const WorkHistory = () => {
             businesses and startups within the Singaporean ecosystem.
           </li>
         </ul>
-        <p>
+        <div className="mimic-p">
           Built an independent community platform on Google+ specifically
           designed to support the local startup ecosystem.
-        </p>
+        </div>
       </div>
       <div className="line-break"></div>
       <div className="card--work-history">
         <strong>🚧 Engineering Technician | Dell EMC</strong>
-        <p>July 2018 - January 2019</p>
+        <div className="mimic-p">July 2018 - January 2019</div>
         <ul>
           <li>
             Developed and distributed customer-centric hardware driver packages
@@ -159,7 +159,7 @@ const WorkHistory = () => {
           🚧 React Native Mobile App Development Intern | United Overseas Bank
           Limited (UOB)
         </strong>
-        <p>October 2017 - February 2018</p>
+        <div className="mimic-p">October 2017 - February 2018</div>
         <ul>
           <li>
             Developed comprehensive documentation for the UOB Mighty
@@ -174,7 +174,7 @@ const WorkHistory = () => {
       <div className="line-break"></div>
       <div className="card--work-history">
         <strong>🚧 Workshop Facilitator | Code Gakko</strong>
-        <p>July 2017 - February 2018</p>
+        <div className="mimic-p">July 2017 - February 2018</div>
         <ul>
           <li>
             Engaged students through hands-on lessons, fostering interactive
@@ -193,7 +193,7 @@ const WorkHistory = () => {
       <div className="line-break"></div>
       <div className="card--work-history">
         <strong>🚧 Workshop Facilitator | Witty Mitty</strong>
-        <p>July 2017 - February 2018</p>
+        <div className="mimic-p">July 2017 - February 2018</div>
         <ul>
           <li>
             Facilitated project-based learning to build practical coding skills
@@ -212,7 +212,7 @@ const WorkHistory = () => {
       <div className="line-break"></div>
       <div className="card--work-history">
         <strong>🚧 Co-Founder & Project Coordinator | KAI Studio</strong>
-        <p>January 2017 - July 2017</p>
+        <div className="mimic-p">January 2017 - July 2017</div>
         <ul>
           <li>
             Directed a multidisciplinary team of artists, developers, and

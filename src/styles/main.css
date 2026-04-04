@@ -18,6 +18,25 @@
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
   margin: 20px;
 }
+
+.project-time-now {
+  background: #fff;
+  border-radius: 50px;
+  position: relative;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  margin: 30px;
+  padding: 30px;
+}
+
+.date-and-time-now-text {
+  text-align: center;
+}
+
+.date-and-time-now {
+  text-align: center;
+  font-size: 3em;
+}
+
 .image-box {
   height: 232px;
   width: 200px;
@@ -95,6 +114,44 @@ li {
   line-height: 1.9em;
 }
 
+nav {
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 1;
+    text-decoration-line: underline;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+nav {
+  font-size: 1.75em;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--mainLinkColor);
+  font-weight: 500;
+  animation: blink 5s infinite;
+}
+
+nav a:hover {
+  color: #f46036;
+  text-decoration: underline;
+}
+
 #container--main {
   max-width: 875px;
   margin: 0 auto;
@@ -104,6 +161,13 @@ li {
 .section--page {
   padding-top: 1em;
   padding-bottom: 1em;
+}
+
+.mimic-p {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 #wrapper--hero {
@@ -117,7 +181,7 @@ li {
 }
 
 #wrapper--footer--project--name {
-  color: #F46036;
+  color: #f46036;
 }
 
 #bio,
