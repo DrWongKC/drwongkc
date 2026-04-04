@@ -92,7 +92,10 @@ function NoMatch() {
       <h1>404: Page Not Found</h1>
       <p>
         Please return to the{" "}
-        <Link to="/" style={{ textDecoration: "underline", color: "#f46036" }}>
+        <Link
+          to="/drwongkc"
+          style={{ textDecoration: "underline", color: "#f46036" }}
+        >
           Home
         </Link>{" "}
         page.
