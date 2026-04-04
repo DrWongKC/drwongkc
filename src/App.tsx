@@ -69,7 +69,6 @@ function About() {
 
 function ProjectOne() {
   const { date, time, wish } = useDate();
-
   return (
     <>
       <h1>projectTimeNow(🕰️)™</h1>
@@ -87,20 +86,36 @@ function ProjectOne() {
   );
 }
 
+function NoMatch() {
+  return (
+    <div style={{ padding: 25, textAlign: "center" }}>
+      <h1>404: Page Not Found</h1>
+      <p>
+        Please return to the{" "}
+        <Link to="/" style={{ textDecoration: "underline", color: "#f46036" }}>
+          Home
+        </Link>{" "}
+        page.
+      </p>
+    </div>
+  );
+}
+
 function App() {
   return (
     <BrowserRouter>
       <div id="container--main">
         {/* Navigation */}
         <nav>
-          <Link to="/">Home</Link> | <Link to="/about">About</Link> |{" "}
+          <Link to="/drwongkc">Home</Link> | <Link to="/about">About</Link> |{" "}
           <Link to="/projectone">projectTimeNow(🕰️)™</Link>
         </nav>
         {/* Routes */}
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/drwongkc" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projectone" element={<ProjectOne />} />
+          <Route path="*" element={<NoMatch />} />
         </Routes>
       </div>
     </BrowserRouter>
