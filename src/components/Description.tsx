@@ -1,6 +1,17 @@
 const Description = () => {
   return (
     <section className="section--page">
+      <em>
+        To elevate my software engineering expertise while working full-time, I
+        will be pursuing an Advanced Generative Text Artificial Intelligence
+        Specialist Certificate. This is a 3-month competency-based
+        micro-credential program from the Singapore Institute of Technology and
+        is a SkillsFuture Singapore (SSG) subsidised course.
+      </em>
+      <br />
+      <br />
+      ~<br />
+      <br />
       ReactJS HackerRank:
       <br />
       <ul>
@@ -11,18 +22,6 @@ const Description = () => {
         <li>
           Highest difficulty level partially solved on HackerRank: Hard, React
           (Advanced), 3/4 Test Passed
-        </li>
-      </ul>
-      Aspiration (<a href="https://github.com/DrWongKC">github.com/DrWongKC</a>
-      ):
-      <br />
-      <ul>
-        <li>
-          Front-end Development with React.js, Redux, TypeScript, JavaScript
-        </li>
-        <li>
-          Full-stack Development with React.js, Redux, TypeScript, JavaScript,
-          Spring, Spring Boot, MySQL
         </li>
       </ul>
       Skills: ReactJS, Ant Design, Material UI, MobX, Redux, TypeScript,

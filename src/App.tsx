@@ -109,10 +109,10 @@ function App() {
     <BrowserRouter>
       <div id="container--main">
         {/* Navigation */}
-        <nav>
+        {/* <nav>
           <Link to="/drwongkc">Home</Link> | <Link to="/about">About</Link> |{" "}
           <Link to="/projectone">projectTimeNow(🕰️)™</Link>
-        </nav>
+        </nav> */}
         {/* Routes */}
         <Routes>
           <Route path="/drwongkc" element={<Home />} />

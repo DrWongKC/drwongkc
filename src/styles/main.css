@@ -113,7 +113,7 @@ li {
 
 a {
   text-decoration: none;
-  color: var(--mainLinkColor);
+  color: #f46036;
   font-weight: 500;
 }
 
@@ -185,8 +185,9 @@ a {
 }
 
 #user-name {
-  font-size: 48px;
+  font-size: 45px;
   line-height: 1em;
+  margin-bottom: 0%;
 }
 
 #profile-pic {
@@ -196,8 +197,8 @@ a {
   border-radius: 50%;
 }
 
-#email {
-  color: var(--mainTextColor);
+#profile-subheading {
+  font-size: 1.2em;
 }
 
 #socials--list {

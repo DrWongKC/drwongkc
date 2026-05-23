@@ -18,6 +18,15 @@ const SocialMedia = () => {
           <img
             height="21"
             width="21"
+            src="https://img.icons8.com/?size=100&id=RUIFhdJm8fbJ&format=png&color=000000"
+          />
+          &nbsp;
+          <a>kai_wong[at]outlook[dot]com</a>
+        </div>
+        <div id="social--link">
+          <img
+            height="21"
+            width="21"
             src="https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000"
             alt="LinkedIn"
           />
