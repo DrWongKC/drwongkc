@@ -186,15 +186,15 @@ function About() {
         being more useful if I knew software development deeply, so I became a
         software engineer at GrabJobs, which was another startup. I was doing an
         internship working on the Job Application website’s Administrative
-        Back-end application where my work was mostly front-end engineering.
-        After a few months, the threat of Covid hit, and our investors wanted to
-        pause or back-out of their investment. The founders had to let the whole
-        software development team go apart from the CTO himself, and I was
-        thrown into a frenzy to look for what’s next for myself. At the moment,
-        the company is thriving so they survived the pandemic, and some of my
-        colleagues went on to work in companies like Bytedance or other
-        startups, while I discovered an opportunity to do a work-study program
-        with Accenture as a full-time permanent staff.
+        application where my work was mostly front-end engineering. After a few
+        months, the threat of Covid hit, and our investors wanted to pause or
+        back-out of their investment. The founders had to let the whole software
+        development team go apart from the CTO himself, and I was thrown into a
+        frenzy to look for what’s next for myself. At the moment, the company is
+        thriving so they survived the pandemic, and some of my colleagues went
+        on to work in companies like Bytedance or other startups, while I
+        discovered an opportunity to do a work-study program with Accenture as a
+        full-time permanent staff.
       </p>
       <img
         id="about-me-pic-two"
