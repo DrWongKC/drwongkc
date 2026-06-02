@@ -4,7 +4,10 @@ const Footer = () => {
   return (
     <section id="wrapper--footer" className="section--page">
       © {currentYear}{" "}
-      <a href="./drwongkc" id="wrapper--footer--project--name">
+      <a
+        href="https://drwongkc.github.io/drwongkc"
+        id="wrapper--footer--project--name"
+      >
         myDigitalResumeProject(📄)™
       </a>{" "}
       made with ♥️ by KAI
