@@ -79,8 +79,8 @@ function About() {
         engineer.
       </p>
       <p>
-        I like spending time online to read the news, watch career videos, and
-        read articles written on topics I'm curious about.
+        I like spending time online to read the news, watch videos, and read
+        articles written on topics I'm curious about.
       </p>
       <p>
         I enjoy watching career videos on YouTube and subscribing to the ones
@@ -95,15 +95,15 @@ function About() {
         real world too! When I’m not in-front of my computer, I enjoy collecting
         photos of my wife taken using a Nikon Z50II with upgraded lens,
         travelling with her to destinations around South-East Asia (with the aim
-        of Europe and America in the future), and meeting-up with friends to
+        of Europe and America in the future), and meeting with friends to
         catch-up on each others' lives.
       </p>
-      {/* <p>~</p> */}
+      <p>~</p>
       <p>
         but enough about my life, now let me tell you why I chose to devote my
         entire life and career trajectory into computing technology.
       </p>
-      {/* <p>~</p> */}
+      <p>~</p>
       <p>
         Back then, when I was in Primary School (elementary school equivalent of
         Singapore) we had an old computer that had those CRT (Cathode Ray Tube)

@@ -1,12 +1,15 @@
 const Footer = () => {
-
-    const currentYear = new Date().getFullYear()
+  const currentYear = new Date().getFullYear();
 
   return (
     <section id="wrapper--footer" className="section--page">
-        © {currentYear} <a href="." id="wrapper--footer--project--name">myDigitalResumeProject(📄)™</a> made with ♥️ by KAI
+      © {currentYear}{" "}
+      <a href="./drwongkc" id="wrapper--footer--project--name">
+        myDigitalResumeProject(📄)™
+      </a>{" "}
+      made with ♥️ by KAI
     </section>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
