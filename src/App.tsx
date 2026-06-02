@@ -53,7 +53,7 @@ function Home() {
       <Description />
       <WorkHistory />
       <Recommendations />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
@@ -61,45 +61,49 @@ function Home() {
 function About() {
   return (
     <>
+      <h1 id="about-me-heading">About Me</h1>
+      <div id="about-me-subheading">
+        <span>
+          <em>AI-Amplified Software Engineer</em>
+        </span>
+      </div>
       <img
-        id="profile-pic"
-        src="https://i.postimg.cc/g06fZfSv/1741237219303.jpg"
+        id="about-me-pic-one"
+        src="https://i.postimg.cc/nL1dd6LS/KAI-0430.jpg"
       />
-      <h1>About Me</h1>
       <p>
         Heyy, I'm Kai Chong. Welcome to my spot of the web where I share about
         my professional experience and achievements to you. I'm currently on a
         sabbatical to discover more of what I want, move-on to the next stage of
-        my personal life, and refine my knowledge and skills as a software
+        my personal life, and to refine my knowledge and skills as a software
         engineer.
       </p>
       <p>
         I like spending time online to read the news, watch career videos, and
-        any articles written on topics I’m interested in such as my hobbies, or
-        any others that will quench my curiosity.
+        read articles written on topics I'm curious about.
       </p>
       <p>
         I enjoy watching career videos on YouTube and subscribing to the ones
         that consistently share constructive advises, read the news to have a
         better understanding of what’s going-on out there and explore
-        opportunities and disruptions early on to strategise how I can act and
-        leverage on them. I also love reading articles on topics of my
-        audiophile interest and anything interesting to quench my curiosity.
+        opportunities and disruptions early-on to strategise how I can act and
+        leverage on them for my professional pursuit. I also love reading
+        articles on topics of my audiophile hobby.
       </p>
       <p>
-        While I enjoy participating in the digital world, I quite love my life
-        in the real world too! When I’m not in-front of my computer, I love
-        collecting photos of my wife taken using a dedicated camera, travelling
-        with her to destinations around South-East Asia (with the aim of Europe
-        and America in the future), and meeting-up with friends to catch-up on
-        each other’s lives.
+        While I enjoy participating in the digital world, I love my life in the
+        real world too! When I’m not in-front of my computer, I enjoy collecting
+        photos of my wife taken using a Nikon Z50II with upgraded lens,
+        travelling with her to destinations around South-East Asia (with the aim
+        of Europe and America in the future), and meeting-up with friends to
+        catch-up on each others' lives.
       </p>
-      <p>~</p>
+      {/* <p>~</p> */}
       <p>
         but enough about my life, now let me tell you why I chose to devote my
-        entire life and career trajectory into computing technology...
+        entire life and career trajectory into computing technology.
       </p>
-      <p>~</p>
+      {/* <p>~</p> */}
       <p>
         Back then, when I was in Primary School (elementary school equivalent of
         Singapore) we had an old computer that had those CRT (Cathode Ray Tube)
@@ -158,7 +162,7 @@ function About() {
         different outlook on things than I had and realise making motivational
         postcards won’t lead to anything, I decided to resign after a couple of
         months. They were insistent I work on the motivational postcards despite
-        me trying to explain to them that it’d not going to work out.
+        me trying to explain to them that it’s not going to work out.
       </p>
       <p>
         Later, I found EAT Launchpad. This startup isn’t about food, but stood
@@ -192,13 +196,18 @@ function About() {
         startups, while I discovered an opportunity to do a work-study program
         with Accenture as a full-time permanent staff.
       </p>
+      <img
+        id="about-me-pic-two"
+        src="https://i.postimg.cc/43XPhB1N/KAI-1729.jpg"
+      />
       <p>
         Accenture became the best thing to me as I learnt so much from back-end
         programming to Identity Access Management Systems configuration, to my
         later found forte in ReactJS front-end software engineering. I was on an
-        intensive no-the-job training for 4 years and 10 months and pretty much
+        intensive on-the-job training for 4 years and 10 months and pretty much
         covered the entire spectrum of web applications technology.
       </p>
+
       <p>
         I left Accenture because I wanted to take a career sabbatical to
         discover what I want to do in my career and personal life, where I also
@@ -273,6 +282,7 @@ function App() {
           <Route path="/projectone" element={<ProjectOne />} />
           <Route path="*" element={<NoMatch />} />
         </Routes>
+        <Footer />
       </div>
     </BrowserRouter>
   );
