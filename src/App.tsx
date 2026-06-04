@@ -62,11 +62,11 @@ function About() {
   return (
     <>
       <h1 id="about-me-heading">About Me</h1>
-      <div id="about-me-subheading">
+      {/* <div id="about-me-subheading">
         <span>
           <em>AI-Amplified Software Engineer</em>
         </span>
-      </div>
+      </div> */}
       <img
         id="about-me-pic-one"
         src="https://i.postimg.cc/nL1dd6LS/KAI-0430.jpg"
