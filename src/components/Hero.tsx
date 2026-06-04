@@ -1,10 +1,7 @@
 const Hero = () => {
   return (
     <section id="wrapper--hero" className="section--page">
-      <img
-        id="profile-pic"
-        src="https://i.postimg.cc/g06fZfSv/1741237219303.jpg"
-      />
+      <img id="profile-pic" src="https://i.postimg.cc/65kRHXbk/KAI-2467.jpg" />
       <div>
         <h1 id="user-name">Wong Kai Chong (黄恺聪)</h1>
         <div id="profile-subheading">
