@@ -79,8 +79,8 @@ function About() {
         engineer.
       </p>
       <p>
-        I like spending time online to read the news, watch videos, and read
-        articles written on topics I'm curious about.
+        I like spending time online to read the news, watch videos, and learn
+        from reading articles written on topics I'm curious about.
       </p>
       <p>
         I enjoy watching career videos on YouTube and subscribing to the ones
@@ -91,17 +91,18 @@ function About() {
         articles on topics of my audiophile hobby.
       </p>
       <p>
-        While I enjoy participating in the digital world, I love my life in the
-        real world too! When I’m not in-front of my computer, I enjoy collecting
-        photos of my wife taken using a Nikon Z50II with upgraded lens,
-        travelling with her to destinations around South-East Asia (with the aim
-        of Europe and America in the future), and meeting with friends to
-        catch-up on each others' lives.
+        While I enjoy participating in the digital world, I mustn't forget about
+        the real world too! When I’m not in-front of my computer, I enjoy
+        collecting photos of my wife taken using a Nikon Z50II with upgraded
+        lens, travelling with her to destinations around South-East Asia (with
+        the aim of Europe and America in the future), and meeting with friends
+        to catch-up on each others' lives.
       </p>
       <p>~</p>
       <p>
-        but enough about my life, now let me tell you why I chose to devote my
-        entire life and career trajectory into computing technology.
+        but enough about me personally, now let me tell you why I chose to
+        devote my entire life and career trajectory into digital computing
+        technology.
       </p>
       <p>~</p>
       <p>
@@ -126,10 +127,10 @@ function About() {
         only improves our life if we built it with that thought in mind), and I
         just had to be a part of it. I started reading up on fundamental
         computing technologies and started programming a couple of years later
-        after I started my Information Technology tertiary education. While I
-        was able to surf the web to learn using my family’s computer, it was
-        only when I got my own laptop that I was able to start programming and
-        invest more time being on the Internet.
+        at the same time when I started my Information Technology tertiary
+        education. While I was able to surf the web to learn using my family’s
+        computer, it was only when I got my own laptop that I was able to start
+        programming and invest more time being on the Internet.
       </p>
       <p>
         I had used computers before but the first computer that I could call my
@@ -137,13 +138,12 @@ function About() {
         that made me want to try it. I tried using Ubuntu through the Parallel
         virtual machine software, but it was slow and most of my time was spent
         on the MacOS. I had my focus on studying software engineering and was
-        quick to learn them before I developed a health problem and struggled to
-        keep-up my GPA grades. Even though I was deeply affected by my grades, I
-        was still able to graduate and went on into the job market as a software
-        educator for young children learning about the concepts of programming.
-        I was good at helping others understand programming well because I used
-        real-world analogies to anchor their understanding of software concepts
-        to what they observe or expect to observe happening in the real world.
+        quick to learn them. I later graduated and went on into the job market
+        as a software educator for young children where my focus was on teaching
+        the concepts of programming. I was good at helping others understand
+        programming because I knew how to accurately use real-world analogies to
+        anchor their understanding of software concepts to what they observe or
+        expect to observe in the real world.
       </p>
       <p>
         At that point, Silicon Valley became viral as the place where technology
@@ -192,7 +192,7 @@ function About() {
         development team go apart from the CTO himself, and I was thrown into a
         frenzy to look for what’s next for myself. At the moment, the company is
         thriving so they survived the pandemic, and some of my colleagues went
-        on to work in companies like Bytedance or other startups, while I
+        on to work in companies like Bytedance and other startups, while I
         discovered an opportunity to do a work-study program with Accenture as a
         full-time permanent staff.
       </p>
@@ -222,7 +222,7 @@ function About() {
         software engineering while making use of Artificial Intelligence as a
         tool to amplify my software development output. I’m also looking to do a
         3-months course in AI from the Singapore Institute of Technology to make
-        better use of these tools.
+        better use of these AI tools.
       </p>
     </>
   );
