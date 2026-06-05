@@ -222,7 +222,7 @@ function About() {
         software engineering while making use of Artificial Intelligence as a
         tool to amplify my software development output, and part of achieving
         that is to do a 3-months course in AI from the Singapore Institute of
-        Technology (SIT) soon.
+        Technology (SIT).
       </p>
     </>
   );
