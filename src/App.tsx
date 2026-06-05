@@ -220,9 +220,9 @@ function About() {
       <p>
         It became clear to me that I want to specialise in ReactJS front-end
         software engineering while making use of Artificial Intelligence as a
-        tool to amplify my software development output. I’m also looking to do a
-        3-months course in AI from the Singapore Institute of Technology to make
-        better use of these AI tools.
+        tool to amplify my software development output, and part of achieving
+        that is to do a 3-months course in AI from the Singapore Institute of
+        Technology (SIT) soon.
       </p>
     </>
   );
