@@ -1,6 +1,6 @@
 import "./App.css";
 import "./styles/main.css";
-import React from "react";
+// import React from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Hero from "./components/Hero";
 import SocialMedia from "./components/SocialMedia";
@@ -10,7 +10,7 @@ import WorkHistory from "./components/WorkHistory";
 import Recommendations from "./components/Recommendations";
 import Footer from "./components/Footer";
 
-const useDate = () => {
+/* const useDate = () => {
   const locale = "en";
   const [today, setDate] = React.useState(new Date()); // Save the current date to be able to trigger an update
 
@@ -42,7 +42,7 @@ const useDate = () => {
     time,
     wish,
   };
-};
+}; */
 
 function Home() {
   return (
