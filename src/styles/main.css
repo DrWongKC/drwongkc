@@ -31,24 +31,6 @@
   margin: 20px;
 }
 
-.project-time-now {
-  background: #fff;
-  border-radius: 50px;
-  position: relative;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
-  margin: 30px;
-  padding: 30px;
-}
-
-.date-and-time-now-text {
-  text-align: center;
-}
-
-.date-and-time-now {
-  text-align: center;
-  font-size: 3em;
-}
-
 .image-box {
   height: 232px;
   width: 200px;
@@ -196,7 +178,7 @@ a {
   width: 200px;
   /* height: 190px; */
   object-fit: cover;
-  border-radius: 5%;
+  border-radius: 1%;
 }
 
 #about-me-pic-one {
@@ -205,16 +187,31 @@ a {
   margin: 1em;
   /* object-fit: cover; */
   float: left;
-  border-radius: 2.5%;
+  border-radius: 1%;
 }
 
 #about-me-pic-two {
   /* width: 300px; */
   margin: 1em;
-  height: 400px;
+  height: 320px;
   /* object-fit: cover; */
   float: right;
-  border-radius: 2.5%;
+  border-radius: 1%;
+}
+
+@media screen and (max-width: 768px) {
+  /* Styles for screens up to 768px width */
+  #about-me-pic-one {
+    max-width: 150px;
+    height: auto;
+    border-radius: 1%;
+  }
+
+  #about-me-pic-two {
+    max-width: 150px;
+    height: auto;
+    border-radius: 1%;
+  }
 }
 
 #about-me-heading {
@@ -331,4 +328,20 @@ a {
     border-left: none;
     padding-left: 0;
   }
+}
+
+.intelli-find-title {
+  text-align: center;
+}
+
+.intelli-find-description {
+  text-align: justify;
+  font-style: italic;
+  font-size: 0.75em;
+}
+
+.intelli-find-warning {
+  text-align: center;
+  color: rgb(255, 0, 0);
+  font-size: 0.9em;
 }

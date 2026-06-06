@@ -5,8 +5,7 @@ const Description = () => {
         To elevate my software engineering expertise while working full-time, I
         will be pursuing an Advanced Generative Text Artificial Intelligence
         Specialist Certificate. This is a 3-month competency-based
-        micro-credential program from the Singapore Institute of Technology and
-        is a SkillsFuture Singapore (SSG) subsidised course.
+        micro-credential program from the Singapore Institute of Technology.
       </em>
       <br />
       <br />
