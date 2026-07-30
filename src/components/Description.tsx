@@ -1,12 +1,12 @@
 const Description = () => {
   return (
     <section className="section--page">
-      <em>
+      {/* <em>
         To elevate my software engineering expertise while working full-time, I
         will be pursuing an Advanced Generative Text Artificial Intelligence
         Specialist Certificate. This is a 3-month competency-based
         micro-credential program from the Singapore Institute of Technology.
-      </em>
+      </em> */}
       <br />
       <br />
       ~<br />
@@ -33,8 +33,8 @@ const Description = () => {
         Supplementary note:
         <ul>
           <li>
-            I'm currently on a sabbatical, using this time to significantly
-            deepen my technical expertise.
+            Returned from a career sabbatical and actively seeking full-time
+            opportunities as a ReactJS Front-End Engineer.
           </li>
           <li>
             I affirm my HackerRank scores reflect my abilities and were achieved
