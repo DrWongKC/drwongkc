@@ -154,6 +154,10 @@ nav a:hover {
   gap: 4em;
 }
 
+#hero-profile-subheading {
+  font-size: 1.1em;
+}
+
 #wrapper--footer {
   text-align: center;
 }

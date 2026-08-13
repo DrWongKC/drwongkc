@@ -7,7 +7,9 @@ const Hero = () => {
         <div id="profile-subheading">
           <span>
             🧑‍💻&nbsp;
-            <em>AI-Amplified ReactJS Front-end Software Engineering</em>
+            <em id="hero-profile-subheading">
+              AI-Amplified ReactJS Frontend Software Engineer
+            </em>
           </span>
           <br />
         </div>
