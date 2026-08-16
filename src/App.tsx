@@ -280,9 +280,18 @@ function App() {
     <BrowserRouter>
       <div id="container--main">
         {/* Navigation */}
-        <nav>
+        {/* <nav>
           <Link to="/drwongkc">Home</Link> ⧸ <Link to="/about">About</Link> ⧸{" "}
           <Link to="/intellifindlaptopguide">IntelliFind Laptop Guide™</Link>
+        </nav> */}
+        <nav>
+          <Link to="/drwongkc">
+            Home <i style={{ color: "red" }}>← (Click Me!)</i>
+          </Link>{" "}
+          ⧸{" "}
+          <Link to="/">
+            About <i style={{ color: "red" }}>← (Under Construction)</i>
+          </Link>
         </nav>
         {/* Routes */}
         <Routes>
