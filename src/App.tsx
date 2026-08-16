@@ -285,12 +285,12 @@ function App() {
           <Link to="/intellifindlaptopguide">IntelliFind Laptop Guide™</Link>
         </nav> */}
         <nav>
-          <Link to="/drwongkc">
-            Home <i style={{ color: "red" }}>← (Click Me!)</i>
-          </Link>{" "}
-          ⧸{" "}
+          <Link to="/drwongkc">Home</Link> ⧸{" "}
           <Link to="/">
-            About <i style={{ color: "red" }}>← (Under Construction)</i>
+            About{" "}
+            <i style={{ color: "red", fontSize: "0.5em" }}>
+              ← (Under Construction)
+            </i>
           </Link>
         </nav>
         {/* Routes */}
