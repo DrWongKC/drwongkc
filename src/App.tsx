@@ -288,9 +288,11 @@ function App() {
           <Link to="/drwongkc">Home</Link> ⧸{" "}
           <Link to="/">
             About{" "}
-            <i style={{ color: "red", fontSize: "0.5em" }}>
+            <span
+              style={{ color: "red", fontSize: "0.5em", fontStyle: "italic" }}
+            >
               ← (Under Construction)
-            </i>
+            </span>
           </Link>
         </nav>
         {/* Routes */}
