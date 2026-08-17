@@ -16,8 +16,7 @@ const Summary = () => {
         </li>
         <li>
           ✦︎ AI developer upskilling through Build AI-Powered Apps (Code With
-          Mosh) with plans to pursue an Advanced Generative Text AI Specialist
-          Certificate (Singapore Institute of Technology).
+          Mosh).
         </li>
         <li>
           ✦︎ ex-Tech educator in Springdale Primary School, UWCSEA East Campus &
