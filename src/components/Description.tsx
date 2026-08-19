@@ -13,8 +13,8 @@ const Description = () => {
           (Advanced), 3/4 Test Passed
         </li>
       </ul>
-      Skills: ReactJS, Ant Design, Material UI, MobX, Redux, TypeScript,
-      JavaScript & other related front-end technology.
+      Skills: ReactJS, Ant Design, Material UI, TypeScript, JavaScript & other
+      related front-end technology.
       <br />
       <br />
       ~<br />

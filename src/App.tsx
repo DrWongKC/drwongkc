@@ -9,6 +9,7 @@ import Description from "./components/Description";
 import WorkHistory from "./components/WorkHistory";
 import Recommendations from "./components/Recommendations";
 import Footer from "./components/Footer";
+import video from "./assets/videos/video_one.mp4";
 
 /* const useDate = () => {
   const locale = "en";
@@ -67,10 +68,7 @@ function About() {
           <em>AI-Amplified Software Engineer</em>
         </span>
       </div> */}
-      <img
-        id="about-me-pic-one"
-        src="https://i.postimg.cc/nL1dd6LS/KAI-0430.jpg"
-      />
+      <img id="about-me-pic-one" src="src\assets\images\About Page 1.jpg" />
       <p>
         Heyy, I'm Kai Chong. Welcome to my spot of the web where I share about
         my professional experience and achievements to you. I'm currently on a
@@ -98,13 +96,15 @@ function About() {
         the aim of Europe and America in the future), and meeting with friends
         to catch-up on each others' lives.
       </p>
-      <p>~</p>
-      <p>
-        but enough about me personally, now let me tell you why I chose to
-        devote my entire life and career trajectory into digital computing
-        technology.
+      <p id="about-me-transition-tilde">~</p>
+      <img id="about-me-pic-two" src="src\assets\images\About Page 2.jpg" />
+      <p id="about-me-transition-text">
+        but enough about me personally,
+        <br /> now let me tell you why I chose to devote my entire life
+        <br />
+        and career trajectory into digital computing technology . . .
       </p>
-      <p>~</p>
+      <p id="about-me-transition-tilde">~</p>
       <p>
         Back then, when I was in Primary School (elementary school equivalent of
         Singapore) we had an old computer that had those CRT (Cathode Ray Tube)
@@ -132,6 +132,7 @@ function About() {
         computer, it was only when I got my own laptop that I was able to start
         programming and invest more time being on the Internet.
       </p>
+      <img id="about-me-pic-three" src="src\assets\images\About Page 3.jpg" />
       <p>
         I had used computers before but the first computer that I could call my
         own was an Apple MacBook Pro. It was an operating system based off Unix
@@ -164,6 +165,7 @@ function About() {
         months. They were insistent I work on the motivational postcards despite
         me trying to explain to them that it’s not going to work out.
       </p>
+      <video src={video} autoPlay muted loop id="about-me-video-one" />
       <p>
         Later, I found EAT Launchpad. This startup isn’t about food, but stood
         for Educate, Act, and Transform (E.A.T), and I joined them as a Program
@@ -196,10 +198,7 @@ function About() {
         discovered an opportunity to do a work-study program with Accenture as a
         full-time permanent staff.
       </p>
-      <img
-        id="about-me-pic-two"
-        src="https://i.postimg.cc/43XPhB1N/KAI-1729.jpg"
-      />
+      <img id="about-me-pic-four" src="src\assets\images\About Page 4.jpg" />
       <p>
         Accenture became the best thing to me as I learnt so much from back-end
         programming to Identity Access Management Systems configuration, to my
@@ -280,20 +279,9 @@ function App() {
     <BrowserRouter>
       <div id="container--main">
         {/* Navigation */}
-        {/* <nav>
-          <Link to="/drwongkc">Home</Link> ⧸ <Link to="/about">About</Link> ⧸{" "}
-          <Link to="/intellifindlaptopguide">IntelliFind Laptop Guide™</Link>
-        </nav> */}
         <nav>
-          <Link to="/drwongkc">Home</Link> ⧸{" "}
-          <Link to="/">
-            About{" "}
-            <span
-              style={{ color: "red", fontSize: "0.5em", fontStyle: "italic" }}
-            >
-              ← (Under Construction)
-            </span>
-          </Link>
+          <Link to="/drwongkc">Home</Link> ⧸ <Link to="/about">About</Link>
+          {/* ⧸{" "}<Link to="/intellifindlaptopguide">IntelliFind Laptop Guide™</Link> */}
         </nav>
         {/* Routes */}
         <Routes>

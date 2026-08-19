@@ -16,7 +16,7 @@ const Summary = () => {
         </li>
         <li>
           ✦︎ AI developer upskilling through Build AI-Powered Apps (Code With
-          Mosh).
+          Mosh's Mosh Hamedani) & Chef Claude Project (Scrimba's Bob Ziroll).
         </li>
         <li>
           ✦︎ ex-Tech educator in Springdale Primary School, UWCSEA East Campus &
