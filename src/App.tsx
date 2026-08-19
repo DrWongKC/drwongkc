@@ -63,6 +63,9 @@ function About() {
   return (
     <>
       <h1 id="about-me-heading">About Me</h1>
+      <p id="about-me-subheading">
+        dropping a few memories here and there at random . . .
+      </p>
       {/* <div id="about-me-subheading">
         <span>
           <em>AI-Amplified Software Engineer</em>
@@ -280,7 +283,7 @@ function App() {
       <div id="container--main">
         {/* Navigation */}
         <nav>
-          <Link to="/drwongkc">Home</Link> ⧸ <Link to="/about">About</Link>
+          {/* <Link to="/drwongkc">Home</Link> ⧸ <Link to="/about">About</Link> */}
           {/* ⧸{" "}<Link to="/intellifindlaptopguide">IntelliFind Laptop Guide™</Link> */}
         </nav>
         {/* Routes */}
