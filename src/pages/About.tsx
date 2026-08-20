@@ -180,11 +180,6 @@ export default function About() {
         applications technology and that has resulted in me becoming better as a
         software engineer than before.
       </p>
-      <p>
-        It became clear to me that I want to specialise in ReactJS front-end
-        software engineering while making use of Artificial Intelligence as a
-        tool to amplify my software development output.
-      </p>
     </>
   );
 }
