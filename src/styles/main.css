@@ -184,15 +184,15 @@ a {
   border-radius: 1em;
 }
 
-#about-me-transition-tilde {
+#about-me-transition-text-divider {
   text-align: center;
   font-size: 1.5em;
-  font-weight: 300;
 }
 
 #about-me-transition-text {
   text-align: center;
   font-style: italic;
+  font-weight: 100;
 }
 
 #about-me-pic-one {

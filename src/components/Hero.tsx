@@ -16,8 +16,8 @@ const Hero = () => {
         <br />
         <div id="profile-sub-sub-heading">
           <span>
-            I'm a software engineer, digital technology enthusiast and former
-            programming educator in various local and international schools.
+            I'm a Software Engineer, Digital Technology Enthusiast and former
+            Programming Educator in various local and international schools.
             I've been creating websites since 2012 and had my first experience
             with robotics back when I was 7 years old. I have always had a
             passion for learning and sharing knowledge, including learning from
