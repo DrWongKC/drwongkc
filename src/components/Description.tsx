@@ -22,10 +22,10 @@ const Description = () => {
       <i>
         Supplementary note:
         <ul>
-          <li>
+          {/* <li>
             Returned from a career sabbatical and actively seeking full-time
             opportunities as a ReactJS Front-End Engineer.
-          </li>
+          </li> */}
           <li>
             I affirm my HackerRank scores reflect my abilities and were achieved
             without resorting to any form of cheating or unethical practices.
