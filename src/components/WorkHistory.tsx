@@ -10,21 +10,16 @@ const WorkHistory = () => {
           <span>Responsibilities:</span>
           <ul>
             <li>
-              Engineered highly secure and scalable software features and fixes,
-              driving tangible improvements to product performance.
+              Built scalable, secure software features and bug fixes that
+              measurably improved performance.
             </li>
             <li>
-              Implemented comprehensive testing strategies to ensure optimal
-              product performance and identify critical areas for optimization.
+              Wrote clean, maintainable code to ensure long-term stability and
+              easier updates.
             </li>
             <li>
-              Developed and maintained clean, readable, and maintainable code,
-              promoting long-term project sustainability.
-            </li>
-            <li>
-              Worked within an agile team to resolve issues and deliver new
-              features, contributing to the successful execution of product
-              roadmaps.
+              Collaborated in an Agile team to fix critical bugs and ship
+              roadmap features on schedule.
             </li>
           </ul>
           <span>Skills:</span>
@@ -72,16 +67,16 @@ const WorkHistory = () => {
         <div className="mimic-p">January 2020 - April 2020</div>
         <ul>
           <li>
-            Engineered sophisticated data filtering and feature enhancements for
-            an internal web tool, streamlining data access and analysis.
+            Built advanced data filtering and features for an internal web tool,
+            cutting data lookup and analysis time.
           </li>
           <li>
-            Executed critical programming modifications to an internal web tool,
-            improving system stability and operational efficiency.
+            Upgraded core internal tool functionality, significantly boosting
+            system stability and team efficiency.
           </li>
           <li>
-            Developed a robust, client-facing data analytics report, empowering
-            clients with data-driven insights to optimize HR performance.
+            Created client-facing analytics reports that delivered actionable HR
+            insights and improved performance tracking.
           </li>
         </ul>
       </div>
@@ -91,17 +86,21 @@ const WorkHistory = () => {
         <div className="mimic-p">February 2019 - July 2019</div>
         <ul>
           <li>
-            Led successful event management, significantly enhancing brand
+            Directed high-impact events that significantly expanded brand
+            visibility and audience reach.
+          </li>
+          <li>
+            Generated new business opportunities through strategic outreach and
+            client relationship building.
+          </li>
+          <li>
+            Grew social media engagement, building stronger online brand
             awareness.
           </li>
           <li>
-            Contributed to business development, fostering increased business
-            opportunities.
-          </li>
-          <li>Enhanced social media engagement and brand awareness.</li>
-          <li>Managed HR functions, ensuring a positive work environment.</li>
-          <li>
-            Streamlined administrative operations for increased efficiency.
+            Simplified administrative workflows to boost overall operational
+            productivity.Streamlined administrative operations for increased
+            efficiency.
           </li>
         </ul>
       </div>
@@ -113,17 +112,16 @@ const WorkHistory = () => {
         <div className="mimic-p">January 2015 - April 2019</div>
         <ul>
           <li>
-            Initiated and cultivated a thriving Singapore-based startup
-            community on Google+ from my home, starting it from the ground up.
+            Founded and grew a Singapore-based startup community on Google+ from
+            scratch to 7,500+ global members.
           </li>
           <li>
-            Successfully established a widely recognized community platform,
-            attracting over 7,500 users from across Asia, Singapore, and
-            globally.
+            Scaled an online platform into a recognized hub for entrepreneurs
+            and tech enthusiasts across Asia.
           </li>
           <li>
-            Developed a valuable community resource for learning about local
-            businesses and startups within the Singaporean ecosystem.
+            Curated essential resources and guides to help founders navigate the
+            Singaporean startup ecosystem.
           </li>
         </ul>
         <div className="mimic-p">
@@ -137,19 +135,16 @@ const WorkHistory = () => {
         <div className="mimic-p">July 2018 - January 2019</div>
         <ul>
           <li>
-            Developed and distributed customer-centric hardware driver packages
-            and documentation, ensuring customers received essential software
-            for their purchased computers.
+            Created and deployed hardware driver packages and documentation,
+            ensuring seamless setup for new systems.
           </li>
           <li>
-            Performed rigorous test data analysis and in-house testing across a
-            range of storage devices, including Solid-State Drives (M.2, PCIe
-            NVMe, SATA) and Hard Disk Drives (SATA3), to ensure product
-            reliability.
+            Tested SSDs (M.2, PCIe NVMe, SATA) and HDDs (SATA3) through data
+            analysis and bench testing to guarantee reliability.
           </li>
           <li>
-            Established and nurtured strong vendor relationships, facilitating
-            effective communication and collaboration.
+            Built and maintained key vendor relationships to streamline
+            communication and cross-company collaboration.
           </li>
         </ul>
       </div>
@@ -162,12 +157,12 @@ const WorkHistory = () => {
         <div className="mimic-p">October 2017 - February 2018</div>
         <ul>
           <li>
-            Developed comprehensive documentation for the UOB Mighty
-            Application, ensuring clear understanding and user guidance.
+            Authored comprehensive user guides and technical documentation for
+            the UOB TMRW (Mighty) app, improving user onboarding and support.
           </li>
           <li>
-            Engineered real-time price indicator features utilizing the React
-            Native JavaScript framework, enhancing application functionality.
+            Built real-time price indicators using React Native, delivering
+            dynamic market updates directly to users.
           </li>
         </ul>
       </div>
@@ -177,16 +172,16 @@ const WorkHistory = () => {
         <div className="mimic-p">July 2017 - February 2018</div>
         <ul>
           <li>
-            Engaged students through hands-on lessons, fostering interactive
+            Taught hands-on programming lessons that encouraged interactive
             learning and practical application.
           </li>
           <li>
-            Developed students' programming intuition and coding capabilities,
-            empowering them to solve complex problems.
+            Built students' coding confidence and problem-solving skills to help
+            them tackle complex programming challenges.
           </li>
           <li>
-            Cultivated computational and algorithmic thinking through real-world
-            examples, bridging theory and practice.
+            Explained computational and algorithmic concepts using real-world
+            examples to bridge theory and practice.
           </li>
         </ul>
       </div>
@@ -196,16 +191,16 @@ const WorkHistory = () => {
         <div className="mimic-p">July 2017 - February 2018</div>
         <ul>
           <li>
-            Facilitated project-based learning to build practical coding skills
-            and problem-solving abilities.
+            Guided students through project-based challenges to build practical
+            software development and problem-solving skills.
           </li>
           <li>
-            Mentored students in developing algorithmic logic and computational
-            thinking through hands-on coding exercises.
+            Mentored students in algorithmic logic and computational thinking
+            through hands-on coding exercises.
           </li>
           <li>
-            Translated complex programming theories into practical application
-            using interactive lessons and real-world examples.
+            Demystified complex programming theories using interactive lessons
+            and real-world examples.
           </li>
         </ul>
       </div>
@@ -215,18 +210,16 @@ const WorkHistory = () => {
         <div className="mimic-p">January 2017 - July 2017</div>
         <ul>
           <li>
-            Directed a multidisciplinary team of artists, developers, and
-            coordinators, ensuring alignment and achievement of project
-            milestones.
+            Led a cross-functional team of artists, developers, and coordinators
+            to hit key project milestones on schedule.
           </li>
           <li>
-            Successfully led the rapid prototyping of a game on Unity 3D,
-            demonstrating agile development and technical expertise.
+            Spearheaded the rapid prototyping of a Unity 3D game using Agile
+            methodologies.
           </li>
           <li>
-            Facilitated effective cross-cultural communication to resolve
-            linguistic differences, enabling the successful completion of the
-            Game Design Document.
+            Navigated cross-cultural and language barriers to deliver a unified
+            Game Design Document (GDD).
           </li>
         </ul>
       </div>
