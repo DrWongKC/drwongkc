@@ -5,15 +5,15 @@ const Description = () => {
       <br />
       <ul>
         <li>
-          Highest difficulty level solved on HackerRank: Medium, React
-          (Advanced), 6/6 Test Passed
+          Highest difficulty level completely solved on HackerRank: Medium,
+          React (Advanced), 6/6 Test Passed
         </li>
         <li>
           Highest difficulty level partially solved on HackerRank: Hard, React
           (Advanced), 3/4 Test Passed
         </li>
       </ul>
-      Skills: ReactJS, Ant Design, Material UI, TypeScript, JavaScript & other
+      Skills: ReactJS, Ant Design, TypeScript, JavaScript, NodeJS & other
       related front-end technology.
       <br />
       <br />
