@@ -7,5 +7,4 @@ Skills: ReactJS, Ant Design, Material UI, MobX, Redux, TypeScript, JavaScript & 
 ~
 
 Supplementary note:
-- I'm currently on a sabbatical, using this time to significantly deepen my technical expertise.
 - I affirm my HackerRank scores reflect my abilities and were achieved without resorting to any form of cheating or unethical practices.
