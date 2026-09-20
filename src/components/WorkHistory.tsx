@@ -99,7 +99,7 @@ const WorkHistory = () => {
           </li>
           <li>
             Simplified administrative workflows to boost overall operational
-            productivity.Streamlined administrative operations for increased
+            productivity. Streamlined administrative operations for increased
             efficiency.
           </li>
         </ul>

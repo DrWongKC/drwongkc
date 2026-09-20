@@ -10,13 +10,6 @@ const Summary = () => {
           and UOB Bank.
         </li>
         <li>
-          ✦︎ AI -Amplified Software Engineering upskilling through Build
-          AI-Powered Apps (Code With Mosh's Mosh Hamedani), Chef Claude Project
-          (Scrimba's Bob Ziroll), AI-Assisted Development Course
-          (freeCodeCamp.org's Beau Carnes) & AI Agents For Beginners
-          (KodeKloud's Mumshad Mannambeth).
-        </li>
-        <li>
           ✦︎ Global Technology Challenge Event Co-organiser & Photographer,
           Certified Professional Scrum Master™ I (PSM I) & former Co-Founder of
           KAI Studio and Startup Singapore Google+.

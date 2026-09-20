@@ -32,16 +32,16 @@ export default function About() {
         engineer.
       </p>
       <p>
-        I like spending time online to read the news, watch videos, and learn
-        from reading articles written on topics I'm curious about.
+        I like spending time online to read the news, watch videos on YouTube,
+        and learn from reading articles written on topics I'm curious about.
       </p>
       <p>
-        I enjoy watching career videos on YouTube and subscribing to the ones
-        that consistently share constructive advises, read the news to have a
-        better understanding of what’s going-on out there and explore
-        opportunities and disruptions early-on to strategise how I can act and
-        leverage on them for my professional pursuit. I also love reading
-        articles on topics of my audiophile hobby.
+        I enjoy watching career-related videos and subscribing to the ones that
+        consistently share constructive advises, read the news to have a better
+        understanding of what’s going-on out there and explore opportunities and
+        disruptions early-on to strategise how I can act and leverage on them
+        for my professional pursuit. I also love reading articles on topics of
+        my audiophile hobby.
       </p>
       <p>
         While I enjoy participating in the digital world, I mustn't forget about
@@ -49,7 +49,7 @@ export default function About() {
         collecting photos of my wife taken using a Nikon Z50II with upgraded
         lens, travelling with her to destinations around South-East Asia (with
         the aim of Europe and America in the future), and meeting with friends
-        to catch-up on each others' lives.
+        to catch-up on each other's lives.
       </p>
       <p id="about-me-transition-text-divider">﹏𓊝﹏𓂁﹏</p>
       <img
@@ -82,13 +82,13 @@ export default function About() {
         see in children’s cartoons. I knew I wanted to work with computers
         because I saw so clearly how much better life could be if we integrated
         them into our daily life (though I realise as I got older, technology
-        only improves our life if we built it with that thought in mind), and I
-        just had to be a part of it. I started reading up on fundamental
-        computing technologies and started programming a couple of years later
-        at the same time when I started my Information Technology tertiary
-        education. While I was able to surf the web to learn using my family’s
-        computer, it was only when I got my own laptop that I was able to start
-        programming and invest more time being on the Internet.
+        only improves our lives if we genuinely built it with that thought in
+        mind), and I just had to be a part of it. I started reading up on
+        fundamental computing technologies and started programming a couple of
+        years later at the same time when I started my Information Technology
+        tertiary education. While I was able to surf the web to learn using my
+        family’s computer, it was only when I got my own laptop that I was able
+        to start programming and invest more time being on the Internet.
       </p>
       <img
         id="about-me-pic-three"
@@ -166,9 +166,9 @@ export default function About() {
       <p>
         Accenture became the best thing to me as I learnt so much from back-end
         programming to Identity Access Management Systems configuration, to my
-        later found forte in ReactJS front-end software engineering. I was on an
-        intensive on-the-job training for 4 years and 10 months and pretty much
-        covered the entire spectrum of web applications technology.
+        later found forte in ReactJS front-end software engineering. It was like
+        I was on an intensive on-the-job training for 4 years and 10 months and
+        pretty much covered the entire spectrum of web applications technology.
       </p>
 
       <p>
