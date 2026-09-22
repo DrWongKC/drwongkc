@@ -1,0 +1,15 @@
+.intelli-find-title {
+  text-align: center;
+}
+
+.intelli-find-description {
+  text-align: justify;
+  font-style: italic;
+  font-size: 0.75em;
+}
+
+.intelli-find-warning {
+  text-align: center;
+  color: rgb(255, 0, 0);
+  font-size: 0.9em;
+}

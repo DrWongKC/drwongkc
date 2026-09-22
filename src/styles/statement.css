@@ -1,0 +1,11 @@
+#statement-heading {
+  text-align: center;
+  font-size: 45px;
+  line-height: 1em;
+}
+
+#statement-paragraph {
+  text-align: justify;
+  font-size: 16px;
+  line-height: 1em;
+}

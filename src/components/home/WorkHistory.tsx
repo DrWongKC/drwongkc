@@ -4,7 +4,7 @@ const WorkHistory = () => {
       <h2>Work History</h2>
 
       <div className="card--work-history">
-        <strong>🚧 Software Engineer | Accenture</strong>
+        <span>💼 Software Engineer | Accenture</span>
         <div className="mimic-p">September 2020 - June 2025</div>
         <div className="mimic-p">
           <span>Responsibilities:</span>
@@ -63,7 +63,7 @@ const WorkHistory = () => {
       </div>
       <div className="line-break"></div>
       <div className="card--work-history">
-        <strong>🚧 Full-stack Software Engineering Intern | GrabJobs</strong>
+        <span>💼 Full-stack Software Engineering Intern | GrabJobs</span>
         <div className="mimic-p">January 2020 - April 2020</div>
         <ul>
           <li>
@@ -82,7 +82,7 @@ const WorkHistory = () => {
       </div>
       <div className="line-break"></div>
       <div className="card--work-history">
-        <strong>🚧 Program Manager | EAT Launchpad</strong>
+        <span>💼 Program Manager | EAT Launchpad</span>
         <div className="mimic-p">February 2019 - July 2019</div>
         <ul>
           <li>
@@ -106,9 +106,7 @@ const WorkHistory = () => {
       </div>
       <div className="line-break"></div>
       <div className="card--work-history">
-        <strong>
-          🚧 Co-Founder & Content Manager | Startup Singapore Google+
-        </strong>
+        <span>💼 Co-Founder & Content Manager | Startup Singapore Google+</span>
         <div className="mimic-p">January 2015 - April 2019</div>
         <ul>
           <li>
@@ -131,7 +129,7 @@ const WorkHistory = () => {
       </div>
       <div className="line-break"></div>
       <div className="card--work-history">
-        <strong>🚧 Engineering Technician | Dell EMC</strong>
+        <span>💼 Engineering Technician | Dell EMC</span>
         <div className="mimic-p">July 2018 - January 2019</div>
         <ul>
           <li>
@@ -150,10 +148,10 @@ const WorkHistory = () => {
       </div>
       <div className="line-break"></div>
       <div className="card--work-history">
-        <strong>
-          🚧 React Native Mobile App Development Intern | United Overseas Bank
+        <span>
+          💼 React Native Mobile App Development Intern | United Overseas Bank
           Limited (UOB)
-        </strong>
+        </span>
         <div className="mimic-p">October 2017 - February 2018</div>
         <ul>
           <li>
@@ -168,7 +166,7 @@ const WorkHistory = () => {
       </div>
       <div className="line-break"></div>
       <div className="card--work-history">
-        <strong>🚧 Workshop Facilitator | Code Gakko</strong>
+        <span>💼 Workshop Facilitator | Code Gakko</span>
         <div className="mimic-p">July 2017 - February 2018</div>
         <ul>
           <li>
@@ -187,7 +185,7 @@ const WorkHistory = () => {
       </div>
       <div className="line-break"></div>
       <div className="card--work-history">
-        <strong>🚧 Workshop Facilitator | Witty Mitty</strong>
+        <span>💼 Workshop Facilitator | Witty Mitty</span>
         <div className="mimic-p">July 2017 - February 2018</div>
         <ul>
           <li>
@@ -206,7 +204,7 @@ const WorkHistory = () => {
       </div>
       <div className="line-break"></div>
       <div className="card--work-history">
-        <strong>🚧 Co-Founder & Project Coordinator | KAI Studio</strong>
+        <span>💼 Co-Founder & Project Coordinator | KAI Studio</span>
         <div className="mimic-p">January 2017 - July 2017</div>
         <ul>
           <li>

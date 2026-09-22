@@ -1,3 +1,5 @@
+import "../styles/about.css";
+
 import YouTube from "react-youtube";
 
 export default function About() {

@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Ubuntu-Regular";
+  src:
+    local("Ubuntu-Regular"),
+    url(./src/fonts/Ubuntu/Ubuntu-Regular.ttf) format("truetype");
+}
+
+#container--main {
+  max-width: 875px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+* {
+  font-family: "Ubuntu-Regular", sans-serif;
+  text-align: justify;
+  line-height: 1.5em;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+p,
+span,
+li {
+  color: black;
+  font-size: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: #f46036;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+li {
+  line-height: 1.9em;
+}
+
+nav {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+nav {
+  font-size: 2.2em;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #f46036;
+  text-decoration: underline;
+}
