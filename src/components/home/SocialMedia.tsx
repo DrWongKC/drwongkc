@@ -21,7 +21,7 @@ const SocialMedia = () => {
             src="https://img.icons8.com/?size=100&id=RUIFhdJm8fbJ&format=png&color=000000"
           />
           &nbsp;
-          <a>kai_wong[at]outlook[dot]com</a>
+          <a href="mailto:">kai_wong[at]outlook[at]com</a>
         </div>
         <div id="social--link">
           <img

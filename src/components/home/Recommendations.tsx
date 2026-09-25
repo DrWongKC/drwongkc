@@ -24,7 +24,7 @@ const Recommendations = () => {
               Britta Mary Oblan
             </a>
           </div>
-          <div className="job">Front-end Developer</div>
+          <div className="job">Frontend Software Engineer</div>
           <div>June 28, 2024</div>
           <i>Britta Mary worked with Kai Chong on the same team</i>
           <div>
@@ -64,10 +64,7 @@ const Recommendations = () => {
               Adele Valeria
             </a>
           </div>
-          <div className="job">
-            Computational Immunology PhD Student at Johns Hopkins Computer
-            Science
-          </div>
+          <div className="job">Computational Immunology PhD Student</div>
           <div>March 15, 2018</div>
           <i>Adele worked with Kai Chong on the same team</i>
           <div>
@@ -103,9 +100,7 @@ const Recommendations = () => {
               Norraine Grace N. Diolola
             </a>
           </div>
-          <div className="job">
-            Chemical Technician at Treasure Island Industrial Corporation
-          </div>
+          <div className="job">Chemical Technician</div>
           <div>March 31, 2025</div>
           <i>Norraine Grace is Kai Chong's life companion</i>
           <div>

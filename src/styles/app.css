@@ -19,20 +19,53 @@
 }
 
 body {
-  background-color: white;
+  background-color: #f8f5f0;
+  color: #2b3938;
 }
 
 p,
 span,
 li {
-  color: black;
   font-size: 1em;
 }
 
-a {
+nav {
+  font-size: 2.2em;
+
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+nav a {
   text-decoration: none;
-  color: #f46036;
-  font-weight: 500;
+  animation: blink 4s infinite;
+}
+@keyframes blink {
+  0% {
+    color: #2b3938;
+    text-decoration: none;
+  }
+  25% {
+    color: #2b3938;
+    text-decoration: none;
+  }
+  50% {
+    color: #666140;
+    text-decoration: underline;
+  }
+  75% {
+    color: #2b3938;
+    text-decoration: none;
+  }
+  100% {
+    color: #2b3938;
+    text-decoration: none;
+  }
+}
+
+a {
+  color: #551a8b;
 }
 
 a:hover {
@@ -41,25 +74,4 @@ a:hover {
 
 li {
   line-height: 1.9em;
-}
-
-nav {
-  text-align: center;
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-
-nav {
-  font-size: 2.2em;
-}
-
-nav a {
-  text-decoration: none;
-  color: black;
-  font-weight: 500;
-}
-
-nav a:hover {
-  color: #f46036;
-  text-decoration: underline;
 }
