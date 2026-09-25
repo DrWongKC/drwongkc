@@ -14,9 +14,9 @@ function App() {
       <div id="container--main">
         {/* Navigation */}
         <nav>
-          <Link to="/drwongkc">Home</Link> ⧸ <Link to="/about">About</Link> ⧸{" "}
-          <Link to="/intellifindlaptopguide">IntelliFind</Link>
-          {/* ⧸{" "}<Link to="/statement">AI SoC</Link> */}
+          <Link to="/drwongkc">Home</Link> ⧸ <Link to="/about">About</Link>
+          {/* ⧸{" "}<Link to="/intellifindlaptopguide">IntelliFind</Link> */}
+          {/* ⧸ <Link to="/statement">AI SoC</Link> */}
         </nav>
         {/* Routes */}
         <Routes>

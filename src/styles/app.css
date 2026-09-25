@@ -1,8 +1,8 @@
 @font-face {
-  font-family: "Ubuntu-Regular";
+  font-family: "Raleway-Regular";
   src:
-    local("Ubuntu-Regular"),
-    url(./src/fonts/Ubuntu/Ubuntu-Regular.ttf) format("truetype");
+    local("Raleway-Regular"),
+    url(./src/fonts/Raleway/static/Raleway-Regular.ttf) format("truetype");
 }
 
 #container--main {
@@ -12,7 +12,7 @@
 }
 
 * {
-  font-family: "Ubuntu-Regular", sans-serif;
+  font-family: "Raleway-Regular", sans-serif;
   text-align: justify;
   line-height: 1.5em;
   box-sizing: border-box;
