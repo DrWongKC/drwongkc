@@ -1,9 +1,4 @@
-@font-face {
-  font-family: "Raleway-Regular";
-  src:
-    local("Raleway-Regular"),
-    url(./src/fonts/Raleway/static/Raleway-Regular.ttf) format("truetype");
-}
+@import url("https://fonts.googleapis.com/css?family=Raleway");
 
 #container--main {
   max-width: 875px;
@@ -12,7 +7,7 @@
 }
 
 * {
-  font-family: "Raleway-Regular", sans-serif;
+  font-family: "Raleway", sans-serif;
   text-align: justify;
   line-height: 1.5em;
   box-sizing: border-box;
@@ -37,11 +32,14 @@ nav {
   margin-bottom: 1em;
 }
 
+nav a:hover {
+  text-decoration: underline;
+}
 nav a {
   text-decoration: none;
-  animation: blink 4s infinite;
+  /* animation: blink 5s infinite; */
 }
-@keyframes blink {
+/* @keyframes blink {
   0% {
     color: #2b3938;
     text-decoration: none;
@@ -62,9 +60,10 @@ nav a {
     color: #2b3938;
     text-decoration: none;
   }
-}
+} */
 
 a {
+  text-decoration: none;
   color: #551a8b;
 }
 
