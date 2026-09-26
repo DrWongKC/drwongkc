@@ -4,10 +4,8 @@ import Summary from "../components/home/Summary";
 import Description from "../components/home/Description";
 import WorkHistory from "../components/home/WorkHistory";
 import Recommendations from "../components/home/Recommendations";
-
-import { recommendation } from "../data/recommendations";
-
 import "../styles/home.css";
+import { recommendations } from "../data/recommendations";
 
 export default function Home() {
   return (
@@ -17,7 +15,7 @@ export default function Home() {
       <Summary />
       <Description />
       <WorkHistory />
-      <Recommendations recommendation={recommendation} />
+      <Recommendations recommendation={recommendations} />
     </>
   );
 }
