@@ -31,8 +31,7 @@
 #about-me-pic-three {
   margin: 1em;
   object-fit: cover;
-  height: 395px;
-  width: 275px;
+  width: 45%;
   float: left;
   border-radius: 1em;
 }
@@ -41,21 +40,21 @@
   margin: auto;
   display: block;
   border-radius: 1em;
-  height: 360px;
-  width: 640px;
+  width: 100%;
 }
 
 #about-me-pic-four {
-  margin: 0em 1em 1em 1em;
-  object-fit: cover;
-  height: 335px;
-  width: 335px;
-  float: right;
+  margin-left: 15px;
+  display: block;
   border-radius: 1em;
+  object-fit: cover;
+  max-width: 400px;
+  aspect-ratio: 3.75 / 4;
+  float: right;
 }
 
-@media screen and (max-width: 768px) {
-  /* Styles for screens up to 768px width */
+@media screen and (max-width: 750px) {
+  /* Styles for screens up to 750px width */
   #about-me-pic-one {
     max-width: 150px;
     height: auto;
@@ -64,6 +63,18 @@
 
   #about-me-pic-two {
     max-width: 150px;
+    height: auto;
+    border-radius: 1em;
+  }
+
+  #about-me-pic-three {
+    max-width: 150px;
+    height: auto;
+    border-radius: 1em;
+  }
+
+  #about-me-pic-four {
+    max-width: 175px;
     height: auto;
     border-radius: 1em;
   }
