@@ -27,8 +27,8 @@ export default function About() {
         src="https://i.postimg.cc/52rXXdxG/About-Page-1.jpg"
       />
       <p>
-        Heyy, I'm Kai Chong. Welcome to my spot of the web where I share about
-        my professional experience and achievements to you. I'm currently on a
+        Hii, I'm Kai Chong. Welcome to my spot of the web where I share about my
+        professional experience and achievements to you. I'm currently on a
         sabbatical to discover more of what I want, move-on to the next stage of
         my personal life, and to refine my knowledge and skills as a software
         engineer.

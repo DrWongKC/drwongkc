@@ -2,11 +2,70 @@ const WorkHistory = () => {
   return (
     <section id="work-history-wrapper" className="section--page">
       <h2>Work History</h2>
-
+      <div className="card--work-history">
+        <span>⛱️ Career Sabbatical | Personal Goal Pursuit</span>
+        <div className="mimic-p">July 2025 - September 2026</div>
+        <p>
+          Alongside major personal transitions — marriage, broad exploration of
+          my interests, and plenty of time away — my main goal for this
+          sabbatical is to substantially deepen my technical skills.
+        </p>
+        <span>Online Courses:</span>
+        <ul>
+          <li>[Completed] Build AI-Powered Apps</li>
+          <li>[Completed] Learn React JS</li>
+          <li>[Completed] AI-Assisted Coding</li>
+          <li>[Completed] System Design</li>
+          <li>[Completed] AI Agents for Beginners</li>
+        </ul>
+        <span>Practical:</span>
+        <ul>
+          <li>
+            [Completed] Self-directed Learning in Software Engineering
+            <br />
+            <i>
+              Bootcamp provided by Accenture colleague before onboarding to
+              project
+            </i>
+            <ul>
+              <li>ReactJS Basic & Advanced Concepts</li>
+              <li>MobX</li>
+              <li>MaterialUI</li>
+            </ul>
+          </li>
+          <li>[On-going Improvements] myDigitalResumeProject(📄)™</li>
+          <li>[On-going Practise] HackerRank ReactJS Exercises</li>
+        </ul>
+      </div>
+      <div className="line-break"></div>
       <div className="card--work-history">
         <span>💼 Software Engineer | Accenture</span>
         <div className="mimic-p">September 2020 - June 2025</div>
         <div className="mimic-p">
+          <p className="work-history-table">
+            <table>
+              <tr>
+                <td>↑&nbsp;&nbsp;Apr 2023 – Jun 2025&nbsp;&nbsp;</td>
+                <td>Packaged App Development Associate&nbsp;&nbsp;</td>
+                <td>Frontend Engineer</td>
+              </tr>
+              <tr>
+                <td>↑&nbsp;&nbsp;Jun 2022 – Mar 2023&nbsp;&nbsp;</td>
+                <td>Software Engineering Associate&nbsp;&nbsp;</td>
+                <td>Backend & Platform Engineer</td>
+              </tr>
+              <tr>
+                <td>↑&nbsp;&nbsp;Nov 2020 – Jun 2022&nbsp;&nbsp;</td>
+                <td>Software Engineering New Associate&nbsp;&nbsp;</td>
+                <td>Backend Engineer</td>
+              </tr>
+              <tr>
+                <td>↑&nbsp;&nbsp;Sep 2020 – Nov 2020&nbsp;&nbsp;</td>
+                <td>Software Engineering Intern&nbsp;&nbsp;</td>
+                <td>Platform Engineer</td>
+              </tr>
+            </table>
+          </p>
           <span>Responsibilities:</span>
           <ul>
             <li>
@@ -22,7 +81,10 @@ const WorkHistory = () => {
               roadmap features on schedule.
             </li>
           </ul>
-          <span>Skills:</span>
+          <span>
+            Packaged App Development Associate | Frontend Engineer Skills (Apr
+            2023 – Jun 2025):
+          </span>
           <ul>
             <li>React.js (Open-Source JavaScript Library)</li>
             <li>
@@ -40,6 +102,58 @@ const WorkHistory = () => {
             <li>
               Postman (Test and Manage API Responses While Developing or
               Modifying an API)
+            </li>
+          </ul>
+          <span>
+            Software Engineering Associate | Backend & Platform Engineer Skills
+            (Jun 2022 – Mar 2023):
+          </span>
+          <ul>
+            <li>Spring MVC (Model-View-Controller)</li>
+            <li>
+              Grafana (Analytics and Interactive Visualization Web Application)
+            </li>
+            <li>MySQL (Open-source Relational Database Management System)</li>
+            <li>Kibana (Data Visualization and Exploration Tool)</li>
+            <li>Gauge (Open Source Test Automation Framework)</li>
+            <li>
+              GoCD (Open Source Continuous Delivery and Release Automation)
+            </li>
+            <li>Maven (Build Automation Tool)</li>
+            <li>Gradle (Build Automation Tool)</li>
+            <li>Java 11 (Programming Language)</li>
+            <li>Java 8 (Programming Language)</li>
+          </ul>
+          <span>
+            Software Engineering New Associate | Backend Engineer Skills (Nov
+            2020 – Jun 2022):
+          </span>
+          <ul>
+            <li>
+              Hibernate ORM (Object–relational Mapping Tool for the Java
+              Programming Language)
+            </li>
+            <li>IBM Security Access Manager (Identity & Access Management)</li>
+            <li>Java 7 Spring MVC (Model-View-Controller)</li>
+          </ul>
+          <span>
+            Software Engineering Intern | Platform Engineer Skills (Sep 2020 –
+            Nov 2020):
+          </span>
+          <ul>
+            <li>
+              GoCD (Open Source Continuous Delivery and Release Automation)
+            </li>
+            <li>IBM Security Access Manager (Identity & Access Management)</li>
+            <li>Helm (Kubernetes Package Manager)</li>
+            <li>AWS Cloud (Amazon Web Services Cloud Computing)</li>
+            <li>Ansible (Application Deployment Automation)</li>
+            <li>
+              Security Assertion Markup Language (SAML Authentication &
+              Authorization Protocol)
+            </li>
+            <li>
+              OpenID Connect (OIDC Authentication & Authorization Protocol)
             </li>
           </ul>
         </div>
@@ -65,6 +179,7 @@ const WorkHistory = () => {
       <div className="card--work-history">
         <span>💼 Full-stack Software Engineering Intern | GrabJobs</span>
         <div className="mimic-p">January 2020 - April 2020</div>
+        <span>Responsibilities:</span>
         <ul>
           <li>
             Built advanced data filtering and features for an internal web tool,
@@ -79,11 +194,23 @@ const WorkHistory = () => {
             insights and improved performance tracking.
           </li>
         </ul>
+        <span>Skills:</span>
+        <ul>
+          <li>JavaScript</li>
+          <li>Bootstrap</li>
+          <li>AngularJS</li>
+          <li>HTML5/CSS3</li>
+          <li>MySQL</li>
+          <li>Python</li>
+          <li>PHP</li>
+          <li>Visual Studio Code</li>
+        </ul>
       </div>
       <div className="line-break"></div>
       <div className="card--work-history">
         <span>💼 Program Manager | EAT Launchpad</span>
         <div className="mimic-p">February 2019 - July 2019</div>
+        <span>Responsibilities:</span>
         <ul>
           <li>
             Directed high-impact events that significantly expanded brand
@@ -108,6 +235,7 @@ const WorkHistory = () => {
       <div className="card--work-history">
         <span>💼 Co-Founder & Content Manager | Startup Singapore Google+</span>
         <div className="mimic-p">January 2015 - April 2019</div>
+        <span>Responsibilities:</span>
         <ul>
           <li>
             Founded and grew a Singapore-based startup community on Google+ from
@@ -131,6 +259,7 @@ const WorkHistory = () => {
       <div className="card--work-history">
         <span>💼 Engineering Technician | Dell EMC</span>
         <div className="mimic-p">July 2018 - January 2019</div>
+        <span>Responsibilities:</span>
         <ul>
           <li>
             Created and deployed hardware driver packages and documentation,
@@ -153,6 +282,7 @@ const WorkHistory = () => {
           Limited (UOB)
         </span>
         <div className="mimic-p">October 2017 - February 2018</div>
+        <span>Responsibilities:</span>
         <ul>
           <li>
             Authored comprehensive user guides and technical documentation for
@@ -168,6 +298,7 @@ const WorkHistory = () => {
       <div className="card--work-history">
         <span>💼 Workshop Facilitator | Code Gakko</span>
         <div className="mimic-p">July 2017 - February 2018</div>
+        <span>Responsibilities:</span>
         <ul>
           <li>
             Taught hands-on programming lessons that encouraged interactive
@@ -187,6 +318,7 @@ const WorkHistory = () => {
       <div className="card--work-history">
         <span>💼 Workshop Facilitator | Witty Mitty</span>
         <div className="mimic-p">July 2017 - February 2018</div>
+        <span>Responsibilities:</span>
         <ul>
           <li>
             Guided students through project-based challenges to build practical
@@ -206,6 +338,7 @@ const WorkHistory = () => {
       <div className="card--work-history">
         <span>💼 Co-Founder & Project Coordinator | KAI Studio</span>
         <div className="mimic-p">January 2017 - July 2017</div>
+        <span>Responsibilities:</span>
         <ul>
           <li>
             Led a cross-functional team of artists, developers, and coordinators
