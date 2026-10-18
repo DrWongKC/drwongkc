@@ -10,6 +10,7 @@ const WorkHistory = () => {
           my interests, and plenty of time away — my main goal for this
           sabbatical is to substantially deepen my technical skills.
         </p>
+        {/* 
         <span>Online Courses:</span>
         <ul>
           <li>[Completed] Build AI-Powered Apps</li>
@@ -35,7 +36,7 @@ const WorkHistory = () => {
           </li>
           <li>[On-going Improvements] myDigitalResumeProject(📄)™</li>
           <li>[On-going Practise] HackerRank ReactJS Exercises</li>
-        </ul>
+        </ul> */}
       </div>
       <div className="line-break"></div>
       <div className="card--work-history">
