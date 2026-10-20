@@ -6,6 +6,7 @@ import WorkHistory from "../components/home/WorkHistory";
 import Recommendations from "../components/home/Recommendations";
 import "../styles/home.css";
 import { recommendations } from "../data/recommendations";
+import HackerRankExercises from "../components/home/HackerRankExercises";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Description />
       <WorkHistory />
       <Recommendations recommendation={recommendations} />
+      <HackerRankExercises />
     </>
   );
 }
