@@ -1,9 +1,9 @@
-import "../styles/statement.css";
+import "../styles/statementquestionsandanswers.css";
 
-export default function Statement() {
+export default function StatementQuestionsAndAnswers() {
   return (
     <>
-      <h1 id="statement-heading">AI Statement of Concern</h1>
+      <h1 id="statement-heading">Statement of Concern</h1>
       <p id="statement-paragraph">
         Lorem ipsum dolor sit amet consectetur adipiscing elit. Pretium tellus
         duis convallis tempus leo eu aenean. Iaculis massa nisl malesuada
