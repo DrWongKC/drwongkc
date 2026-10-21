@@ -78,9 +78,24 @@ export default function StatementQuestionsAndAnswers() {
           development best practises for your understanding and I'll continue
           after my approach to software engineering.
         </p>
-        <p id="statement-questions-and-answers-paragraph">
+        <div>
           https://geeksprogramming.com/key-principles-in-software-and-acronyms/
-        </p>
+          <ul>
+            <li>DRY - Don't Repeat Yourself</li>
+            <li>KISS - Keep It Simple, Stupid</li>
+            <li>YAGNI - You Aren't Gonna Need It</li>
+            <li>
+              SOLID
+              <ul>
+                <li>Single Responsibility</li>
+                <li>Open/Closed</li>
+                <li>Liskov Substitution</li>
+                <li>Interface Segregation</li>
+                <li>Dependency Inversion</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
         <p id="statement-questions-and-answers-paragraph">
           The key to engineering any software is to be mindful and in control of
           the process. If there's any research I require to do, I will do it
@@ -170,28 +185,125 @@ export default function StatementQuestionsAndAnswers() {
           Questions and Answers
         </h1>
         <div>
-          <h4>Question 1:</h4>
-          <p>Answer 1:</p>
+          <h4>
+            Question 1: Describe your experience working on a complex project.
+            Be ready to explain the system, your role, the hard constraint, and
+            the result.
+          </h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
         </div>
         <div>
-          <h4>Question 2:</h4>
-          <p>Answer 2:</p>
+          <h4>
+            Question 2: What project are you most proud of? Choose a story where
+            your personal ownership, technical judgment, and impact are easy to
+            see.
+          </h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
         </div>
         <div>
-          <h4>Question 3:</h4>
-          <p>Answer 3:</p>
+          <h4>
+            Question 3: Tell me about a time you had to make an important
+            architectural decision. Walk me through your thought process.
+          </h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
         </div>
         <div>
-          <h4>Question 4:</h4>
-          <p>Answer 4:</p>
+          <h4>
+            Question 4: Tell me about a tradeoff you made under pressure. What
+            did you optimize for, and what did you accept?
+          </h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
         </div>
         <div>
-          <h4>Question 5:</h4>
-          <p>Answer 5:</p>
+          <h4>
+            Question 5: Pick a system you worked on. What would you rebuild
+            differently if you had another chance?
+          </h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
         </div>
         <div>
-          <h4>Question 6:</h4>
-          <p>Answer 6:</p>
+          <h4>
+            Question 6: How did you debug a production issue, and what changed
+            after the incident?
+          </h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div>
+          <h4>
+            Question 7: Tell me about a project where you failed. Show what you
+            owned, what you learned, and what changed in your later work.
+          </h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div>
+          <h4>
+            Question 8: What part of your recent work best maps to this team?
+          </h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
         </div>
       </div>
     </>
