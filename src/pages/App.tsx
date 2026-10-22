@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
 import IntelliFindLaptopGuide from "./IntelliFindLaptopGuide";
-import StatementQuestionsAndAnswers from "./StatementQuestionsAndAnswers";
+import StatementQuestionsAndAnswers from "./StatementOfConcern";
 import Footer from "../components/Footer";
 import NoMatch from "./NoMatch";
 
@@ -17,8 +17,8 @@ function App() {
           <Link to="/drwongkc">Home</Link> ⧸ <Link to="/about">About</Link>
           {/* ⧸{" "}<Link to="/intellifindlaptopguide">IntelliFind</Link> */} ⧸{" "}
           <Link to="/intellifindlaptopguide">Coding</Link> ⧸{" "}
-          <Link to="/statementquestionsandanswers">SoC</Link> ⧸{" "}
-          <Link to="/intellifindlaptopguide">Q&A</Link>
+          <Link to="/statementofconcern">SoC</Link> ⧸{" "}
+          <Link to="/questionsandanswers">Q&A</Link>
         </nav>
         {/* Routes */}
         <Routes>

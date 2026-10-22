@@ -1,13 +1,11 @@
-import "../styles/statementquestionsandanswers.css";
+import "../styles/statementofconcern.css";
 
-export default function StatementQuestionsAndAnswers() {
+export default function StatementOfConcern() {
   return (
     <>
       <div>
-        <h1 id="statement-questions-and-answers-heading">
-          Statement of Concern
-        </h1>
-        <p id="statement-questions-and-answers-paragraph">
+        <h1 id="statement-of-concern-heading">Statement of Concern</h1>
+        <p id="statement-of-concern-paragraph">
           There is a growing concern about Generative AI's effect on software
           development and it's leading to growing distress not just to software
           engineers but to anyone who constitutes a knowledge worker. I'm unsure
@@ -15,13 +13,13 @@ export default function StatementQuestionsAndAnswers() {
           take on software engineering based on my years of experience working
           in this field.
         </p>
-        <p id="statement-questions-and-answers-paragraph">
+        <p id="statement-of-concern-paragraph">
           For the most concerning, I'm seeing software engineers struggle with
           the proliferation of poor code quality they have to work with, with
           the perception that AI can produce what looks like production grade
           software with just a few prompts disrupting the software industry.
         </p>
-        <p id="statement-questions-and-answers-paragraph">
+        <p id="statement-of-concern-paragraph">
           It's because of this that many who are experienced in the field are
           concerned that someone senior who makes management decisions might get
           the wrong idea of what this new technology is and decide it is a
@@ -31,12 +29,12 @@ export default function StatementQuestionsAndAnswers() {
           to rehire these people at a higher salary than before, whether they
           are the same or different people.
         </p>
-        <p id="statement-questions-and-answers-paragraph">
+        <p id="statement-of-concern-paragraph">
           Here, I want to emphasize that it'll probably take a long while for
           anyone to build an AI that can replace technical and knowledge work
           where certainty is required, if replacement is even ever possible.
         </p>
-        <p id="statement-questions-and-answers-paragraph">
+        <p id="statement-of-concern-paragraph">
           One of the reasons why AI must be supervised by someone who knows is
           because it's not possible for AI to be a 100% correct on all outputs
           they give. AI is trained on data from anywhere the AI company can get
@@ -60,7 +58,7 @@ export default function StatementQuestionsAndAnswers() {
           we get it right from the start, so we don't have to spend time fixing
           it later.
         </p>
-        <p id="statement-questions-and-answers-paragraph">
+        <p id="statement-of-concern-paragraph">
           As the threat of cybersecurity increases, especially with AI now also
           being open source and in anyone's hands, it's important that a
           programmer goes through all the AI generated code before using it to
@@ -70,7 +68,7 @@ export default function StatementQuestionsAndAnswers() {
           might also accept and pass-on code that isn't suitable and add it into
           the codebase leading to possible challenges in the future.
         </p>
-        <p id="statement-questions-and-answers-paragraph">
+        <p id="statement-of-concern-paragraph">
           All these led me on to figure out how I believe our approach to
           software engineering should be where we're balancing the use of AI,
           while being able to continually ensure the code we submit to our Tech
@@ -96,7 +94,7 @@ export default function StatementQuestionsAndAnswers() {
             </li>
           </ul>
         </div>
-        <p id="statement-questions-and-answers-paragraph">
+        <p id="statement-of-concern-paragraph">
           The key to engineering any software is to be mindful and in control of
           the process. If there's any research I require to do, I will do it
           with AI or with Search Engines, where any use of AI, if justified,
@@ -107,7 +105,7 @@ export default function StatementQuestionsAndAnswers() {
           we don't have to redo something caused by a shaky foundation that
           happened earlier.
         </p>
-        <p id="statement-questions-and-answers-paragraph">
+        <p id="statement-of-concern-paragraph">
           In software engineering, we usually have an idealised and most optimal
           way to write the code. After writing that out, we use our
           understanding of programming to customise it further while ensuring no
@@ -116,7 +114,7 @@ export default function StatementQuestionsAndAnswers() {
           vulnerabilities are patched up because cyberattacks are a threat the
           more users and mission critical data we have on this product.
         </p>
-        <p id="statement-questions-and-answers-paragraph">
+        <p id="statement-of-concern-paragraph">
           For me, to be in control where I use AI as a tool not as an AI worker
           that requires me to check all its work, I need to engineer the
           software in a manner where I move closer to completion, step-by-step,
@@ -144,7 +142,7 @@ export default function StatementQuestionsAndAnswers() {
           engineers, I swear! The software engineer should always remain in
           control of his development process.
         </p>
-        <p id="statement-questions-and-answers-paragraph">
+        <p id="statement-of-concern-paragraph">
           This is why we need to go through what AI produces, not because no one
           completely understands how AI works but because AI will never produce
           a perfect answer all the time. Despite that, if the person knows
@@ -152,7 +150,7 @@ export default function StatementQuestionsAndAnswers() {
           research is going to be the quicker way, than to create an entire
           product with only AI and expect it to be exactly how we want it to be.
         </p>
-        <p id="statement-questions-and-answers-paragraph">
+        <p id="statement-of-concern-paragraph">
           This is why in software engineering; we cannot only be
           result-oriented. Apart from this, programming languages are created to
           be an as-easy-to-pick-up and use, while balancing complex
@@ -164,7 +162,7 @@ export default function StatementQuestionsAndAnswers() {
           to define how a software should be with precision, that technology
           will likely just be another high-level programming language.
         </p>
-        <p id="statement-questions-and-answers-paragraph">
+        <p id="statement-of-concern-paragraph">
           From what I'm seeing, if we were to work with AI through prompting
           only, we will always require someone with the knowledge to not miss
           out on anything that makes up a production grade software product.
@@ -176,14 +174,12 @@ export default function StatementQuestionsAndAnswers() {
           programming languages while assisted by AI programming tools and our
           very own due dilligence.
         </p>
-        <p id="statement-questions-and-answers-paragraph">
+        <p id="statement-of-concern-paragraph">
           The problem with Generative AI is that it's not always correct.
         </p>
       </div>
       <div>
-        <h1 id="statement-questions-and-answers-heading">
-          Questions and Answers
-        </h1>
+        <h1 id="statement-of-concern-heading">Questions and Answers</h1>
         <div>
           <h4>
             Question 1: Describe your experience working on a complex project.
