@@ -2,7 +2,7 @@ import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const HackerRankExercises = () => {
-  const codeStringOne = `import { useState } from "react";
+  const blogPostCodeStringOne = `import { useState } from "react";
 import Input from "./Input";
 import PostDisplay from "./PostDisplay";
 
@@ -28,7 +28,7 @@ function Home() {
 }
 
 export default Home;`;
-  const codeStringTwo = `import { useState } from "react";
+  const blogPostCodeStringTwo = `import { useState } from "react";
 
 function Input({ setCount, count, setBlogPosts, blogPosts }) {
   const [inputTitle, setInputTitle] = useState("");
@@ -92,7 +92,7 @@ function Input({ setCount, count, setBlogPosts, blogPosts }) {
 }
 
 export default Input;`;
-  const codeStringThree = `function PostDisplay({ blogPosts, setBlogPosts }) {
+  const blogPostCodeStringThree = `function PostDisplay({ blogPosts, setBlogPosts }) {
   function deleteBlogPost(id) {
     setBlogPosts((currentPosts) =>
       currentPosts.filter((post) => post.id !== id),
@@ -116,9 +116,7 @@ export default PostDisplay;`;
 
   return (
     <div>
-      <h2>HackerRank Exercises</h2>
-      <p>Here are some of the HackerRank exercises I've completed:</p>
-      {/* Add your HackerRank exercise content here */}
+      <h2 className="heading">HackerRank Exercises</h2>
       <div>
         <h4>Blog Post [Data Handling]</h4>
         <ol>
@@ -155,41 +153,20 @@ export default PostDisplay;`;
           </li>
         </ol>
         <h4>Preview</h4>
-        <div
-          style={{
-            display: "flex",
-            padding: "20px",
-          }}
-        >
-          <div
-            style={{
-              flex: "1",
-              padding: "10px",
-            }}
-          >
+        <div className="flex-container">
+          <div className="flex-div">
             <h5>Before:</h5>
             <img
-              style={{
-                width: "100%",
-                boxShadow: "1px 2px 9px grey",
-              }}
+              className="flex-img"
               src={
                 "https://i.postimg.cc/Pr06QKgS/screencapture-main-ironpack-hrcdn-net-2026-10-22-18-03-36.png"
               }
             />
           </div>
-          <div
-            style={{
-              flex: "1",
-              padding: "10px",
-            }}
-          >
+          <div className="flex-div">
             <h5>After:</h5>
             <img
-              style={{
-                width: "100%",
-                boxShadow: "1px 2px 9px grey",
-              }}
+              className="flex-img"
               src={
                 "https://i.postimg.cc/VLjxCTvc/screencapture-main-ironpack-hrcdn-net-2026-10-22-18-30-08.png"
               }
@@ -200,15 +177,15 @@ export default PostDisplay;`;
         <>
           <h5>Home.js</h5>
           <SyntaxHighlighter language="javascript" style={docco}>
-            {codeStringOne}
+            {blogPostCodeStringOne}
           </SyntaxHighlighter>
           <h5>Input.js</h5>
           <SyntaxHighlighter language="javascript" style={docco}>
-            {codeStringTwo}
+            {blogPostCodeStringTwo}
           </SyntaxHighlighter>
           <h5>PostDisplay.js</h5>
           <SyntaxHighlighter language="javascript" style={docco}>
-            {codeStringThree}
+            {blogPostCodeStringThree}
           </SyntaxHighlighter>
         </>
       </div>
