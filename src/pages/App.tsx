@@ -16,7 +16,9 @@ function App() {
         <nav>
           <Link to="/drwongkc">Home</Link> ⧸ <Link to="/about">About</Link>
           {/* ⧸{" "}<Link to="/intellifindlaptopguide">IntelliFind</Link> */} ⧸{" "}
-          <Link to="/statementquestionsandanswers">SoC & Q&A</Link>
+          <Link to="/intellifindlaptopguide">Coding</Link> ⧸{" "}
+          <Link to="/statementquestionsandanswers">SoC</Link> ⧸{" "}
+          <Link to="/intellifindlaptopguide">Q&A</Link>
         </nav>
         {/* Routes */}
         <Routes>
