@@ -1733,11 +1733,21 @@ export default medical_records;
               <div className="flex-container">
                 <div className="flex-div">
                   <h5>Before:</h5>
-                  <img className="flex-img" src={"google.com"} />
+                  <img
+                    className="flex-img"
+                    src={
+                      "https://i.postimg.cc/9fHpfXvK/screencapture-main-ironpack-hrcdn-net-2026-10-26-02-18-05.png"
+                    }
+                  />
                 </div>
                 <div className="flex-div">
                   <h5>After:</h5>
-                  <img className="flex-img" src={"google.com"} />
+                  <img
+                    className="flex-img"
+                    src={
+                      "https://i.postimg.cc/Pxh2SfyL/screencapture-main-ironpack-hrcdn-net-2026-10-26-02-15-49.png"
+                    }
+                  />
                 </div>
               </div>
               <h4>Solution</h4>
