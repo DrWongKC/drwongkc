@@ -1,6 +1,9 @@
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
+import { Collapse } from "antd";
+const { Panel } = Collapse;
+
 const HackerRankExercises = () => {
   const blogPostCodeStringOne = `import { useState } from "react";
 import Input from "./Input";
@@ -1596,385 +1599,448 @@ export default medical_records;
     <div>
       <h2 className="heading">HackerRank Exercises</h2>
       <div>
-        <h4>(Completed) Blog Post [Data Handling]</h4>
-        <ol>
-          <li>
-            The "Blog Post" component should have two input fields: one for the
-            post title and another for the post description (textarea).
-          </li>
-          <li>
-            The application should display a "Create" button that, when clicked,
-            adds a new blog post to the list of existing posts.
-          </li>
-          <li>
-            The "Create" button should only add a post if both the title and
-            description fields have values. If either field is empty, the button
-            should not create a post.
-          </li>
-          <li>
-            Once a post is successfully created, both the title and description
-            fields should be cleared.
-          </li>
-          <li>
-            The list of created blog posts should be displayed in grid layout,
-            with each post appearing inside a box.
-          </li>
-          <li>
-            Each box should include:
-            <ul>
-              <li>The post's title.</li>
-              <li>The post's description</li>
-              <li>
-                A "Delete" button to remove the specific post from the list.
-              </li>
-            </ul>
-          </li>
-        </ol>
-        <h4>Preview</h4>
-        <div className="flex-container">
-          <div className="flex-div">
-            <h5>Before:</h5>
-            <img
-              className="flex-img"
-              src={
-                "https://i.postimg.cc/Pr06QKgS/screencapture-main-ironpack-hrcdn-net-2026-10-22-18-03-36.png"
-              }
-            />
-          </div>
-          <div className="flex-div">
-            <h5>After:</h5>
-            <img
-              className="flex-img"
-              src={
-                "https://i.postimg.cc/VLjxCTvc/screencapture-main-ironpack-hrcdn-net-2026-10-22-18-30-08.png"
-              }
-            />
-          </div>
-        </div>
-        <h4>Solution</h4>
-        <>
-          <h5>Home.js</h5>
-          <SyntaxHighlighter language="javascript" style={docco}>
-            {blogPostCodeStringOne}
-          </SyntaxHighlighter>
-          <h5>Input.js</h5>
-          <SyntaxHighlighter language="javascript" style={docco}>
-            {blogPostCodeStringTwo}
-          </SyntaxHighlighter>
-          <h5>PostDisplay.js</h5>
-          <SyntaxHighlighter language="javascript" style={docco}>
-            {blogPostCodeStringThree}
-          </SyntaxHighlighter>
-        </>
-      </div>
-      <div>
-        <h4>(Completed) Contact Form [Forms]</h4>
-        <p>
-          You need to create a simple React application called "Contact Form"
-          that collects user information and displays it below the form upon
-          submission. This task will help you practice handling form inputs,
-          validation, and conditional rendering in React.
-        </p>
-        <ol>
-          <li>Form Structure:</li>
-          <ul>
-            <li>The form should have the following fields:</li>
-            <ul>
-              <li>Name: Text input for the user's name.</li>
-              <li>Email: Text input for the user's email address.</li>
-              <li>Message: Textarea for the user's message.</li>
-            </ul>
-          </ul>
-          <li>Form Submission:</li>
-          <ul>
-            <li>There should be a "Submit" button to submit the form.</li>
-          </ul>
-          <li>Form Validation:</li>
-          <ul>
-            <li>Validate that none of the fields are empty upon submission.</li>
-            <li>
-              If any field is empty, display an error message: "All fields are
-              required." The forms hould not be submitted.
-            </li>
-          </ul>
-          <li>Displaying Submitted Data:</li>
-          <ul>
-            <li>
-              If the form is successfully submitted, display the entered
-              information below the form.
-            </li>
-            <li>Clear the input fields after a successful submission.</li>
-          </ul>
-        </ol>
-        <h4>Preview</h4>
-        <div className="flex-container">
-          <div className="flex-div">
-            <h5>Before:</h5>
-            <img className="flex-img" src={"google.com"} />
-          </div>
-          <div className="flex-div">
-            <h5>After:</h5>
-            <img className="flex-img" src={"google.com"} />
-          </div>
-        </div>
-        <h4>Solution</h4>
-        <h5>ContactForm.js</h5>
-        <SyntaxHighlighter language="javascript" style={docco}>
-          {contactFormCodeStringOne}
-        </SyntaxHighlighter>
-      </div>
-      <div>
-        <h4>(Completed) CryptoRank Exchange [Data Handling]</h4>
-        <p>
-          Develop a React application called "CryptoRank Exchange" to estimate
-          the number of cryptocurrency coins a user can receive based on an
-          entered amount of fiat currency. The application requirements are
-          detailed below, and the finished application must pass all unit tests.
-        </p>
-        <ol>
-          <li>Fields and Display:</li>
-          <ul>
-            <li>Input Field: Allows entry of the amount to be exchanged.</li>
-            <li>
-              Table: Displays "Exchange Rate" and "Number of Coins" for each
-              cryptocurrency.
-            </li>
-          </ul>
-          <li>User Interactions:</li>
-          <ul>
-            <li>Users input an amount within their available balance.</li>
-            <li>
-              Amount is mandatory, ranging from $0.01 to the available balance.
-            </li>
-            <li>If invalid, show an error message.</li>
-            <li>
-              By default, the input field is empty with no error message and
-              "Number of Coins" as 0.00000000.
-            </li>
-            <li>Table updates dynamically as the amount is modified.</li>
-          </ul>
-          <li>Conversion Calculation:</li>
-          <ul>
-            <li>
-              "Number of Coins" = (Amount & Exchange Rate), rounded to 8 decimal
-              places.
-            </li>
-            <li>
-              Invalid amounts displayed "n/a" in the "Number of Coins" column.
-            </li>
-          </ul>
-          <li>Error Messages:</li>
-          <ul>
-            <li>Empty input: "Amount cannot be empty".</li>
-            <li>Amount less than 0.01: "Amountcannotbelessthan 0.01".</li>
-            <li>
-              Amount greater than available balance: "Amount cannot exceed the
-              available balance".
-            </li>
-          </ul>
-        </ol>
-        <h4>Preview</h4>
-        <div className="flex-container">
-          <div className="flex-div">
-            <h5>Before:</h5>
-            <img className="flex-img" src={"google.com"} />
-          </div>
-          <div className="flex-div">
-            <h5>After:</h5>
-            <img className="flex-img" src={"google.com"} />
-          </div>
-        </div>
-        <h4>Solution</h4>
-        <h5>Main.js</h5>
-        <SyntaxHighlighter language="javascript" style={docco}>
-          {cryptoRankExchangeCodeStringOne}
-        </SyntaxHighlighter>
-        <h5>Table.js</h5>
-        <SyntaxHighlighter language="javascript" style={docco}>
-          {cryptoRankExchangeCodeStringTwo}
-        </SyntaxHighlighter>
+        <div
+          style={{
+            padding: 10,
+          }}
+        >
+          <Collapse accordion bordered={false}>
+            <Panel header="(Completed) Blog Post [Data Handling]" key="1">
+              <div>
+                <h4>(Completed) Blog Post [Data Handling]</h4>
+                <ol>
+                  <li>
+                    The "Blog Post" component should have two input fields: one
+                    for the post title and another for the post description
+                    (textarea).
+                  </li>
+                  <li>
+                    The application should display a "Create" button that, when
+                    clicked, adds a new blog post to the list of existing posts.
+                  </li>
+                  <li>
+                    The "Create" button should only add a post if both the title
+                    and description fields have values. If either field is
+                    empty, the button should not create a post.
+                  </li>
+                  <li>
+                    Once a post is successfully created, both the title and
+                    description fields should be cleared.
+                  </li>
+                  <li>
+                    The list of created blog posts should be displayed in grid
+                    layout, with each post appearing inside a box.
+                  </li>
+                  <li>
+                    Each box should include:
+                    <ul>
+                      <li>The post's title.</li>
+                      <li>The post's description</li>
+                      <li>
+                        A "Delete" button to remove the specific post from the
+                        list.
+                      </li>
+                    </ul>
+                  </li>
+                </ol>
+                <h4>Preview</h4>
+                <div className="flex-container">
+                  <div className="flex-div">
+                    <h5>Before:</h5>
+                    <img
+                      className="flex-img"
+                      src={
+                        "https://i.postimg.cc/Pr06QKgS/screencapture-main-ironpack-hrcdn-net-2026-10-22-18-03-36.png"
+                      }
+                    />
+                  </div>
+                  <div className="flex-div">
+                    <h5>After:</h5>
+                    <img
+                      className="flex-img"
+                      src={
+                        "https://i.postimg.cc/VLjxCTvc/screencapture-main-ironpack-hrcdn-net-2026-10-22-18-30-08.png"
+                      }
+                    />
+                  </div>
+                </div>
+                <h4>Solution</h4>
+                <>
+                  <h5>Home.js</h5>
+                  <SyntaxHighlighter language="javascript" style={docco}>
+                    {blogPostCodeStringOne}
+                  </SyntaxHighlighter>
+                  <h5>Input.js</h5>
+                  <SyntaxHighlighter language="javascript" style={docco}>
+                    {blogPostCodeStringTwo}
+                  </SyntaxHighlighter>
+                  <h5>PostDisplay.js</h5>
+                  <SyntaxHighlighter language="javascript" style={docco}>
+                    {blogPostCodeStringThree}
+                  </SyntaxHighlighter>
+                </>
+              </div>
+            </Panel>
+            <Panel header="(Completed) Contact Form [Forms]" key="2">
+              <div>
+                <h4>(Completed) Contact Form [Forms]</h4>
+                <p>
+                  You need to create a simple React application called "Contact
+                  Form" that collects user information and displays it below the
+                  form upon submission. This task will help you practice
+                  handling form inputs, validation, and conditional rendering in
+                  React.
+                </p>
+                <ol>
+                  <li>Form Structure:</li>
+                  <ul>
+                    <li>The form should have the following fields:</li>
+                    <ul>
+                      <li>Name: Text input for the user's name.</li>
+                      <li>Email: Text input for the user's email address.</li>
+                      <li>Message: Textarea for the user's message.</li>
+                    </ul>
+                  </ul>
+                  <li>Form Submission:</li>
+                  <ul>
+                    <li>
+                      There should be a "Submit" button to submit the form.
+                    </li>
+                  </ul>
+                  <li>Form Validation:</li>
+                  <ul>
+                    <li>
+                      Validate that none of the fields are empty upon
+                      submission.
+                    </li>
+                    <li>
+                      If any field is empty, display an error message: "All
+                      fields are required." The forms hould not be submitted.
+                    </li>
+                  </ul>
+                  <li>Displaying Submitted Data:</li>
+                  <ul>
+                    <li>
+                      If the form is successfully submitted, display the entered
+                      information below the form.
+                    </li>
+                    <li>
+                      Clear the input fields after a successful submission.
+                    </li>
+                  </ul>
+                </ol>
+                <h4>Preview</h4>
+                <div className="flex-container">
+                  <div className="flex-div">
+                    <h5>Before:</h5>
+                    <img className="flex-img" src={"google.com"} />
+                  </div>
+                  <div className="flex-div">
+                    <h5>After:</h5>
+                    <img className="flex-img" src={"google.com"} />
+                  </div>
+                </div>
+                <h4>Solution</h4>
+                <h5>ContactForm.js</h5>
+                <SyntaxHighlighter language="javascript" style={docco}>
+                  {contactFormCodeStringOne}
+                </SyntaxHighlighter>
+              </div>
+            </Panel>
+            <Panel
+              header="(Completed) CryptoRank Exchange [Data Handling]"
+              key="3"
+            >
+              <div>
+                <h4>(Completed) CryptoRank Exchange [Data Handling]</h4>
+                <p>
+                  Develop a React application called "CryptoRank Exchange" to
+                  estimate the number of cryptocurrency coins a user can receive
+                  based on an entered amount of fiat currency. The application
+                  requirements are detailed below, and the finished application
+                  must pass all unit tests.
+                </p>
+                <ol>
+                  <li>Fields and Display:</li>
+                  <ul>
+                    <li>
+                      Input Field: Allows entry of the amount to be exchanged.
+                    </li>
+                    <li>
+                      Table: Displays "Exchange Rate" and "Number of Coins" for
+                      each cryptocurrency.
+                    </li>
+                  </ul>
+                  <li>User Interactions:</li>
+                  <ul>
+                    <li>
+                      Users input an amount within their available balance.
+                    </li>
+                    <li>
+                      Amount is mandatory, ranging from $0.01 to the available
+                      balance.
+                    </li>
+                    <li>If invalid, show an error message.</li>
+                    <li>
+                      By default, the input field is empty with no error message
+                      and "Number of Coins" as 0.00000000.
+                    </li>
+                    <li>
+                      Table updates dynamically as the amount is modified.
+                    </li>
+                  </ul>
+                  <li>Conversion Calculation:</li>
+                  <ul>
+                    <li>
+                      "Number of Coins" = (Amount & Exchange Rate), rounded to 8
+                      decimal places.
+                    </li>
+                    <li>
+                      Invalid amounts displayed "n/a" in the "Number of Coins"
+                      column.
+                    </li>
+                  </ul>
+                  <li>Error Messages:</li>
+                  <ul>
+                    <li>Empty input: "Amount cannot be empty".</li>
+                    <li>
+                      Amount less than 0.01: "Amountcannotbelessthan 0.01".
+                    </li>
+                    <li>
+                      Amount greater than available balance: "Amount cannot
+                      exceed the available balance".
+                    </li>
+                  </ul>
+                </ol>
+                <h4>Preview</h4>
+                <div className="flex-container">
+                  <div className="flex-div">
+                    <h5>Before:</h5>
+                    <img className="flex-img" src={"google.com"} />
+                  </div>
+                  <div className="flex-div">
+                    <h5>After:</h5>
+                    <img className="flex-img" src={"google.com"} />
+                  </div>
+                </div>
+                <h4>Solution</h4>
+                <h5>Main.js</h5>
+                <SyntaxHighlighter language="javascript" style={docco}>
+                  {cryptoRankExchangeCodeStringOne}
+                </SyntaxHighlighter>
+                <h5>Table.js</h5>
+                <SyntaxHighlighter language="javascript" style={docco}>
+                  {cryptoRankExchangeCodeStringTwo}
+                </SyntaxHighlighter>
 
-        <h5>cryptocurrency-list.js</h5>
-        <SyntaxHighlighter language="javascript" style={docco}>
-          {cryptoRankExchangeCodeStringThree}
-        </SyntaxHighlighter>
-      </div>
-      <div>
-        <h4>(Completed) Employee Validation [Forms]</h4>
-        <p>
-          Your task is to create a React application that helps employees
-          validate and update their exisiting information through a survey form.
-          The application requirements are detailed below, and the finished
-          application must pass all of the unit tests.
-        </p>
-        <h5>Detailed Requirements</h5>
-        <ol>
-          <li>
-            The EmployeeValidationForm component collects employee details
-            through four input fields: Name, Email, Employee ID, and Joining
-            Date.
-          </li>
-          <li>
-            Each input field should have validation logic to ensure that the
-            data entered meets the specified requirements.
-          </li>
-          <li>
-            A submit button should be present at the bottom of the form but
-            remain disabled until all fields are valid.
-          </li>
-          <li>
-            If a field does not meet the criteria, an error message should be
-            displayed below that field.
-          </li>
-          <li>
-            When the form is valid and submitted, all input fields should be
-            cleared, and the form should be reset to its initial state.
-          </li>
-        </ol>
-        <h5>Validation Criteria</h5>
-        <ul>
-          <li>
-            Name Field: Must be at least 4 characters long and can only contain
-            alphabetical characters (A-Z, a-z) and spaces.
-          </li>
-          <li>
-            Email Field: Must be in a valid email format (e.g.,
-            user@example.com).
-          </li>
-          <li>Employee ID Field: Must be exactly 6 numeric digits.</li>
-          <li>Joining Date Field: Cannot be set to a date in the future.</li>
-        </ul>
-        <h4>Preview</h4>
-        <div className="flex-container">
-          <div className="flex-div">
-            <h5>Before:</h5>
-            <img className="flex-img" src={"google.com"} />
-          </div>
-          <div className="flex-div">
-            <h5>After:</h5>
-            <img className="flex-img" src={"google.com"} />
-          </div>
+                <h5>cryptocurrency-list.js</h5>
+                <SyntaxHighlighter language="javascript" style={docco}>
+                  {cryptoRankExchangeCodeStringThree}
+                </SyntaxHighlighter>
+              </div>
+            </Panel>
+            <Panel header="(Completed) Employee Validation [Forms]" key="4">
+              <div>
+                <h4>(Completed) Employee Validation [Forms]</h4>
+                <p>
+                  Your task is to create a React application that helps
+                  employees validate and update their exisiting information
+                  through a survey form. The application requirements are
+                  detailed below, and the finished application must pass all of
+                  the unit tests.
+                </p>
+                <h5>Detailed Requirements</h5>
+                <ol>
+                  <li>
+                    The EmployeeValidationForm component collects employee
+                    details through four input fields: Name, Email, Employee ID,
+                    and Joining Date.
+                  </li>
+                  <li>
+                    Each input field should have validation logic to ensure that
+                    the data entered meets the specified requirements.
+                  </li>
+                  <li>
+                    A submit button should be present at the bottom of the form
+                    but remain disabled until all fields are valid.
+                  </li>
+                  <li>
+                    If a field does not meet the criteria, an error message
+                    should be displayed below that field.
+                  </li>
+                  <li>
+                    When the form is valid and submitted, all input fields
+                    should be cleared, and the form should be reset to its
+                    initial state.
+                  </li>
+                </ol>
+                <h5>Validation Criteria</h5>
+                <ul>
+                  <li>
+                    Name Field: Must be at least 4 characters long and can only
+                    contain alphabetical characters (A-Z, a-z) and spaces.
+                  </li>
+                  <li>
+                    Email Field: Must be in a valid email format (e.g.,
+                    user@example.com).
+                  </li>
+                  <li>Employee ID Field: Must be exactly 6 numeric digits.</li>
+                  <li>
+                    Joining Date Field: Cannot be set to a date in the future.
+                  </li>
+                </ul>
+                <h4>Preview</h4>
+                <div className="flex-container">
+                  <div className="flex-div">
+                    <h5>Before:</h5>
+                    <img className="flex-img" src={"google.com"} />
+                  </div>
+                  <div className="flex-div">
+                    <h5>After:</h5>
+                    <img className="flex-img" src={"google.com"} />
+                  </div>
+                </div>
+                <h4>Solution</h4>
+                <h5>EmployeeValidation.js</h5>
+                <SyntaxHighlighter language="javascript" style={docco}>
+                  {employeeValidationRecordsCodeStringOne}
+                </SyntaxHighlighter>
+              </div>
+            </Panel>
+            <Panel header="(Completed) Item List Manager [Components]" key="5">
+              <div>
+                <h4>(Completed) Item List Manager [Components]</h4>
+                <p>
+                  You are tasked with creating a simple React application called
+                  "Item List Manager" that displays a list of items and allows
+                  users to add new items to the list. The items will be
+                  displayed in an unordered list, and there will be an input
+                  field along with a button to add new items to this list.
+                </p>
+                <ol>
+                  <li>
+                    When the application loads, it should display an empty list.
+                  </li>
+                  <li>The input field should accept user text input.</li>
+                  <li>When the button is clocked:</li>
+                  <ol>
+                    <li>
+                      The text from the input field should be added to the list.
+                    </li>
+                    <li>The input field should be cleared.</li>
+                    <li>
+                      If the input field is empty and the button is clicked,
+                      nothing should be added to the list.
+                    </li>
+                  </ol>
+                </ol>
+                <h4>Preview</h4>
+                <div className="flex-container">
+                  <div className="flex-div">
+                    <h5>Before:</h5>
+                    <img className="flex-img" src={"google.com"} />
+                  </div>
+                  <div className="flex-div">
+                    <h5>After:</h5>
+                    <img className="flex-img" src={"google.com"} />
+                  </div>
+                </div>
+                <h4>Solution</h4>
+                <h5>ItemListManager.js</h5>
+                <SyntaxHighlighter language="javascript" style={docco}>
+                  {ItemListManagerCodeStringOne}
+                </SyntaxHighlighter>
+              </div>
+            </Panel>
+            <Panel
+              header="(Could Not Complete) Patient Medical Records [Interaction]"
+              key="6"
+            >
+              <div>
+                <h4>
+                  (Could Not Complete) Patient Medical Records [Interaction]
+                </h4>
+                <p>
+                  In this challenge, you will create a React application called
+                  "Patient Medical Records" that allows users to view and cycle
+                  through patients' medical records. The application
+                  requirements are outlined below, and your finished
+                  implementation must pass all provided unit tests.
+                </p>
+                <ol>
+                  <li>
+                    The application consists of two components: Search and
+                    Records.
+                  </li>
+                  <li>
+                    The search component must have a dropdown selet menu
+                    populated with 3 patient names from a file named
+                    medicalRecords.js. By default, the dropdown should display
+                    "Select Patient" with both selected and disabled attributes.
+                  </li>
+                  <li>
+                    When the application is first loaded, no record table or
+                    "Next" button should be visible.
+                  </li>
+                  <li>Show Button Functionality:</li>
+                  <ul>
+                    <li>
+                      If the user clicks "Show" without selecting a patient, an
+                      alert should appear with the message: "Please select a
+                      patient name".
+                    </li>
+                    <li>
+                      If a patient is selected, clicking "Show" should display a
+                      table containing all of the selected patient's details and
+                      medical records. The table must also include a "Next"
+                      button to navigate through records.
+                    </li>
+                  </ul>
+                  <li>Next Button Functionality:</li>
+                  <ul>
+                    <li>
+                      Clicking "Next" should display the medical records for the
+                      next patient in the list based on their ID.
+                    </li>
+                    <li>
+                      If the last patient's records are being displayed,
+                      clicking "Next" should loop back to the first patient's
+                      records.
+                    </li>
+                  </ul>
+                </ol>
+                <h4>Preview</h4>
+                <div className="flex-container">
+                  <div className="flex-div">
+                    <h5>Before:</h5>
+                    <img className="flex-img" src={"google.com"} />
+                  </div>
+                  <div className="flex-div">
+                    <h5>After:</h5>
+                    <img className="flex-img" src={"google.com"} />
+                  </div>
+                </div>
+                <h4>Solution</h4>
+                <h5>App.js</h5>
+                <SyntaxHighlighter language="javascript" style={docco}>
+                  {patientMedicalRecordsCodeStringOne}
+                </SyntaxHighlighter>
+                <h5>Search.js</h5>
+                <SyntaxHighlighter language="javascript" style={docco}>
+                  {patientMedicalRecordsCodeStringTwo}
+                </SyntaxHighlighter>
+                <h5>Records.js</h5>
+                <SyntaxHighlighter language="javascript" style={docco}>
+                  {patientMedicalRecordsCodeStringThree}
+                </SyntaxHighlighter>
+                <h5>medicalRecords.js</h5>
+                <SyntaxHighlighter language="javascript" style={docco}>
+                  {patientMedicalRecordsCodeStringFour}
+                </SyntaxHighlighter>
+              </div>
+            </Panel>
+          </Collapse>
         </div>
-        <h4>Solution</h4>
-        <h5>EmployeeValidation.js</h5>
-        <SyntaxHighlighter language="javascript" style={docco}>
-          {employeeValidationRecordsCodeStringOne}
-        </SyntaxHighlighter>
-      </div>
-      <div>
-        <h4>(Completed) Item List Manager [Components]</h4>
-        <p>
-          You are tasked with creating a simple React application called "Item
-          List Manager" that displays a list of items and allows users to add
-          new items to the list. The items will be displayed in an unordered
-          list, and there will be an input field along with a button to add new
-          items to this list.
-        </p>
-        <ol>
-          <li>When the application loads, it should display an empty list.</li>
-          <li>The input field should accept user text input.</li>
-          <li>When the button is clocked:</li>
-          <ol>
-            <li>The text from the input field should be added to the list.</li>
-            <li>The input field should be cleared.</li>
-            <li>
-              If the input field is empty and the button is clicked, nothing
-              should be added to the list.
-            </li>
-          </ol>
-        </ol>
-        <h4>Preview</h4>
-        <div className="flex-container">
-          <div className="flex-div">
-            <h5>Before:</h5>
-            <img className="flex-img" src={"google.com"} />
-          </div>
-          <div className="flex-div">
-            <h5>After:</h5>
-            <img className="flex-img" src={"google.com"} />
-          </div>
-        </div>
-        <h4>Solution</h4>
-        <h5>ItemListManager.js</h5>
-        <SyntaxHighlighter language="javascript" style={docco}>
-          {ItemListManagerCodeStringOne}
-        </SyntaxHighlighter>
-      </div>
-      <div>
-        <h4>(Could Not Complete) Patient Medical Records [Interaction]</h4>
-        <p>
-          In this challenge, you will create a React application called "Patient
-          Medical Records" that allows users to view and cycle through patients'
-          medical records. The application requirements are outlined below, and
-          your finished implementation must pass all provided unit tests.
-        </p>
-        <ol>
-          <li>
-            The application consists of two components: Search and Records.
-          </li>
-          <li>
-            The search component must have a dropdown selet menu populated with
-            3 patient names from a file named medicalRecords.js. By default, the
-            dropdown should display "Select Patient" with both selected and
-            disabled attributes.
-          </li>
-          <li>
-            When the application is first loaded, no record table or "Next"
-            button should be visible.
-          </li>
-          <li>Show Button Functionality:</li>
-          <ul>
-            <li>
-              If the user clicks "Show" without selecting a patient, an alert
-              should appear with the message: "Please select a patient name".
-            </li>
-            <li>
-              If a patient is selected, clicking "Show" should display a table
-              containing all of the selected patient's details and medical
-              records. The table must also include a "Next" button to navigate
-              through records.
-            </li>
-          </ul>
-          <li>Next Button Functionality:</li>
-          <ul>
-            <li>
-              Clicking "Next" should display the medical records for the next
-              patient in the list based on their ID.
-            </li>
-            <li>
-              If the last patient's records are being displayed, clicking "Next"
-              should loop back to the first patient's records.
-            </li>
-          </ul>
-        </ol>
-        <h4>Preview</h4>
-        <div className="flex-container">
-          <div className="flex-div">
-            <h5>Before:</h5>
-            <img className="flex-img" src={"google.com"} />
-          </div>
-          <div className="flex-div">
-            <h5>After:</h5>
-            <img className="flex-img" src={"google.com"} />
-          </div>
-        </div>
-        <h4>Solution</h4>
-        <h5>App.js</h5>
-        <SyntaxHighlighter language="javascript" style={docco}>
-          {patientMedicalRecordsCodeStringOne}
-        </SyntaxHighlighter>
-        <h5>Search.js</h5>
-        <SyntaxHighlighter language="javascript" style={docco}>
-          {patientMedicalRecordsCodeStringTwo}
-        </SyntaxHighlighter>
-        <h5>Records.js</h5>
-        <SyntaxHighlighter language="javascript" style={docco}>
-          {patientMedicalRecordsCodeStringThree}
-        </SyntaxHighlighter>
-        <h5>medicalRecords.js</h5>
-        <SyntaxHighlighter language="javascript" style={docco}>
-          {patientMedicalRecordsCodeStringFour}
-        </SyntaxHighlighter>
       </div>
     </div>
   );

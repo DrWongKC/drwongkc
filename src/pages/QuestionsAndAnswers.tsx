@@ -6,25 +6,8 @@ export default function QuestionsAndAnswers() {
       <h1 id="questions-and-answers-heading">Questions & Answers</h1>
       <div>
         <h4>
-          Question 1: Describe your experience working on a complex project. Be
-          ready to explain the system, your role, the hard constraint, and the
-          result.
-        </h4>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-      </div>
-      <div>
-        <h4>
-          Question 2: What project are you most proud of? Choose a story where
-          your personal ownership, technical judgment, and impact are easy to
-          see.
+          What project are you most proud of? Choose a story where your personal
+          ownership, technical judgment, and impact are easy to see.
         </h4>
         <p>
           The project that I'm most proud of is my first professional experience
@@ -52,19 +35,10 @@ export default function QuestionsAndAnswers() {
           software product.
         </p>
       </div>
-      {/* <div>
-          <h4>
-            Question 3: Tell me about a time you had to make an important
-            architectural decision. Walk me through your thought process.
-          </h4>
-          <p>
-            I 
-          </p>
-        </div> */}
       <div>
         <h4>
-          Question 4: Tell me about a tradeoff you made under pressure. What did
-          you optimize for, and what did you accept?
+          Tell me about a tradeoff you made under pressure. What did you
+          optimize for, and what did you accept?
         </h4>
         <p>
           In my most recent ReactJS project, we were rushing for time as the
@@ -87,8 +61,8 @@ export default function QuestionsAndAnswers() {
       </div>
       <div>
         <h4>
-          Question 5: Pick a system you worked on. What would you rebuild
-          differently if you had another chance?
+          Pick a system you worked on. What would you rebuild differently if you
+          had another chance?
         </h4>
         <p>
           I'd like to reference to this project, myDigitalResumeProject(📄)™ ,
@@ -110,8 +84,8 @@ export default function QuestionsAndAnswers() {
       </div>
       <div>
         <h4>
-          Question 6: How did you debug a production issue, and what changed
-          after the incident?
+          How did you debug a production issue, and what changed after the
+          incident?
         </h4>
         <p>
           We were deploying the project into production on a Saturday evening
@@ -142,35 +116,6 @@ export default function QuestionsAndAnswers() {
           and figuring out the bugs and fixing them up, until it's reasonably
           bug-free to our users, for us to completely deploy into Production and
           fix the bugs that we see on Production.
-        </p>
-      </div>
-      <div>
-        <h4>
-          Question 7: Tell me about a project where you failed. Show what you
-          owned, what you learned, and what changed in your later work.
-        </h4>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-      </div>
-      <div>
-        <h4>
-          Question 8: What part of your recent work best maps to this team?
-        </h4>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </div>
     </div>

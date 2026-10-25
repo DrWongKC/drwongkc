@@ -1,3 +1,5 @@
+import { Collapse } from "antd";
+const { Panel } = Collapse;
 import "../styles/statementofconcern.css";
 
 export default function StatementOfConcern() {
@@ -76,24 +78,42 @@ export default function StatementOfConcern() {
           development best practises for your understanding and I'll continue
           after my approach to software engineering.
         </p>
-        <div>
-          https://geeksprogramming.com/key-principles-in-software-and-acronyms/
-          <ul>
-            <li>DRY - Don't Repeat Yourself</li>
-            <li>KISS - Keep It Simple, Stupid</li>
-            <li>YAGNI - You Aren't Gonna Need It</li>
-            <li>
-              SOLID
-              <ul>
-                <li>Single Responsibility</li>
-                <li>Open/Closed</li>
-                <li>Liskov Substitution</li>
-                <li>Interface Segregation</li>
-                <li>Dependency Inversion</li>
-              </ul>
-            </li>
-          </ul>
-        </div>
+        https://geeksprogramming.com/key-principles-in-software-and-acronyms/
+        <Collapse accordion bordered={false}>
+          <Panel header="DRY  - Don't Repeat Yourself" key="1">
+            DRY - Don't Repeat Yourself
+          </Panel>
+          <Panel header="KISS  - Keep It Simple, Stupid" key="2">
+            KISS - Keep It Simple, Stupid
+          </Panel>
+          <Panel header="YAGNI  - You Aren't Gonna Need It" key="3">
+            YAGNI - You Aren't Gonna Need It
+          </Panel>
+          <Panel
+            header="SOLID  - Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation & Dependency Inversion"
+            key="4"
+          >
+            SOLID - Single Responsibility, Open/Closed, Liskov Substitution,
+            Interface Segregation & Dependency Inversion
+            <Collapse accordion bordered={false}>
+              <Panel header="Single Responsibility" key="1">
+                Single Responsibility
+              </Panel>
+              <Panel header="Open/Closed" key="2">
+                Open/Closed
+              </Panel>
+              <Panel header="Liskov Substitution" key="3">
+                Liskov Substitution
+              </Panel>
+              <Panel header="Interface Segregation" key="4">
+                Interface Segregation
+              </Panel>
+              <Panel header="Dependency Inversion" key="5">
+                Dependency Inversion
+              </Panel>
+            </Collapse>
+          </Panel>
+        </Collapse>
         <p id="statement-of-concern-paragraph">
           The key to engineering any software is to be mindful and in control of
           the process. If there's any research I require to do, I will do it
