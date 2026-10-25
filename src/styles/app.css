@@ -26,6 +26,7 @@ li {
 #container--main {
   max-width: 850px;
   margin: 0 auto;
+  padding: 1em;
 }
 
 /* nav {

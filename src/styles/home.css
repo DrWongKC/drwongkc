@@ -78,7 +78,7 @@
   margin-top: 15px;
   display: flex;
   align-items: center;
-  gap: 4em;
+  gap: 2em;
 }
 
 #hero-profile-subheading {
@@ -105,11 +105,15 @@ a {
   width: 200px;
   /* height: 190px; */
   object-fit: cover;
-  border-radius: 1em;
+  border-radius: 10px;
+}
+
+#user-name {
+  font-size: 3.1em;
 }
 
 #profile-subheading {
-  font-size: 1.2em;
+  font-size: 1.35em;
 }
 
 #profile-sub-sub-heading {
