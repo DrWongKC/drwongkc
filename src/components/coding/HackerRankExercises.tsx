@@ -1608,6 +1608,12 @@ export default medical_records;
           <Panel header="(Completed) Blog Post [Data Handling]" key="1">
             <div>
               <h4>(Completed) Blog Post [Data Handling]</h4>
+              <p>
+                Your task is to create a React application called "Blog Post"
+                that allows users to create, display, and delete blog posts. The
+                application requirements are detailed below, and the finished
+                application must pass all of the unit tests.
+              </p>
               <ol>
                 <li>
                   The "Blog Post" component should have two input fields: one
