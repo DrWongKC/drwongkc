@@ -75,6 +75,7 @@
 }
 
 #wrapper--hero {
+  margin-top: 15px;
   display: flex;
   align-items: center;
   gap: 4em;
