@@ -16,11 +16,10 @@ function App() {
       <div id="container--main">
         {/* Navigation */}
         <nav>
-          <Link to="/drwongkc">Home</Link> ⧸ <Link to="/about">About</Link>
-          {/*  ⧸{" "}
+          <Link to="/drwongkc">Home</Link> ⧸ <Link to="/about">About</Link> ⧸{" "}
           <Link to="/coding">Coding</Link> ⧸{" "}
           <Link to="/statementofconcern">SoC</Link> ⧸{" "}
-          <Link to="/questionsandanswers">Q&A</Link> */}
+          <Link to="/questionsandanswers">Q&A</Link>
           {/* ⧸{" "}
           <Link to="/intellifindlaptopguide">IntelliFind</Link> */}
         </nav>
