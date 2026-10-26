@@ -1820,11 +1820,21 @@ export default medical_records;
               <div className="flex-container">
                 <div className="flex-div">
                   <h5>Before:</h5>
-                  <img className="flex-img" src={"google.com"} />
+                  <img
+                    className="flex-img"
+                    src={
+                      "https://i.postimg.cc/RCcRYXT3/screencapture-main-ironpack-hrcdn-net-2026-10-26-11-32-11.png"
+                    }
+                  />
                 </div>
                 <div className="flex-div">
                   <h5>After:</h5>
-                  <img className="flex-img" src={"google.com"} />
+                  <img
+                    className="flex-img"
+                    src={
+                      "https://i.postimg.cc/8cjT7jwp/screencapture-main-ironpack-hrcdn-net-2026-10-26-11-42-01.png"
+                    }
+                  />
                 </div>
               </div>
               <h4>Solution</h4>
@@ -1895,11 +1905,21 @@ export default medical_records;
               <div className="flex-container">
                 <div className="flex-div">
                   <h5>Before:</h5>
-                  <img className="flex-img" src={"google.com"} />
+                  <img
+                    className="flex-img"
+                    src={
+                      "https://i.postimg.cc/k4WxkgW2/screencapture-main-ironpack-hrcdn-net-2026-10-26-11-33-18.png"
+                    }
+                  />
                 </div>
                 <div className="flex-div">
                   <h5>After:</h5>
-                  <img className="flex-img" src={"google.com"} />
+                  <img
+                    className="flex-img"
+                    src={
+                      "https://i.postimg.cc/kMzmjMfn/screencapture-main-ironpack-hrcdn-net-2026-10-26-11-44-38.png"
+                    }
+                  />
                 </div>
               </div>
               <h4>Solution</h4>
@@ -1940,11 +1960,21 @@ export default medical_records;
               <div className="flex-container">
                 <div className="flex-div">
                   <h5>Before:</h5>
-                  <img className="flex-img" src={"google.com"} />
+                  <img
+                    className="flex-img"
+                    src={
+                      "https://i.postimg.cc/Mp4VHQYN/screencapture-main-ironpack-hrcdn-net-2026-10-26-11-34-05.png"
+                    }
+                  />
                 </div>
                 <div className="flex-div">
                   <h5>After:</h5>
-                  <img className="flex-img" src={"google.com"} />
+                  <img
+                    className="flex-img"
+                    src={
+                      "https://i.postimg.cc/Wb7Psmsz/screencapture-main-ironpack-hrcdn-net-2026-10-26-11-49-31.png"
+                    }
+                  />
                 </div>
               </div>
               <h4>Solution</h4>
@@ -2014,11 +2044,21 @@ export default medical_records;
               <div className="flex-container">
                 <div className="flex-div">
                   <h5>Before:</h5>
-                  <img className="flex-img" src={"google.com"} />
+                  <img
+                    className="flex-img"
+                    src={
+                      "https://i.postimg.cc/C5FfXHFJ/screencapture-main-ironpack-hrcdn-net-2026-10-26-11-34-53.png"
+                    }
+                  />
                 </div>
                 <div className="flex-div">
                   <h5>After:</h5>
-                  <img className="flex-img" src={"google.com"} />
+                  <img
+                    className="flex-img"
+                    src={
+                      "https://i.postimg.cc/L563LMZs/screencapture-main-ironpack-hrcdn-net-2026-10-26-11-54-14.png"
+                    }
+                  />
                 </div>
               </div>
               <h4>Solution</h4>
