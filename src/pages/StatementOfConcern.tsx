@@ -169,6 +169,9 @@ export default function StatementOfConcern() {
           enough, building a software step-by-step with the help of AI and
           research is going to be the quicker way, than to create an entire
           product with only AI and expect it to be exactly how we want it to be.
+          Editing the software product result produced by the Generative AI
+          hasn't been a reliable approach to development because it usually does
+          not do exactly what the prompts tells it to.
         </p>
         <p id="statement-of-concern-paragraph">
           This is why in software engineering; we cannot only be
@@ -194,8 +197,8 @@ export default function StatementOfConcern() {
           programming languages while assisted by AI programming tools and our
           very own due dilligence.
         </p>
-        <p id="statement-of-concern-paragraph">
-          The problem with Generative AI is that it's not always correct.
+        <p className="written-date">
+          Completely written by KAI without any use of AI on 25th October 2026
         </p>
       </div>
     </>
