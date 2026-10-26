@@ -1,12 +1,6 @@
 import { Menu } from "antd";
 import "../styles/app.css";
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-  Link,
-  useLocation,
-} from "react-router-dom";
+import { Routes, Route, Link, useLocation } from "react-router-dom";
 
 import Home from "./Home";
 import About from "./About";
@@ -19,7 +13,7 @@ import NoMatch from "./NoMatch";
 
 const items = [
   {
-    key: "home",
+    key: "drwongkc",
     label: <Link to="/drwongkc">Home</Link>,
   },
   {
@@ -41,16 +35,19 @@ const items = [
 ];
 
 function App() {
+  const location = useLocation();
+  const selectedKey = location.pathname.split("/")[1] || "drwongkc";
+
   return (
-    <BrowserRouter>
+    <>
       <div id="container--main">
         {/* Navigation */}
         <Menu
           className="main-navigation"
           mode="horizontal"
           theme="light"
-          defaultSelectedKeys={["home"]}
           items={items}
+          selectedKeys={[selectedKey]}
         />
         <Menu />
         {/* <nav>
@@ -78,7 +75,7 @@ function App() {
         </Routes>
         <Footer />
       </div>
-    </BrowserRouter>
+    </>
   );
 }
 
