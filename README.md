@@ -1,6 +1,5 @@
 ReactJS HackerRank:
 - Highest difficulty level solved on HackerRank: Medium, React (Advanced), 6/6 Test Passed
-- Highest difficulty level partially solved on HackerRank: Hard, React (Advanced), 3/4 Test Passed
 
 Skills: ReactJS, Ant Design, TypeScript, JavaScript, NodeJS & other related front-end technology.
 
