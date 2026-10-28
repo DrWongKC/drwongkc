@@ -78,16 +78,28 @@ export default function StatementOfConcern() {
           development best practises for your understanding and I'll continue
           after my approach to software engineering.
         </p>
-        https://geeksprogramming.com/key-principles-in-software-and-acronyms/
         <Collapse accordion bordered={false}>
           <Panel header="DRY  - Don't Repeat Yourself" key="1">
-            DRY - Don't Repeat Yourself
+            We may at times repeat ourselves in our programming because it's
+            quicker and easier for now to do that. We may from the start, or at
+            a later point before pushing the code into a higher development
+            environment, reduce repetition to none if possible. This keeps the
+            code simpler and editable.
           </Panel>
           <Panel header="KISS  - Keep It Simple, Stupid" key="2">
-            KISS - Keep It Simple, Stupid
+            To me, the whole idea is that if it can be simplified, it should be
+            simplified. Unecessary complexity makes code harder to maintain
+            especially for someone or even myself with no memory of what was
+            written. Even in all aspect of life, simplifying things make it
+            easier for us to understand. It hasn't yet been simplified if you
+            can't explain it to someone in your own words.
           </Panel>
           <Panel header="YAGNI  - You Aren't Gonna Need It" key="3">
-            YAGNI - You Aren't Gonna Need It
+            More code than required for now leads to complication for ourselves
+            and our teammates. A reason is because we have to test it everytime,
+            and if there's bug somewhere, we may have to check if this not yet
+            required feature could be the cause or part of the cause of some
+            bugs and errors we're trying to find.
           </Panel>
           <Panel
             header="SOLID  - Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation & Dependency Inversion"
@@ -97,19 +109,38 @@ export default function StatementOfConcern() {
             Interface Segregation & Dependency Inversion
             <Collapse accordion bordered={false}>
               <Panel header="Single Responsibility" key="1">
-                Single Responsibility
+                Quite similar to Keep It Simple, Stupid, allow a function to do
+                only one. If it does more than one, we should split it into two
+                and name the function accordingly. The whole idea is that it's a
+                single unit, making it easier to maintain and debug. A function
+                can have a single task, and still be versatile when the
+                requirement needs it.
               </Panel>
               <Panel header="Open/Closed" key="2">
-                Open/Closed
+                Code is open for extension and closed for modification. We
+                improve by adding more code, not editing an already written,
+                working and tested code.
               </Panel>
               <Panel header="Liskov Substitution" key="3">
-                Liskov Substitution
+                A child function that inherits from its parent function should
+                work even for an input to a child function that works for its
+                parent function.
               </Panel>
               <Panel header="Interface Segregation" key="4">
-                Interface Segregation
+                When necessary, an object that does multiple roles, should be
+                segregated. An example would be for a watch that tells both time
+                and date, in the context of programming, to be separated into a
+                watch that tells the time, and another device that tells the
+                date. The idea is for the interface to do one, instead of many.
               </Panel>
               <Panel header="Dependency Inversion" key="5">
-                Dependency Inversion
+                For a software that connects to a database, build the software
+                such that I may change the database to a different database
+                technology and be able to integrate it seamlessly with the
+                current software. It does not require me to edit or update some
+                code in the software. I like to think of this as being similar
+                to an API call, where we simplify it and do the communication as
+                a standard that both sides agree to.
               </Panel>
             </Collapse>
           </Panel>
