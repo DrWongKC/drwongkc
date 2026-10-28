@@ -28,9 +28,9 @@ export default function About() {
       />
       <p>
         Hii, I'm Kai Chong. Welcome to my spot of the web where I share about my
-        professional experience and achievements to you. I'm currently on a
-        sabbatical to discover more of what I want, move-on to the next stage of
-        my personal life, and to refine my knowledge and skills as a software
+        professional experience and achievements to you. I was on a sabbatical
+        to discover more of what I want, move-on to the next stage of my
+        personal life, and to refine my knowledge and skills as a software
         engineer.
       </p>
       <p>
@@ -158,8 +158,8 @@ export default function About() {
         frenzy to look for what’s next for myself. At the moment, the company is
         thriving so they survived the pandemic, and some of my colleagues went
         on to work in companies like Bytedance and other startups, while I
-        discovered an opportunity to do a work-study program with Accenture as a
-        full-time permanent staff.
+        discovered an opportunity to work with Accenture as a full-time
+        permanent staff.
       </p>
       <img
         id="about-me-pic-four"
@@ -176,10 +176,10 @@ export default function About() {
       <p>
         I left Accenture because I wanted to take a career sabbatical to
         discover what I want to do in my career and personal life, where I also
-        achieved some major personal milestones such as marrying my partner and
-        moving into a new home. Apart from a lot of figuring-out and reflection
-        of my life, I dedicated myself to revise and explore more web
-        applications technology and that has resulted in me becoming better as a
+        achieved some major personal milestones such as marrying my best friend
+        and moving into a new home. Apart from a lot of figuring-out and
+        reflecting on my life, I also dedicated myself to lots of revising and
+        exploring web technology. All that has resulted in me becoming a better
         software engineer than before.
       </p>
     </>

@@ -8,3 +8,9 @@
   font-size: 16px;
   line-height: 1.5em;
 }
+
+.written-date {
+  text-align: center;
+  font-size: 0.75em;
+  font-style: italic;
+}

@@ -116,6 +116,11 @@ export default function QuestionsAndAnswers() {
           fix the bugs that we see on Production.
         </p>
       </div>
+      <div>
+        <p className="written-date">
+          Completely written by KAI without any use of AI on 25th October 2026
+        </p>
+      </div>
     </div>
   );
 }

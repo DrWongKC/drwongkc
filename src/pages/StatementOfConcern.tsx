@@ -105,8 +105,6 @@ export default function StatementOfConcern() {
             header="SOLID  - Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation & Dependency Inversion"
             key="4"
           >
-            SOLID - Single Responsibility, Open/Closed, Liskov Substitution,
-            Interface Segregation & Dependency Inversion
             <Collapse accordion bordered={false}>
               <Panel header="Single Responsibility" key="1">
                 Quite similar to Keep It Simple, Stupid, allow a function to do
