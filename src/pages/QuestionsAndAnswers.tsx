@@ -30,9 +30,7 @@ export default function QuestionsAndAnswers() {
           without major issues. As I was new to ReactJS, I focused on learning
           it and understanding the codebase. It's because of this that I decided
           I'll continue in Frontend development because of how much I have
-          achieved in that project. If I'm honest, I haven't attained a level of
-          mastery in ReactJS to be able to recommend an improvement to the
-          software product.
+          achieved in that project.
         </p>
       </div>
       <div>
