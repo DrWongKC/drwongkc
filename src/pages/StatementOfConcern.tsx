@@ -29,7 +29,7 @@ export default function StatementOfConcern() {
           layoffs. On a more reassuring note, we're seeing a lot of companies
           rehiring to clean up the mess that AI has generated. Usually requiring
           to rehire these people at a higher salary than before, whether they
-          are the same or different people.
+          were the same or different people.
         </p>
         <p id="statement-of-concern-paragraph">
           Here, I want to emphasize that it'll probably take a long while for
@@ -49,16 +49,16 @@ export default function StatementOfConcern() {
           future. Just like how it's usually quicker to create from the
           programmer's expertise with the use of AI as a tool, it is going to be
           slower to fix a huge chunk of code that requires the engineer to
-          understand it before fixing it. Understanding badly written code may
-          range from being time-consuming to being nearly impossible. It could
-          happen in development where one line's change of code fix takes up to
-          a week because of how elusive it is to identify the actual error. In
-          debugging, an error may lead to the compiler flagging multiple errors
-          where fixing the actual error removes all flagged errors. That's why
-          the more complex the AI slop is, the more reason to build the
-          application or feature from scratch. This is a case of it's faster if
-          we get it right from the start, so we don't have to spend time fixing
-          it later.
+          understand before fixing it. Understanding badly written code may
+          range from being too time-consuming to being nearly impossible. It
+          could happen in development where one line's change of code fix takes
+          up to a week because of how elusive it is to identify the actual
+          error. In debugging, an error may lead to the compiler flagging
+          multiple errors where fixing the actual error removes all flagged
+          errors. That's why the more complex the AI slop is, the more reason to
+          build the application or feature from scratch. This is a case of it's
+          faster if we get it right from the start, so we don't have to spend
+          time fixing it later.
         </p>
         <p id="statement-of-concern-paragraph">
           As the threat of cybersecurity increases, especially with AI now also
@@ -68,7 +68,7 @@ export default function StatementOfConcern() {
           best practises will be quicker and easier than from codebase that is
           unnecessarily complex. Someone without the know-how of programming,
           might also accept and pass-on code that isn't suitable and add it into
-          the codebase leading to possible challenges in the future.
+          the codebase leading to increased technical debt in the future.
         </p>
         <p id="statement-of-concern-paragraph">
           All these led me on to figure out how I believe our approach to
@@ -84,22 +84,24 @@ export default function StatementOfConcern() {
             quicker and easier for now to do that. We may from the start, or at
             a later point before pushing the code into a higher development
             environment, reduce repetition to none if possible. This keeps the
-            code simpler and editable.
+            code simpler and maintainable.
           </Panel>
           <Panel header="KISS  - Keep It Simple, Stupid" key="2">
             To me, the whole idea is that if it can be simplified, it should be
-            simplified. Unecessary complexity makes code harder to maintain
+            simplified. Unnecessary complexity makes code harder to maintain
             especially for someone or even myself with no memory of what was
             written. Even in all aspect of life, simplifying things make it
             easier for us to understand. It hasn't yet been simplified if you
-            can't explain it to someone in your own words.
+            can't explain it in a straightforward manner to someone.
           </Panel>
           <Panel header="YAGNI  - You Aren't Gonna Need It" key="3">
-            More code than required for now leads to complication for ourselves
-            and our teammates. A reason is because we have to test it everytime,
-            and if there's bug somewhere, we may have to check if this not yet
-            required feature could be the cause or part of the cause of some
-            bugs and errors we're trying to find.
+            On the context of building a feature that we haven't yet require,
+            it's advisable not to pursue it. This leads to more code than
+            required at the moment which is an additional complication. A reason
+            is because we have to test it everytime, and if there's bug
+            somewhere, we may have to check if this not yet required feature
+            could be the cause or part of the cause of some bugs and errors
+            we're trying to find.
           </Panel>
           <Panel
             header="SOLID  - Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation & Dependency Inversion"
@@ -109,9 +111,9 @@ export default function StatementOfConcern() {
               <Panel header="Single Responsibility" key="1">
                 Quite similar to Keep It Simple, Stupid, allow a function to do
                 only one. If it does more than one, we should split it into two
-                and name the function accordingly. The whole idea is that it's a
-                single unit, making it easier to maintain and debug. A function
-                can have a single task, and still be versatile when the
+                and name the functions accordingly. The whole idea is that it's
+                a single unit, making it easier to maintain and debug. A
+                function can have a single task, and still be versatile when the
                 requirement needs it.
               </Panel>
               <Panel header="Open/Closed" key="2">
@@ -157,39 +159,40 @@ export default function StatementOfConcern() {
         <p id="statement-of-concern-paragraph">
           In software engineering, we usually have an idealised and most optimal
           way to write the code. After writing that out, we use our
-          understanding of programming to customise it further while ensuring no
-          bugs and being able to fulfil all requirements. All these must be done
-          while the code remains maintainable and scalable yet ensuring
-          vulnerabilities are patched up because cyberattacks are a threat the
-          more users and mission critical data we have on this product.
+          understanding of programming to customise it further while ensuring
+          minimal bugs and being able to fulfil all requirements. All these must
+          be done while the code remains maintainable and extendable yet
+          ensuring vulnerabilities are patched up because cyberattacks are a
+          threat the more users and mission critical data we have on this
+          product.
         </p>
         <p id="statement-of-concern-paragraph">
-          For me, to be in control where I use AI as a tool not as an AI worker
-          that requires me to check all its work, I need to engineer the
+          For me, to be in control where I use AI as a tool and not as an AI
+          worker that requires me to check all its work, I need to engineer the
           software in a manner where I move closer to completion, step-by-step,
           going through what I program into the codebase carefully. It's because
           I know AI can't produce a 100% correct code at all times, that I must
           understand the code it produces the more complex the code it produces
           is. Often, exclusive Generative AI users might not be able to even
-          write a prompt with every software engineering practice wanted and
-          achieve every specific preference or produce a complex product that
+          write a prompt with every software engineering practices required and
+          achieve every specific preference to produce a complex product that
           will be sufficient and production grade. Generative AI can't read our
           minds, and less experienced software engineers may not even know what
-          they do not know. There have been instances where after building the
-          software product halfway, the team realises the need for more
-          requirements and technical dead-end popping up. As the complexity of
-          the product grows, the higher the complexity of the prompts we must
-          make to it because we need to communicate all the specifics to the Gen
-          AI. It also requires a lot of checking. As the person checking the
-          code must know programming, they pretty much can already build the
-          software quicker instead of relying on AI through only prompting. The
-          approach I use is to break problems into chunks, then use a mix of AI
-          and search to advise on how to fix a bug or build a feature if I don't
-          already know it, this repeats until the final is achieved. I may take
-          a break from coding and our programming Gods might hand me the
-          solution just like that. Odd, but it happens to a lot of us software
-          engineers, I swear! The software engineer should always remain in
-          control of his development process.
+          they do not know to look out for. It's not uncommon where after
+          building the software product halfway, the team realises the need for
+          more requirements and technical dead-ends starts popping up. As the
+          complexity of the product grows, the higher the complexity of the
+          prompts we must make to it because we need to communicate all the
+          specifics to the Gen AI. It also requires a lot of checking. As the
+          person checking the code must know programming, they pretty much can
+          already build the software quicker instead of relying on AI through
+          only prompting. The approach I use is to break problems into chunks,
+          then use a mix of AI and Search Engines to advise on how to fix a bug
+          or build a feature if I don't already know it, this repeats until the
+          final is achieved. I may take a break from coding and our programming
+          Gods might hand me the solution just like that. It happens to a lot of
+          us software engineers, I swear! Despite all these, the software
+          engineer should always remain in control of his development process.
         </p>
         <p id="statement-of-concern-paragraph">
           This is why we need to go through what AI produces, not because no one
@@ -198,9 +201,9 @@ export default function StatementOfConcern() {
           enough, building a software step-by-step with the help of AI and
           research is going to be the quicker way, than to create an entire
           product with only AI and expect it to be exactly how we want it to be.
-          Editing the software product result produced by the Generative AI
-          hasn't been a reliable approach to development because it usually does
-          not do exactly what the prompts tells it to.
+          Refining the software product produced by Generative AI hasn't been a
+          reliable approach to development because it usually does not do
+          exactly what the prompts tells it to.
         </p>
         <p id="statement-of-concern-paragraph">
           This is why in software engineering; we cannot only be
@@ -212,7 +215,8 @@ export default function StatementOfConcern() {
           software product to be. If there is a more precise and optimal
           programming language that is easier to learn while enabling engineers
           to define how a software should be with precision, that technology
-          will likely just be another high-level programming language.
+          will likely just be another textual based high-level programming
+          language.
         </p>
         <p id="statement-of-concern-paragraph">
           From what I'm seeing, if we were to work with AI through prompting
@@ -222,9 +226,9 @@ export default function StatementOfConcern() {
           if we know what they don't know because we can't verify it if we don't
           know it either. I'd argue that it's always faster for the person with
           the technical knowledge to continue interacting to the computer on
-          what exact software product we want and build up the software using
-          programming languages while assisted by AI programming tools and our
-          very own due dilligence.
+          what exact software product we want through building up the software
+          using programming languages while being assisted by AI programming
+          tools, technical knowledge and our very own due dilligence.
         </p>
         <p className="written-date">
           Completely written by KAI without any use of AI on 25th October 2026
