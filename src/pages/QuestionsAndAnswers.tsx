@@ -14,7 +14,7 @@ export default function QuestionsAndAnswers() {
           working as a ReactJS engineer where I was able to build a complex web
           application and learn while on the job. When I started, I was told by
           a different ReactJS engineer who was handing the sub-project to me
-          that it would be too challenigng to learn on the job while fulfilling
+          that it would be too challenging to learn on the job while fulfilling
           tasks at the same time.
         </p>
         <p>
@@ -28,11 +28,13 @@ export default function QuestionsAndAnswers() {
         </p>
         <p>
           There were multiple sub-projects in the team, and together with my
-          Business Analyst, I was able to complete what I had taken care of
-          without major issues. As I was new to ReactJS, I focused on learning
-          it and understanding the codebase. It's because of this that I decided
-          I'll continue in frontend development because of how much I have
-          achieved.
+          business analyst colleague, I was able to complete what I had taken
+          care of without major issues. After completion of this sub-project, I
+          was moved to another sub-project because they were behind time on
+          their schedule. Through my experience and knowledge gained from the
+          previous project, we were able to catch-up on the timeline. It was the
+          direct lead of this project that commended my programming skills and
+          how quickly I was able to solve some of the challenges.
         </p>
       </div>
       <div>
@@ -44,8 +46,8 @@ export default function QuestionsAndAnswers() {
           In my most recent ReactJS project, we were rushing for time as the
           project was behind schedule. There were many requirements that the
           client wanted to be implemented but because of the time constraint,
-          there had to be a tradeoff. My Business Analyst and I looked through
-          the requirements while interacting with the client to understand and
+          there had to be some tradeoffs. My colleague and I looked through the
+          requirements while interacting with the client to understand and
           separate the important requirements from those that were less
           important.
         </p>
@@ -55,8 +57,8 @@ export default function QuestionsAndAnswers() {
           requirements that we should implement. We were finding the most
           optimal point that was realistic considering the project constraints,
           such as that we were dealing with a tight deadline and that we
-          couldn't bring in more engineers because we're nearing the completion
-          of this project.
+          couldn't bring in more engineers because we were nearing the
+          completion of this project.
         </p>
       </div>
       <div>
@@ -66,7 +68,7 @@ export default function QuestionsAndAnswers() {
         </h4>
         <p>
           I'd like to reference to this project, myDigitalResumeProject(📄)™ ,
-          where I wished I had started with using an UI library instead of
+          where I wished I had started with using a UI library instead of
           manually writing the code from scratch. Initially, I wanted to show my
           strong ReactJS fundamentals but I felt being able to do more for the
           website, would make a better impression because the ones hiring for
@@ -76,9 +78,9 @@ export default function QuestionsAndAnswers() {
           In software engineering, there is usually an easier way to build the
           software faster such as using a framework or a library. My initial
           intention of writing it out with vanilla ReactJS and TypeScript is
-          because I wanted to showcase my ability. I chose this because my Team
-          Lead, and Technical Interviewers have told me that I learnt ReactJS
-          really fast, that I'm a quick learner. My secret to how I was able to
+          because I wanted to showcase my ability. I chose this because my team
+          lead and technical Interviewers told me that I learnt ReactJS really
+          fast, and that I'm a quick learner. My secret to how I was able to
           achieve it is because I have strong programming fundamentals.
         </p>
       </div>
@@ -88,35 +90,36 @@ export default function QuestionsAndAnswers() {
           incident?
         </h4>
         <p>
-          We were deploying the project onto production on a Saturday evening
+          We were deploying the project into production on a Saturday evening
           with the aim of completion by Sunday morning. The team chose this time
           because the number of users using the product is the least. There were
-          several deployment and rolling-back being done, while the Business
-          Analysts tested the production application. While the process was
-          happening, we had to fix bugs that appeared on the production system.
+          several deployment and rolling-back being done, while the business
+          analysts tested the production application. While the process was
+          happening, we had to fix bugs that came from the production system.
         </p>
         <p>
-          Often we couldn't replicate the bug that happened on production, onto
+          Often we couldn't replicate the bug that happened in production, in
           the development environment, so I had to use Inspect Elements, trying
-          out the application to understand then replicate the error on my
+          out the application to understand, then replicate the error on my
           computer to infer what is likely to be the cause of the bug. At that
           time, despite trying these, I struggled with knowing what the issue
           was, and because we were rushing for time, I didn't have a choice but
-          to consult my Direct Lead on what she feels is the issue and fix it
+          to consult my direct lead on what she feels is the issue and fix it
           blindly (fixing the cause of the error that didn't appear on my
           computer, on my computer).
         </p>
         <p>
-          What made it challenging was that I couldn't check if my fix was done
-          until it arrived onto production because I couldn't replicate it on my
+          What made it challenging was, I couldn't check if my fix was done
+          until it arrived into production because I couldn't replicate it in my
           development environment. In the end while I was trying to fix it, the
-          team decided they couldn't deploy it because there were other larger
+          team decided they couldn't deploy because there were other larger
           issues that the other teams required lots of time to work on. I
           couldn't fix the production bug, but the good news was that we went
           through this deployment process a few times, pushing it to production
-          and figuring out the bugs and fixing them up before rolling-back,
-          until it's reasonably bug-free to our users, before we completely
-          deployed it onto production and fixed the bugs we saw right from the
+          to figure out the bugs and fixing them up before deployment (then
+          roll-back, and repeat), until it's reasonably bug-free to our users.
+          We did it until there were no major issues, and were able to finally
+          deploy it into production and fix the bugs we saw live from the
           production environment.
         </p>
       </div>
