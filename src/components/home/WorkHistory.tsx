@@ -4,7 +4,7 @@ const WorkHistory = () => {
       <h2>Work History</h2>
       <div className="card--work-history">
         <span>⛱️ Career Sabbatical | Personal Goal Pursuit</span>
-        <div className="mimic-p">July 2025 - September 2026</div>
+        <div className="mimic-p">July 2025 - October 2026</div>
         <p>
           Alongside major personal transitions — marriage, broad exploration of
           my interests, and plenty of time away — my main goal for this
