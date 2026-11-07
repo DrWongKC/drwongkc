@@ -64,19 +64,20 @@ export default function StatementOfConcern() {
           As the threat of cybersecurity increases, especially with AI now also
           being open source and in anyone's hands, it's important that a
           programmer goes through all the AI generated code before using it to
-          fix what needs to patched up. Reading codebase that is created with
+          fix what needs to be patched up. Reading codebase that is created with
           best practises will be quicker and easier than from codebase that is
           unnecessarily complex. Someone without the know-how of programming,
-          might also accept and pass-on code that isn't suitable and add it into
-          the codebase leading to increased technical debt in the future.
+          might also accept and pass-on code that isn't suitable, then add it
+          into the codebase leading to an increased technical debt to deal with
+          in the future.
         </p>
         <p id="statement-of-concern-paragraph">
           All these led me on to figure out how I believe our approach to
           software engineering should be where we're balancing the use of AI,
           while being able to continually ensure the code we submit to our Tech
-          Leads remains high quality. I've added here some of the software
-          development best practises for your understanding and I'll continue
-          after my approach to software engineering.
+          Lead remains high quality. I've added here some of the software
+          development best practises for your understanding and I'll continue my
+          approach to software engineering after this.
         </p>
         <Collapse accordion bordered={false}>
           <Panel header="DRY  - Don't Repeat Yourself" key="1">
