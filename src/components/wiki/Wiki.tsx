@@ -46,8 +46,8 @@ const Wiki = () => {
           Throughout his professional tenure — including key engineering roles
           at multinational technology services and financial leaders like
           Accenture, United Overseas Bank (UOB), GrabJobs, and Dell EMC — Kai
-          Chong has designed and deployed robust web systems and worked with
-          hardware devices:
+          Chong has built and deployed robust web systems while working with
+          then-cutting-edge consumer and enterprise storage solutions:
         </p>
         <ul>
           <li>
