@@ -55,10 +55,10 @@ const Wiki = () => {
             software capabilities with client usability.
           </li>
           <li>
-            <b>Analytics & Business Tools:</b> Built custom data-filtering
-            mechanisms and interactive dashboards for client-facing HR data
-            analytics tools, simplifying complex datasets into actionable
-            insights.
+            <b>Analytics & Business Tools:</b> Built advanced data filtering and
+            features for an internal web tool, cutting data lookup and analysis
+            time. Created client-facing analytics reports that delivered
+            actionable HR insights and improved performance tracking.
           </li>
           <li>
             <b>Hardware Drivers & Storage Utilities:</b> Developed customer
@@ -96,10 +96,9 @@ const Wiki = () => {
           <li>
             <b>Passion Projects:</b> Continues to build independent web
             applications, including platforms like MemeGeneratingFactory (a web
-            app for generating, editing, and sharing custom media),
-            IntelliFindLaptopGuide (a workflow-driven laptop recommendation
-            tool), and VagabondWanderlogue (an interactive travel logging
-            platform).
+            app for generating and editing custom media), IntelliFindLaptopGuide
+            (an AI-powered laptop recommendation tool), and VagabondWanderlogue
+            (a travel logging platform).
           </li>
         </ul>
       </div>
