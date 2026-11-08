@@ -43,9 +43,11 @@ const Wiki = () => {
           <i>Front-End Engineering & Enterprise Solutions</i>
         </h5>
         <p>
-          Throughout his professional tenure—including roles at multinational
-          technology services firms like Accenture—Kai Chong has designed and
-          deployed robust web systems:
+          Throughout his professional tenure — including key engineering roles
+          at multinational technology services and financial leaders like
+          Accenture, United Overseas Bank (UOB), GrabJobs, and Dell EMC — Kai
+          Chong has designed and deployed robust web systems and worked with
+          hardware devices:
         </p>
         <ul>
           <li>
