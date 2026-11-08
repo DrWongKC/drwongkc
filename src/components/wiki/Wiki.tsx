@@ -94,12 +94,12 @@ const Wiki = () => {
             knowledge sharing, and networking for tech founders and developers.
           </li>
           <li>
-            <b>Open Source & Passion Projects:</b> Continues to build
-            independent web applications, including platforms like
-            MemeGeneratingFactory (a web app for generating, editing, and
-            sharing custom media), IntelliFindLaptopGuide (a workflow-driven
-            laptop recommendation tool), and VagabondWanderlogue (an interactive
-            travel logging platform).
+            <b>Passion Projects:</b> Continues to build independent web
+            applications, including platforms like MemeGeneratingFactory (a web
+            app for generating, editing, and sharing custom media),
+            IntelliFindLaptopGuide (a workflow-driven laptop recommendation
+            tool), and VagabondWanderlogue (an interactive travel logging
+            platform).
           </li>
         </ul>
       </div>
