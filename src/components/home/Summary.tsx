@@ -1,5 +1,3 @@
-import PhotoGrid from "./PhotoGrid";
-
 const Summary = () => {
   return (
     <section className="summary--page">
@@ -27,7 +25,6 @@ const Summary = () => {
           effective presentations.
         </li>
       </ul>
-      <PhotoGrid />
     </section>
   );
 };

@@ -6,9 +6,12 @@ const WorkHistory = () => {
         <span>⛱️ Career Sabbatical | Personal Goal Pursuit</span>
         <div className="mimic-p">July 2025 - October 2026</div>
         <p>
-          Alongside major personal transitions — marriage, broad exploration of
-          my interests, and plenty of time away — my main goal for this
-          sabbatical is to substantially deepen my technical skills.
+          Alongside key personal milestones — including getting married,
+          exploring new interests, and taking time away — I set out on this
+          sabbatical to intentionally deepen my technical capabilities. Stepping
+          back allowed me to clear cognitive debt, sharpen my problem-solving
+          judgment, and build a foundation for higher long-term delivery
+          velocity.
         </p>
         {/* 
         <span>Online Courses:</span>

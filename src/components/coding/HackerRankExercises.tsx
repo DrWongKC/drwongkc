@@ -1598,10 +1598,22 @@ export default medical_records;
   return (
     <div>
       <h2 className="heading">HackerRank Exercises</h2>
+      <p>
+        <img
+          height="22.75"
+          width="22.75"
+          src="https://img.icons8.com/?size=100&id=YSWCDCSF4H3N&format=png&color=000000"
+          alt="GitHub"
+          style={{ transform: "translateY(5px)" }}
+        />{" "}
+        GitHub:{" "}
+        <a href="https://github.com/DrWongKC/2026-ReactJS-HackerRank-Problem-Solving-Practise/tree/main/src/Medium%20Difficulty">
+          2026-ReactJS-HackerRank-Problem-Solving-Practise
+        </a>
+      </p>
       <p className="paragraph">
-        To gain a deeper understanding of my problem-solving process, look
-        through each section below to see firsthand the exact approach I use to
-        address each challenge:
+        Look through to see firsthand the exact approach I use to address each
+        challenge:
       </p>
       <div>
         <Collapse accordion bordered={false}>
@@ -2083,10 +2095,19 @@ export default medical_records;
         </Collapse>
       </div>
       <p>
-        To view more, visit GitHub:{" "}
-        <a href="https://github.com/DrWongKC/2026-ReactJS-HackerRank-Problem-Solving-Practise/tree/main/src/Medium%20Difficulty">
-          2026-ReactJS-HackerRank-Problem-Solving-Practise
-        </a>
+        <i>
+          I affirm all HackerRank assessments on{" "}
+          <a
+            href="https://drwongkc.github.io/drwongkc"
+            id="wrapper--footer--project--name"
+          >
+            myDigitalResumeProject(📄)™
+          </a>{" "}
+          reflect my own work, completed in strict adherence to academic and
+          professional integrity standards. Tools such as Gemini AI and Google
+          Search were utilized solely for standard technical debugging,
+          documentation lookups, and general research.
+        </i>
       </p>
     </div>
   );

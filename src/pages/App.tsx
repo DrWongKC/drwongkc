@@ -23,11 +23,11 @@ const items = [
   {
     key: "coding",
     label: <Link to="/coding">Coding</Link>,
-  },
+  } /* 
   {
     key: "statementofconcern",
     label: <Link to="/statementofconcern">SoC</Link>,
-  } /* 
+  },
   {
     key: "questionsandanswers",
     label: <Link to="/questionsandanswers">Q&A</Link>,
