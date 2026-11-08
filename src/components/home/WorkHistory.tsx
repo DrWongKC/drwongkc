@@ -10,8 +10,8 @@ const WorkHistory = () => {
           exploring new interests, and taking time away — I set out on this
           sabbatical to intentionally deepen my technical capabilities. Stepping
           back allowed me to clear cognitive debt, sharpen my problem-solving
-          judgment, and build a foundation for higher long-term delivery
-          velocity.
+          judgment, and set the stage for sustained throughput and predictable
+          capacity growth.
         </p>
         {/* 
         <span>Online Courses:</span>
