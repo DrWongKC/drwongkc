@@ -4,6 +4,7 @@ import { Routes, Route, Link, useLocation } from "react-router-dom";
 
 import Home from "./Home";
 import About from "./About";
+import ProfessionalBiography from "./ProfessionalBiography";
 import Coding from "./Coding";
 import StatementOfConcern from "./StatementOfConcern";
 import QuestionsAndAnswers from "./QuestionsAndAnswers";
@@ -19,6 +20,10 @@ const items = [
   {
     key: "about",
     label: <Link to="/about">About</Link>,
+  },
+  {
+    key: "professionalbiography",
+    label: <Link to="/professionalbiography">Wiki</Link>,
   },
   {
     key: "coding",
@@ -61,6 +66,10 @@ function App() {
         <Routes>
           <Route path="/drwongkc" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route
+            path="/professionalbiography"
+            element={<ProfessionalBiography />}
+          />
           <Route path="/coding" element={<Coding />} />
           <Route path="/statementofconcern" element={<StatementOfConcern />} />
           <Route
