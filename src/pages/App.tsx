@@ -27,11 +27,11 @@ const items = [
   {
     key: "statementofconcern",
     label: <Link to="/statementofconcern">SoC</Link>,
-  },
+  } /* 
   {
     key: "questionsandanswers",
     label: <Link to="/questionsandanswers">Q&A</Link>,
-  },
+  }, */,
 ];
 
 function App() {
