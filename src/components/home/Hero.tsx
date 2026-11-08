@@ -16,13 +16,13 @@ const Hero = () => {
         <br />
         <div id="profile-sub-sub-heading">
           <span>
-            I'm a Software Engineer, Digital Technology Enthusiast and former
-            Programming Educator in various local and international schools.
-            I've been creating websites since 2012 and had my first experience
-            with robotics back when I was 7 years old. I have always had a
-            passion for learning and sharing knowledge, including learning from
-            my hobbies such as photography, travelling and most especially,
-            being part of the high-fidelity audio community.
+            I've been obsessed with technology since building my first robot at
+            age seven and writing code for the web in 2012. Today, I'm a
+            Software Engineer and former Programming Educator who loves breaking
+            down complex ideas and sharing knowledge across schools and
+            communities. When I'm not coding, you'll find me traveling,
+            capturing moments through photography, or refining my hi-fi audio
+            setup.
           </span>
         </div>
       </div>
