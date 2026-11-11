@@ -70,20 +70,40 @@ const WorkHistory = () => {
             </table>
           </p>
           <span>Responsibilities:</span>
-          <ul>
-            <li>
-              Built scalable, secure software features and bug fixes that
-              measurably improved performance.
-            </li>
-            <li>
-              Wrote clean, maintainable code to ensure long-term stability and
-              easier updates.
-            </li>
-            <li>
-              Collaborated in an Agile team to fix critical bugs and ship
-              roadmap features on schedule.
-            </li>
-          </ul>
+          <div>
+            <b>Architecture & Component Engineering:</b> Architected reusable,
+            modular React and TypeScript component, accelerating rollout cycles
+            across enterprise projects while ensuring strict visual and
+            functional consistency.
+            <br />
+            <br />
+            <b>Performance & State Optimization:</b> Streamlined client-side
+            state management and front-end data layer interactions,
+            significantly reducing render bottlenecks and dynamic UI latency
+            across complex workflows.
+            <br />
+            <br />
+            <b>Design System & UI Standards:</b> Standardized UI integrations
+            across systems, bridging design mockups to production code to
+            streamline cross-team handoffs and ensure responsive, accessible web
+            interfaces.
+            <br />
+            <br />
+            <b>Cross-Functional Collaboration:</b> Partnered closely with
+            backend engineers, UX designers, and product stakeholders to
+            translate business requirements into seamless, intuitive single-page
+            application.
+            <br />
+            <br />
+            <i>
+              I didn't get the chance to capture hard metrics on this project,
+              but my main focus was on smoothing out dev workflows, raising our
+              code quality bar, and helping the team get back on track to hit
+              our deadlines.
+            </i>
+            <br />
+            <br />
+          </div>
           <span>
             Packaged App Development Associate | Frontend Engineer Skills (Apr
             2023 – Jun 2025):
