@@ -96,3 +96,9 @@
   font-size: 1em;
   margin-bottom: 1.5em;
 }
+
+.foot-note {
+  text-align: center;
+  font-size: 0.75em;
+  font-style: italic;
+}

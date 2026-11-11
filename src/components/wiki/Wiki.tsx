@@ -3,7 +3,7 @@ const Wiki = () => {
     <>
       <div>
         <h3 className="fun-idea-heading">
-          FUN IDEA: What if I created a complete Wikipedia page for myself (with
+          FUN IDEA: What if I created a complete Wikipedia page of myself (with
           the help of Gemini AI)?
         </h3>
       </div>
@@ -98,7 +98,7 @@ const Wiki = () => {
           <li>
             <b>Passion Projects:</b> Continues to build independent web
             applications, including platforms like MemeGeneratingFactory (a web
-            app for generating and editing custom media), IntelliFindLaptopGuide
+            app for generating and editing custom memes), IntelliFindLaptopGuide
             (an AI-powered laptop recommendation tool), and VagabondWanderlogue
             (a travel logging platform).
           </li>

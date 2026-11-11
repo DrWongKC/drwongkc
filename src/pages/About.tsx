@@ -182,6 +182,9 @@ export default function About() {
         exploring web technology. All that has resulted in me becoming a better
         software engineer than before.
       </p>
+      <p className="foot-note">
+        Completely written by KAI without any use of AI
+      </p>
     </>
   );
 }
