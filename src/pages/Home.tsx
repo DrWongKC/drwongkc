@@ -1,6 +1,6 @@
 import Hero from "../components/home/Hero";
 import SocialMedia from "../components/home/SocialMedia";
-import Summary from "../components/home/Summary";
+// import Summary from "../components/home/Summary";
 import Description from "../components/home/Description";
 import WorkHistory from "../components/home/WorkHistory";
 import Recommendations from "../components/home/Recommendations";
@@ -13,7 +13,7 @@ export default function Home() {
     <>
       <Hero />
       <SocialMedia />
-      <Summary />
+      {/* <Summary /> */}
       <PhotoGrid />
       <Description />
       <WorkHistory />

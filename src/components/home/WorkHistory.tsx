@@ -4,13 +4,13 @@ const WorkHistory = () => {
       <h2>Work History</h2>
       <div className="card--work-history">
         <span>⛱️ Career Sabbatical | Personal Goal Pursuit</span>
-        <div className="mimic-p">July 2025 - October 2026</div>
+        <div className="mimic-p">July 2025 - September 2026</div>
         <p>
-          Alongside key personal milestones — including getting married,
-          exploring new interests, and taking time away — I set out on this
-          sabbatical to intentionally deepen my technical capabilities. Stepping
-          back allowed me to clear cognitive debt, sharpen my problem-solving
-          judgment, and set the stage for sustained growth.
+          Took an intentional sabbatical to celebrate getting married, recharge,
+          and deepen my technical expertise. Stepping back from day-to-day
+          allowed me to clear cognitive debt, sharpen my problem-solving, and
+          return with renewed focus for the next chapter of my engineering
+          career.
         </p>
         {/* 
         <span>Online Courses:</span>
@@ -71,28 +71,28 @@ const WorkHistory = () => {
           </p>
           <span>Responsibilities:</span>
           <div>
-            <b>Architecture & Component Engineering:</b> Architected reusable,
-            modular React and TypeScript component, accelerating rollout cycles
-            across enterprise projects while ensuring strict visual and
+            <b>Architecture & Component Engineering:</b> Architected reusable
+            and modular React & TypeScript components, accelerating rollout
+            cycles across enterprise projects while ensuring strict visual and
             functional consistency.
             <br />
             <br />
             <b>Performance & State Optimization:</b> Streamlined client-side
-            state management and front-end data layer interactions,
-            significantly reducing render bottlenecks and dynamic UI latency
+            state management and front-end data layer interactions to
+            significantly reduce render bottlenecks and dynamic UI latency
             across complex workflows.
             <br />
             <br />
-            <b>Design System & UI Standards:</b> Standardized UI integrations
-            across systems, bridging design mockups to production code to
-            streamline cross-team handoffs and ensure responsive, accessible web
+            <b>Design System & UI Standards:</b> Standardized UI integrations by
+            translating design mockups into reusable production components,
+            streamlining design-to-dev handoffs and ensuring responsive web
             interfaces.
             <br />
             <br />
             <b>Cross-Functional Collaboration:</b> Partnered closely with
             backend engineers, UX designers, and product stakeholders to
             translate business requirements into seamless, intuitive single-page
-            application.
+            applications.
             <br />
             <br />
             <i>
@@ -109,7 +109,7 @@ const WorkHistory = () => {
             2023 – Jun 2025):
           </span>
           <ul>
-            <li>React.js (Open-Source JavaScript Library)</li>
+            <li>React (Open-Source JavaScript Library)</li>
             <li>
               Redux (JavaScript Library Used for Managing the State of
               Applications)
@@ -119,6 +119,14 @@ const WorkHistory = () => {
               Javascript)
             </li>
             <li>JavaScript (Programming Language)</li>
+            <li>
+              Ant Design (Enterprise-Class React UI Design System and Component
+              Library)
+            </li>
+            <li>
+              Material UI (React Component Library Implementing Google's
+              Material Design)
+            </li>
             <li>HTML5 (Standard Language Used to Create Web Pages)</li>
             <li>CSS3 (Used to Style and Layout Web Pages)</li>
             <li>Visual Studio Code (Integrated Development Environment)</li>
@@ -182,7 +190,6 @@ const WorkHistory = () => {
         </div>
         <span>[Progress]</span>
         <ul>
-          <li>Completed course for React.js on FreeCodeCamp.</li>
           <li>
             Completed 14/14 available courses on Pluralsight's Technology
             Quotient (TQ).
