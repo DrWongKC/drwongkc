@@ -6,11 +6,11 @@ const WorkHistory = () => {
         <span>⛱️ Career Sabbatical | Personal Goal Pursuit</span>
         <div className="mimic-p">July 2025 - September 2026</div>
         <p>
-          Took an intentional sabbatical to celebrate getting married, recharge,
-          and deepen my technical expertise. Stepping back from day-to-day
-          allowed me to clear cognitive debt, sharpen my problem-solving, and
-          return with renewed focus for the next chapter of my engineering
-          career.
+          Took an intentional sabbatical to recharge, pursue personal
+          milestones, and deepen my technical expertise. Stepping back from
+          day-to-day delivery allowed me to clear cognitive debt, sharpen my
+          problem-solving, and return with renewed focus for the next chapter of
+          my engineering career.
         </p>
         {/* 
         <span>Online Courses:</span>
