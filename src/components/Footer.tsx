@@ -3,14 +3,16 @@ const Footer = () => {
 
   return (
     <section id="wrapper--footer" className="section--page">
-      © {currentYear}{" "}
+      <span className="footer-copyright">©</span>{" "}
+      <span className="footer-date">{currentYear}</span>{" "}
       <a
         href="https://drwongkc.github.io/drwongkc"
         id="wrapper--footer--project--name"
       >
         myDigitalResumeProject(📄)™
       </a>{" "}
-      // Hand-built with ♥️ by KAI
+      <span className="footer-slash">//</span> Hand-built with ♥️ by KAI
+      <span className="footer-cursor">|</span>
     </section>
   );
 };

@@ -1,7 +1,7 @@
 const WorkHistory = () => {
   return (
     <section id="work-history-wrapper" className="section--page">
-      <h2>Work History</h2>
+      {/* <h2>Work History</h2> */}
       <div className="card--work-history">
         <span className="highlight">
           ⛱️ Career Sabbatical | Personal Goal Pursuit

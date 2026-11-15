@@ -8,7 +8,7 @@ const { Panel } = Collapse;
 const ACTIVE_THEME = solarizedLight;
 const CUSTOM_STYLE = {
   background: "#2c2c2c",
-  border: "1px solid #4add82",
+  border: "1px dashed #4add82",
   borderRadius: "8px",
   padding: "16px",
 };

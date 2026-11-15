@@ -25,10 +25,19 @@ strong,
   color: #b8cfb3;
 }
 
+#about-me-transition-text-divider {
+  color: #b8cfb3;
+}
+
 p,
 span,
 li {
   font-size: 1em;
+}
+
+hr {
+  border: none;
+  border-top: 1px dashed #4add82;
 }
 
 .main-navigation {
@@ -100,7 +109,8 @@ li {
   align-items: center;
 }
 
-.cursor {
+.cursor,
+.footer-cursor {
   display: inline-block;
   margin-left: 4px;
   font-weight: bold;
@@ -118,10 +128,21 @@ li {
   }
 }
 
+/* Base ::after state so transitions start from dashed, not solid */
+.ant-menu-horizontal > .ant-menu-item::after,
+.ant-menu-horizontal > .ant-menu-submenu::after {
+  background: transparent !important;
+  height: 0 !important;
+  border-bottom: 2.5px dashed transparent !important;
+}
+
 /* Change the bottom selector bar color in horizontal mode */
 .ant-menu-horizontal > .ant-menu-item-selected::after,
 .ant-menu-horizontal > .ant-menu-submenu-selected::after {
   border-bottom-color: #b8cfb3 !important;
+  border-bottom-width: 2.5px !important;
+  border-bottom-style: dashed !important;
+  height: 0 !important;
 }
 
 /* Change the font size of the horizontal menu */
@@ -132,4 +153,7 @@ li {
 .ant-menu-horizontal > .ant-menu-item:hover::after,
 .ant-menu-horizontal > .ant-menu-submenu:hover::after {
   border-bottom-color: #b8cfb3 !important;
+  border-bottom-width: 2.5px !important;
+  border-bottom-style: dashed !important;
+  height: 0 !important;
 }

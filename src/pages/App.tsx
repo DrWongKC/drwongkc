@@ -21,10 +21,10 @@ const items = [
     key: "about",
     label: <Link to="/about">About</Link>,
   },
-  {
+  /* {
     key: "professionalbiography",
     label: <Link to="/professionalbiography">Wiki</Link>,
-  },
+  }, */
   {
     key: "coding",
     label: <Link to="/coding">Coding</Link>,

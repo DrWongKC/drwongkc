@@ -10,9 +10,10 @@
 }
 
 #about-me-pic-one {
-  height: 345px;
-  width: 280px;
-  margin: 1em;
+  height: 375px;
+  width: 260px;
+  margin-right: 1em;
+  margin-top: 1.5em;
   object-fit: cover;
   float: left;
   border-radius: 1em;
@@ -29,10 +30,10 @@
 }
 
 #about-me-pic-three {
-  margin: 1em;
+  margin-right: 1em;
   object-fit: cover;
-  width: 265px;
-  height: 265px;
+  width: 250px;
+  height: 290px;
   float: left;
   border-radius: 1em;
 }
@@ -49,8 +50,8 @@
   display: block;
   border-radius: 1em;
   object-fit: cover;
-  max-width: 320px;
-  aspect-ratio: 1 / 1;
+  height: 350px;
+  width: 300px;
   float: right;
 }
 
@@ -101,5 +102,4 @@
 .foot-note {
   text-align: center;
   font-size: 0.75em;
-  font-style: italic;
 }

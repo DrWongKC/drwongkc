@@ -40,11 +40,13 @@ const Recommendations = (props: any) => {
 
   return (
     <section className="section--page">
-      <h2>Recommendations</h2>
+      {/* <h2>Recommendations</h2> */}
       <p>
-        While Britta and Adele offered genuine recommendations, I couldn't
-        resist playfully including one from my other half, who should know me
-        best, right? 😄
+        <em>
+          While Britta and Adele offered genuine recommendations, I couldn't
+          resist playfully including one from my other half, who should know me
+          best, right? 😄
+        </em>
       </p>
       {recommendationList}
     </section>
