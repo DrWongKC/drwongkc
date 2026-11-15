@@ -93,6 +93,31 @@ li {
   line-height: 1.9em;
 }
 
+.terminal-line {
+  color: #00ff41; /* Classic Homebrew green */
+  font-size: 1.25em;
+  display: inline-flex;
+  align-items: center;
+}
+
+.cursor {
+  display: inline-block;
+  margin-left: 4px;
+  font-weight: bold;
+  animation: terminal-blink 1s steps(1, end) infinite;
+}
+
+@keyframes terminal-blink {
+  0%,
+  49% {
+    opacity: 1;
+  }
+  50%,
+  100% {
+    opacity: 0;
+  }
+}
+
 /* Change the bottom selector bar color in horizontal mode */
 .ant-menu-horizontal > .ant-menu-item-selected::after,
 .ant-menu-horizontal > .ant-menu-submenu-selected::after {

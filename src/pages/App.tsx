@@ -45,6 +45,10 @@ function App() {
 
   return (
     <>
+      <div className="terminal-line">
+        <span className="prompt">root@unix:~/drwongkc (main *)#</span>
+        <span className="cursor">_</span>
+      </div>
       <div id="container--main">
         {/* Navigation */}
         <Menu
