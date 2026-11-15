@@ -3,17 +3,16 @@ const WorkHistory = () => {
     <section id="work-history-wrapper" className="section--page">
       <h2>Work History</h2>
       <div className="card--work-history">
-        <span>⛱️ Career Sabbatical | Personal Goal Pursuit</span>
+        <span className="highlight">
+          ⛱️ Career Sabbatical | Personal Goal Pursuit
+        </span>
         <div className="mimic-p">July 2025 - September 2026</div>
         <p>
           Took an intentional sabbatical to recharge, pursue personal
-          milestones, and deepen my technical expertise. Stepping back from
-          day-to-day delivery allowed me to clear cognitive debt, sharpen my
-          problem-solving, and return with renewed focus for the next chapter of
-          my engineering career.
+          milestones, and deepen my technical expertise.
         </p>
         {/* 
-        <span>Online Courses:</span>
+        <span className="highlight">Online Courses:</span>
         <ul>
           <li>[Completed] Build AI-Powered Apps</li>
           <li>[Completed] Learn React JS</li>
@@ -21,7 +20,7 @@ const WorkHistory = () => {
           <li>[Completed] System Design</li>
           <li>[Completed] AI Agents for Beginners</li>
         </ul>
-        <span>Practical:</span>
+        <span className="highlight">Practical:</span>
         <ul>
           <li>
             [Completed] Self-directed Learning in Software Engineering
@@ -42,7 +41,7 @@ const WorkHistory = () => {
       </div>
       <div className="line-break"></div>
       <div className="card--work-history">
-        <span>💼 Software Engineer | Accenture</span>
+        <span className="highlight">💼 Software Engineer | Accenture</span>
         <div className="mimic-p">September 2020 - June 2025</div>
         <div className="mimic-p">
           <p className="work-history-table">
@@ -69,7 +68,7 @@ const WorkHistory = () => {
               </tr>
             </table>
           </p>
-          <span>Responsibilities:</span>
+          <span className="highlight">Responsibilities:</span>
           <div>
             <b>Architecture & Component Engineering:</b> Architected reusable
             and modular React & TypeScript components, accelerating rollout
@@ -104,7 +103,7 @@ const WorkHistory = () => {
             <br />
             <br />
           </div>
-          <span>
+          <span className="highlight">
             Packaged App Development Associate | Frontend Engineer Skills (Apr
             2023 – Jun 2025):
           </span>
@@ -135,7 +134,7 @@ const WorkHistory = () => {
               Modifying an API)
             </li>
           </ul>
-          <span>
+          <span className="highlight">
             Software Engineering Associate | Backend & Platform Engineer Skills
             (Jun 2022 – Mar 2023):
           </span>
@@ -155,7 +154,7 @@ const WorkHistory = () => {
             <li>Java 11 (Programming Language)</li>
             <li>Java 8 (Programming Language)</li>
           </ul>
-          <span>
+          <span className="highlight">
             Software Engineering New Associate | Backend Engineer Skills (Nov
             2020 – Jun 2022):
           </span>
@@ -167,7 +166,7 @@ const WorkHistory = () => {
             <li>IBM Security Access Manager (Identity & Access Management)</li>
             <li>Java 7 Spring MVC (Model-View-Controller)</li>
           </ul>
-          <span>
+          <span className="highlight">
             Software Engineering Intern | Platform Engineer Skills (Sep 2020 –
             Nov 2020):
           </span>
@@ -188,7 +187,7 @@ const WorkHistory = () => {
             </li>
           </ul>
         </div>
-        <span>[Progress]</span>
+        <span className="highlight">[Progress]</span>
         <ul>
           <li>
             Completed 14/14 available courses on Pluralsight's Technology
@@ -207,9 +206,11 @@ const WorkHistory = () => {
       </div>
       <div className="line-break"></div>
       <div className="card--work-history">
-        <span>💼 Full-stack Software Engineering Intern | GrabJobs</span>
+        <span className="highlight">
+          💼 Full-stack Software Engineering Intern | GrabJobs
+        </span>
         <div className="mimic-p">January 2020 - April 2020</div>
-        <span>Responsibilities:</span>
+        <span className="highlight">Responsibilities:</span>
         <ul>
           <li>
             Built advanced data filtering and features for an internal web tool,
@@ -224,7 +225,7 @@ const WorkHistory = () => {
             insights and improved performance tracking.
           </li>
         </ul>
-        <span>Skills:</span>
+        <span className="highlight">Skills:</span>
         <ul>
           <li>JavaScript</li>
           <li>Bootstrap</li>
@@ -238,9 +239,9 @@ const WorkHistory = () => {
       </div>
       <div className="line-break"></div>
       <div className="card--work-history">
-        <span>💼 Program Manager | EAT Launchpad</span>
+        <span className="highlight">💼 Program Manager | EAT Launchpad</span>
         <div className="mimic-p">February 2019 - July 2019</div>
-        <span>Responsibilities:</span>
+        <span className="highlight">Responsibilities:</span>
         <ul>
           <li>
             Directed high-impact events that significantly expanded brand
@@ -263,9 +264,11 @@ const WorkHistory = () => {
       </div>
       <div className="line-break"></div>
       <div className="card--work-history">
-        <span>💼 Co-Founder & Content Manager | Startup Singapore Google+</span>
+        <span className="highlight">
+          💼 Co-Founder & Content Manager | Startup Singapore Google+
+        </span>
         <div className="mimic-p">January 2015 - April 2019</div>
-        <span>Responsibilities:</span>
+        <span className="highlight">Responsibilities:</span>
         <ul>
           <li>
             Founded and grew a Singapore-based startup community on Google+ from
@@ -287,9 +290,9 @@ const WorkHistory = () => {
       </div>
       <div className="line-break"></div>
       <div className="card--work-history">
-        <span>💼 Engineering Technician | Dell EMC</span>
+        <span className="highlight">💼 Engineering Technician | Dell EMC</span>
         <div className="mimic-p">July 2018 - January 2019</div>
-        <span>Responsibilities:</span>
+        <span className="highlight">Responsibilities:</span>
         <ul>
           <li>
             Created and deployed hardware driver packages and documentation,
@@ -307,12 +310,12 @@ const WorkHistory = () => {
       </div>
       <div className="line-break"></div>
       <div className="card--work-history">
-        <span>
+        <span className="highlight">
           💼 React Native Mobile App Development Intern | United Overseas Bank
           Limited (UOB)
         </span>
         <div className="mimic-p">October 2017 - February 2018</div>
-        <span>Responsibilities:</span>
+        <span className="highlight">Responsibilities:</span>
         <ul>
           <li>
             Authored comprehensive user guides and technical documentation for
@@ -326,9 +329,9 @@ const WorkHistory = () => {
       </div>
       <div className="line-break"></div>
       <div className="card--work-history">
-        <span>💼 Workshop Facilitator | Code Gakko</span>
+        <span className="highlight">💼 Workshop Facilitator | Code Gakko</span>
         <div className="mimic-p">July 2017 - February 2018</div>
-        <span>Responsibilities:</span>
+        <span className="highlight">Responsibilities:</span>
         <ul>
           <li>
             Taught hands-on programming lessons that encouraged interactive
@@ -346,9 +349,9 @@ const WorkHistory = () => {
       </div>
       <div className="line-break"></div>
       <div className="card--work-history">
-        <span>💼 Workshop Facilitator | Witty Mitty</span>
+        <span className="highlight">💼 Workshop Facilitator | Witty Mitty</span>
         <div className="mimic-p">July 2017 - February 2018</div>
-        <span>Responsibilities:</span>
+        <span className="highlight">Responsibilities:</span>
         <ul>
           <li>
             Guided students through project-based challenges to build practical
@@ -366,9 +369,11 @@ const WorkHistory = () => {
       </div>
       <div className="line-break"></div>
       <div className="card--work-history">
-        <span>💼 Co-Founder & Project Coordinator | KAI Studio</span>
+        <span className="highlight">
+          💼 Co-Founder & Project Coordinator | KAI Studio
+        </span>
         <div className="mimic-p">January 2017 - July 2017</div>
-        <span>Responsibilities:</span>
+        <span className="highlight">Responsibilities:</span>
         <ul>
           <li>
             Led a cross-functional team of artists, developers, and coordinators

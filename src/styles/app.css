@@ -1,15 +1,26 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 
 * {
+  background-color: #2c2c2c;
+  color: #4add82;
   font-family: "Raleway", sans-serif;
   text-align: justify;
   line-height: 1.5em;
   box-sizing: border-box;
 }
 
-body {
-  background-color: #f8f5f0;
-  color: #2b3938;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i,
+b,
+em,
+strong,
+.highlight {
+  color: #b8cfb3;
 }
 
 p,
@@ -73,9 +84,25 @@ a:hover {
 
 a {
   text-decoration: none;
-  color: #551a8b;
+  color: #b8cfb3;
 }
 
 li {
   line-height: 1.9em;
+}
+
+/* Change the bottom selector bar color in horizontal mode */
+.ant-menu-horizontal > .ant-menu-item-selected::after,
+.ant-menu-horizontal > .ant-menu-submenu-selected::after {
+  border-bottom-color: #b8cfb3 !important;
+}
+
+/* Change the font size of the horizontal menu */
+.ant-menu-horizontal {
+  font-size: 2.25em;
+}
+
+.ant-menu-horizontal > .ant-menu-item:hover::after,
+.ant-menu-horizontal > .ant-menu-submenu:hover::after {
+  border-bottom-color: #b8cfb3 !important;
 }

@@ -37,10 +37,14 @@ const SocialMedia = () => {
         </div>
         <div id="social--link">
           <img
-            height="18"
-            width="18"
-            src="https://img.icons8.com/?size=100&id=YSWCDCSF4H3N&format=png&color=000000"
+            height="19"
+            width="19"
+            src="https://img.icons8.com/?size=100&id=12598&format=png&color=000000"
             alt="GitHub"
+            style={{
+              backgroundColor: "white",
+              borderRadius: "50%",
+            }}
           />
           &nbsp;
           <a href="https://github.com/DrWongKC" target="_blank">

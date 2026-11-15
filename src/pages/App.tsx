@@ -51,6 +51,7 @@ function App() {
           className="main-navigation"
           mode="horizontal"
           theme="light"
+          disabledOverflow
           items={items}
           selectedKeys={[selectedKey]}
         />

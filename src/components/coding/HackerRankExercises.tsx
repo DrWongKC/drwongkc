@@ -1,8 +1,17 @@
 import SyntaxHighlighter from "react-syntax-highlighter";
-import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
+import { solarizedLight } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 import { Collapse } from "antd";
 const { Panel } = Collapse;
+
+// Change the theme here ONCE
+const ACTIVE_THEME = solarizedLight;
+const CUSTOM_STYLE = {
+  background: "#2c2c2c",
+  border: "1px solid #4add82",
+  borderRadius: "8px",
+  padding: "16px",
+};
 
 const HackerRankExercises = () => {
   const blogPostCodeStringOne = `import { useState } from "react";
@@ -1602,9 +1611,13 @@ export default medical_records;
         <img
           height="22.75"
           width="22.75"
-          src="https://img.icons8.com/?size=100&id=YSWCDCSF4H3N&format=png&color=000000"
+          src="https://img.icons8.com/?size=100&id=12598&format=png&color=000000"
           alt="GitHub"
-          style={{ transform: "translateY(5px)" }}
+          style={{
+            transform: "translateY(5px)",
+            backgroundColor: "white",
+            borderRadius: "50%",
+          }}
         />{" "}
         GitHub:{" "}
         <a href="https://github.com/DrWongKC/2026-ReactJS-HackerRank-Problem-Solving-Practise/tree/main/src/Medium%20Difficulty">
@@ -1685,15 +1698,27 @@ export default medical_records;
               <h4>Solution</h4>
               <>
                 <h5>Home.js</h5>
-                <SyntaxHighlighter language="javascript" style={docco}>
+                <SyntaxHighlighter
+                  language="javascript"
+                  style={ACTIVE_THEME}
+                  customStyle={CUSTOM_STYLE}
+                >
                   {blogPostCodeStringOne}
                 </SyntaxHighlighter>
                 <h5>Input.js</h5>
-                <SyntaxHighlighter language="javascript" style={docco}>
+                <SyntaxHighlighter
+                  language="javascript"
+                  style={ACTIVE_THEME}
+                  customStyle={CUSTOM_STYLE}
+                >
                   {blogPostCodeStringTwo}
                 </SyntaxHighlighter>
                 <h5>PostDisplay.js</h5>
-                <SyntaxHighlighter language="javascript" style={docco}>
+                <SyntaxHighlighter
+                  language="javascript"
+                  style={ACTIVE_THEME}
+                  customStyle={CUSTOM_STYLE}
+                >
                   {blogPostCodeStringThree}
                 </SyntaxHighlighter>
               </>
@@ -1764,7 +1789,11 @@ export default medical_records;
               </div>
               <h4>Solution</h4>
               <h5>ContactForm.js</h5>
-              <SyntaxHighlighter language="javascript" style={docco}>
+              <SyntaxHighlighter
+                language="javascript"
+                style={ACTIVE_THEME}
+                customStyle={CUSTOM_STYLE}
+              >
                 {contactFormCodeStringOne}
               </SyntaxHighlighter>
             </div>
@@ -1851,16 +1880,28 @@ export default medical_records;
               </div>
               <h4>Solution</h4>
               <h5>Main.js</h5>
-              <SyntaxHighlighter language="javascript" style={docco}>
+              <SyntaxHighlighter
+                language="javascript"
+                style={ACTIVE_THEME}
+                customStyle={CUSTOM_STYLE}
+              >
                 {cryptoRankExchangeCodeStringOne}
               </SyntaxHighlighter>
               <h5>Table.js</h5>
-              <SyntaxHighlighter language="javascript" style={docco}>
+              <SyntaxHighlighter
+                language="javascript"
+                style={ACTIVE_THEME}
+                customStyle={CUSTOM_STYLE}
+              >
                 {cryptoRankExchangeCodeStringTwo}
               </SyntaxHighlighter>
 
               <h5>cryptocurrency-list.js</h5>
-              <SyntaxHighlighter language="javascript" style={docco}>
+              <SyntaxHighlighter
+                language="javascript"
+                style={ACTIVE_THEME}
+                customStyle={CUSTOM_STYLE}
+              >
                 {cryptoRankExchangeCodeStringThree}
               </SyntaxHighlighter>
             </div>
@@ -1936,7 +1977,11 @@ export default medical_records;
               </div>
               <h4>Solution</h4>
               <h5>EmployeeValidation.js</h5>
-              <SyntaxHighlighter language="javascript" style={docco}>
+              <SyntaxHighlighter
+                language="javascript"
+                style={ACTIVE_THEME}
+                customStyle={CUSTOM_STYLE}
+              >
                 {employeeValidationRecordsCodeStringOne}
               </SyntaxHighlighter>
             </div>
@@ -1991,7 +2036,11 @@ export default medical_records;
               </div>
               <h4>Solution</h4>
               <h5>ItemListManager.js</h5>
-              <SyntaxHighlighter language="javascript" style={docco}>
+              <SyntaxHighlighter
+                language="javascript"
+                style={ACTIVE_THEME}
+                customStyle={CUSTOM_STYLE}
+              >
                 {ItemListManagerCodeStringOne}
               </SyntaxHighlighter>
             </div>
@@ -2075,19 +2124,35 @@ export default medical_records;
               </div>
               <h4>Solution</h4>
               <h5>App.js</h5>
-              <SyntaxHighlighter language="javascript" style={docco}>
+              <SyntaxHighlighter
+                language="javascript"
+                style={ACTIVE_THEME}
+                customStyle={CUSTOM_STYLE}
+              >
                 {patientMedicalRecordsCodeStringOne}
               </SyntaxHighlighter>
               <h5>Search.js</h5>
-              <SyntaxHighlighter language="javascript" style={docco}>
+              <SyntaxHighlighter
+                language="javascript"
+                style={ACTIVE_THEME}
+                customStyle={CUSTOM_STYLE}
+              >
                 {patientMedicalRecordsCodeStringTwo}
               </SyntaxHighlighter>
               <h5>Records.js</h5>
-              <SyntaxHighlighter language="javascript" style={docco}>
+              <SyntaxHighlighter
+                language="javascript"
+                style={ACTIVE_THEME}
+                customStyle={CUSTOM_STYLE}
+              >
                 {patientMedicalRecordsCodeStringThree}
               </SyntaxHighlighter>
               <h5>medicalRecords.js</h5>
-              <SyntaxHighlighter language="javascript" style={docco}>
+              <SyntaxHighlighter
+                language="javascript"
+                style={ACTIVE_THEME}
+                customStyle={CUSTOM_STYLE}
+              >
                 {patientMedicalRecordsCodeStringFour}
               </SyntaxHighlighter>
             </div>

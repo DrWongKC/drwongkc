@@ -20,11 +20,13 @@ export default function About() {
     <>
       <h1 id="about-me-heading">About Me</h1>
       <p id="about-me-subheading">
-        dropping a few photos & a video here and there at random . . .
+        <em>dropping a few photos & a video here and there at random . . .</em>
       </p>
       <img
         id="about-me-pic-one"
-        src="https://i.postimg.cc/52rXXdxG/About-Page-1.jpg"
+        // src="https://i.postimg.cc/52rXXdxG/About-Page-1.jpg"
+        src="https://i.postimg.cc/J42rqN92/About-Page-3.jpg"
+        // src="https://i.postimg.cc/rFSDz1YG/signal-2026-11-14-10-48-47-175.jpg"
       />
       <p>
         Hii, I'm Kai Chong. Welcome to my spot of the web where I share about my
@@ -94,7 +96,9 @@ export default function About() {
       </p>
       <img
         id="about-me-pic-three"
-        src="https://i.postimg.cc/J42rqN92/About-Page-3.jpg"
+        // src="https://i.postimg.cc/J42rqN92/About-Page-3.jpg"
+        src="https://i.postimg.cc/52rXXdxG/About-Page-1.jpg"
+        // src="https://i.postimg.cc/mDvrgkYj/PXL-20260510-062718607.jpg"
       />
       <p>
         I had used computers before but the first computer that I could call my
@@ -183,7 +187,7 @@ export default function About() {
         software engineer than before.
       </p>
       <p className="foot-note">
-        Completely written by KAI without any use of AI
+        <em>Completely written by KAI without any use of AI</em>
       </p>
     </>
   );
