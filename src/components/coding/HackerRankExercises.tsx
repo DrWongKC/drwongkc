@@ -1609,12 +1609,12 @@ export default medical_records;
       <h2 className="heading">HackerRank Exercises</h2>
       <p>
         <img
-          height="22.75"
-          width="22.75"
+          height="19"
+          width="19"
           src="https://img.icons8.com/?size=100&id=12598&format=png&color=000000"
           alt="GitHub"
           style={{
-            transform: "translateY(5px)",
+            transform: "translateY(4px)",
             backgroundColor: "white",
             borderRadius: "50%",
           }}
