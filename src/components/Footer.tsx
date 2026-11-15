@@ -10,7 +10,7 @@ const Footer = () => {
       >
         myDigitalResumeProject(📄)™
       </a>{" "}
-      made with ♥️ by KAI
+      // Hand-built with ♥️ by KAI
     </section>
   );
 };
