@@ -10,8 +10,8 @@
 }
 
 #about-me-pic-one {
-  height: 340px;
-  width: 300px;
+  height: 345px;
+  width: 280px;
   margin: 1em;
   object-fit: cover;
   float: left;
@@ -31,7 +31,8 @@
 #about-me-pic-three {
   margin: 1em;
   object-fit: cover;
-  width: 45%;
+  width: 265px;
+  height: 265px;
   float: left;
   border-radius: 1em;
 }
