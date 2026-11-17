@@ -54,6 +54,7 @@ function App() {
         <Menu
           className="main-navigation"
           mode="horizontal"
+          triggerSubMenuAction="click"
           theme="light"
           disabledOverflow
           items={items}
